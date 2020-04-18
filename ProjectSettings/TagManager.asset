@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: B-Sky
+    uniqueID: 3599290641
+    locked: 0
+  - name: B-Mountain2
+    uniqueID: 1789878611
+    locked: 0
+  - name: B-Mountain1
+    uniqueID: 4008403699
+    locked: 0
+  - name: B-Desert
+    uniqueID: 2239992423
+    locked: 0
+  - name: B-Road
+    uniqueID: 1899208497
+    locked: 0
