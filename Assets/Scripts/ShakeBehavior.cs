@@ -3,55 +3,55 @@
 public class ShakeBehavior : MonoBehaviour
 {
     // Transform of the GameObject you want to shake
-    private new Transform transform;
+    private Transform _transform;
 
     // Desired duration of the shake effect
-    private float shakeDuration = 0f;
+    private float _shakeDuration = 0f;
 
     [SerializeField]
-    private float shakeTime = 0.3f;
+    private float _shakeTime = 0.3f;
 
     // A measure of magnitude for the shake. Tweak based on your preference
     [SerializeField]
-    private float shakeMagnitude = 0.2f;
+    private float _shakeMagnitude = 0.2f;
 
     // A measure of how quickly the shake effect should evaporate
     [SerializeField]
-    private float dampingSpeed = 2.0f;
+    private float _dampingSpeed = 2.0f;
 
     // The initial position of the GameObject
-    Vector3 initialPosition;
+    private Vector3 _initialPosition;
 
     void Awake()
     {
-        if (transform == null)
+        if (_transform == null)
         {
-            transform = GetComponent<Transform>();
+            _transform = GetComponent<Transform>();
         }
     }
 
     void OnEnable()
     {
-        initialPosition = transform.localPosition;
+        _initialPosition = _transform.localPosition;
     }
 
     void Update()
     {
-        if (shakeDuration > 0)
+        if (_shakeDuration > 0)
         {
-            transform.localPosition = initialPosition + Random.insideUnitSphere * shakeMagnitude;
+            _transform.localPosition = _initialPosition + Random.insideUnitSphere * _shakeMagnitude;
 
-            shakeDuration -= Time.deltaTime * dampingSpeed;
+            _shakeDuration -= Time.deltaTime * _dampingSpeed;
         }
         else
         {
-            shakeDuration = 0f;
-            transform.localPosition = initialPosition;
+            _shakeDuration = 0f;
+            _transform.localPosition = _initialPosition;
         }
     }
 
     public void TriggerShake()
     {
-        shakeDuration = shakeTime;
+        _shakeDuration = _shakeTime;
     }
 }
