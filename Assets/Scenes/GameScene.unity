@@ -235,7 +235,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 519420032}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 17927435766345503, guid: 69882607fcf8aca4b9d6f120d1ea0fc5,
         type: 3}
@@ -265,7 +265,7 @@ PrefabInstance:
     - target: {fileID: 2586188946162152027, guid: 69882607fcf8aca4b9d6f120d1ea0fc5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.919274
+      value: -0.08072567
       objectReference: {fileID: 0}
     - target: {fileID: 2586188946162152027, guid: 69882607fcf8aca4b9d6f120d1ea0fc5,
         type: 3}
@@ -290,7 +290,7 @@ PrefabInstance:
     - target: {fileID: 2586188946162152027, guid: 69882607fcf8aca4b9d6f120d1ea0fc5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2586188946162152027, guid: 69882607fcf8aca4b9d6f120d1ea0fc5,
         type: 3}
@@ -437,9 +437,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eea9509ee538ce48a0facea049ace7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shakeTime: 0.3
-  _shakeMagnitude: 0.2
-  _dampingSpeed: 2
+  _shakeTime: 0.1
+  _shakeMagnitude: 0.1
+  _dampingSpeed: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -492,8 +492,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 315577510}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -568,7 +567,7 @@ Transform:
   m_GameObject: {fileID: 1277037506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.04, y: -0.05, z: -0.02734375}
-  m_LocalScale: {x: 0.297705, y: 0.308228, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 96967144}
   m_Father: {fileID: 0}
