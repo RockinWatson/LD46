@@ -191,7 +191,7 @@ MonoBehaviour:
   - {fileID: 2091959611}
   - {fileID: 1392388100}
   _waveTimers:
-  - 13
+  - 10
   - 26
 --- !u!1001 &512878699
 PrefabInstance:
@@ -304,7 +304,7 @@ PrefabInstance:
     - target: {fileID: 8025892943819147934, guid: 4e2a105c698416d4caf1f8ee42598feb,
         type: 3}
       propertyPath: waitForNextMax
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e2a105c698416d4caf1f8ee42598feb, type: 3}
@@ -1369,7 +1369,7 @@ PrefabInstance:
     - target: {fileID: 8025892943819147934, guid: 4e2a105c698416d4caf1f8ee42598feb,
         type: 3}
       propertyPath: yMin
-      value: -3.78
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 8025892943819147934, guid: 4e2a105c698416d4caf1f8ee42598feb,
         type: 3}
@@ -1389,7 +1389,7 @@ PrefabInstance:
     - target: {fileID: 8025892943819147934, guid: 4e2a105c698416d4caf1f8ee42598feb,
         type: 3}
       propertyPath: waitForNextMax
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e2a105c698416d4caf1f8ee42598feb, type: 3}
@@ -1655,7 +1655,7 @@ PrefabInstance:
     - target: {fileID: 8025892943819147934, guid: 4e2a105c698416d4caf1f8ee42598feb,
         type: 3}
       propertyPath: yMin
-      value: -3.78
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 8025892943819147934, guid: 4e2a105c698416d4caf1f8ee42598feb,
         type: 3}
