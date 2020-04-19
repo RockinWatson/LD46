@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -12,12 +13,21 @@ public class PlayerBehavior : MonoBehaviour
 
     private float _scrapCount = 0;
 
+    private float _health = 100f;
+
+    [SerializeField] private Text _healthText = null;
+
     [SerializeField] private float _activateRadius = 3f;
 
     private void Awake()
     {
         _rbody = GetComponent<Rigidbody2D>();
         _playerRend = GetComponentInChildren<PlayerRenderer>();
+    }
+
+    private void Start()
+    {
+        UpdateHealthText();
     }
 
     // Update is called once per frame
@@ -102,5 +112,14 @@ public class PlayerBehavior : MonoBehaviour
         var newPos = currentPos + movement * Time.fixedDeltaTime;
         _playerRend.SetDirection(movement);
         _rbody.MovePosition(newPos);
+    }
+
+    private void UpdateHealthText()
+    {
+        _healthText.text = _health.ToString("0");
+
+        Color healthColor = HealthColorUtility.GetHealthColor(_health);
+        //_healthText.CrossFadeColor(healthColor, 0.5f, false, false);
+        _healthText.color = healthColor;
     }
 }

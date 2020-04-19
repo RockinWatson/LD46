@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Truck : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Truck : MonoBehaviour
     public bool IsAlive() { return _health > 0f; }
     public bool IsDead() { return _health == 0f; }
 
+    [SerializeField] private Text _healthText = null;
+
     private void Awake()
     {
         if(_instance != null)
@@ -23,6 +26,11 @@ public class Truck : MonoBehaviour
         }
         _instance = this;
         _attachmentSystem = this.GetComponentInChildren<AttachmentSystem>();
+    }
+
+    private void Start()
+    {
+        UpdateHealthText();
     }
 
     public void TakeDamage(float damage)
@@ -84,6 +92,19 @@ public class Truck : MonoBehaviour
     private void DEBUG_RandomDamage()
     {
         float damage = Random.Range(5f, 25f);
-        _attachmentSystem.TakeDamage(damage);
+        damage = _attachmentSystem.TakeDamage(damage);
+
+        TakeDamage(damage);
+
+        UpdateHealthText();
+    }
+
+    private void UpdateHealthText()
+    {
+        _healthText.text = _health.ToString("0");
+
+        Color healthColor = HealthColorUtility.GetHealthColor(_health);
+        //_healthText.CrossFadeColor(healthColor, 0.5f, false, false);
+        _healthText.color = healthColor;
     }
 }
