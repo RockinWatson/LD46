@@ -23,7 +23,7 @@ public class PlayerRenderer : MonoBehaviour
 
     public void SetDirection(Vector2 direction)
     {
-        string[] directionArray = null;
+        string[] directionArray;
         if (direction.magnitude < 0.1f)
         {
             directionArray = directions;

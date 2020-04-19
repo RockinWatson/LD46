@@ -24,13 +24,6 @@ public class RandomSpawner : MonoBehaviour
     public float yMin;
     public float yMax;
 
-    [SerializeField]
-    private float _windSpeed = 3.0f;
-    public float GetWindSpeed()
-    {
-        return _windSpeed;
-    }
-
     static private RandomSpawner _singleton = null;
     static public RandomSpawner Get()
     {
