@@ -3,6 +3,9 @@ using UnityEngine.UI;
 
 public class PlayerBehavior : MonoBehaviour
 {
+    static private PlayerBehavior _instance = null;
+    static public PlayerBehavior Get() { return _instance; }
+
     public ShakeBehavior ShakeBehavior;
     public float MovementSpeed = 1f;
 
@@ -17,10 +20,19 @@ public class PlayerBehavior : MonoBehaviour
 
     [SerializeField] private Text _healthText = null;
 
+    [SerializeField] private Text _scrapText = null;
+
     [SerializeField] private float _activateRadius = 3f;
 
     private void Awake()
     {
+        if (_instance != null)
+        {
+            Debug.LogWarning("Should only be one Player instance.");
+            Destroy(this.gameObject);
+            return;
+        }
+
         _rbody = GetComponent<Rigidbody2D>();
         _playerRend = GetComponentInChildren<PlayerRenderer>();
     }
@@ -121,5 +133,17 @@ public class PlayerBehavior : MonoBehaviour
         Color healthColor = HealthColorUtility.GetHealthColor(_health);
         //_healthText.CrossFadeColor(healthColor, 0.5f, false, false);
         _healthText.color = healthColor;
+    }
+
+    public void AddScrap(float amount)
+    {
+        _scrapCount += amount;
+
+        UpdateScrapText();
+    }
+
+    private void UpdateScrapText()
+    {
+        _scrapText.text = _scrapCount.ToString("0");
     }
 }
