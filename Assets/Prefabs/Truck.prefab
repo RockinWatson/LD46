@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 1533974316527972858}
   - component: {fileID: 1533974316527972859}
   - component: {fileID: 114478146577989612}
+  - component: {fileID: 3621715571610671980}
   m_Layer: 9
   m_Name: Truck
   m_TagString: Untagged
@@ -260,6 +261,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthText: {fileID: 8605845943821077477}
+--- !u!61 &3621715571610671980
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533974316527972856}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.041658193, y: 0.024300456}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.57, y: 1.57}
+    newSize: {x: 1.57, y: 1.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.91735524, y: 0.868754}
+  m_EdgeRadius: 0
 --- !u!1 &1684172874427208735
 GameObject:
   m_ObjectHideFlags: 0
