@@ -10,6 +10,10 @@ public class PlayerBehavior : MonoBehaviour
     private float _horizontalInput;
     private float _verticalInput;
 
+    private float _scrapCount = 0;
+
+    [SerializeField] private float _activateRadius = 3f;
+
     private void Awake()
     {
         _rbody = GetComponent<Rigidbody2D>();
@@ -31,6 +35,57 @@ public class PlayerBehavior : MonoBehaviour
         {
             ShakeBehavior.TriggerShake();
         }
+
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            Activate();
+        }
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            Repair();
+        }
+    }
+
+    private void Activate()
+    {
+        //@TODO: Check if we're within range of Truck to do upgrade.
+        if(IsInRangeOfTruck())
+        {
+            DoRandomTruckUpgrade();
+        }
+    }
+
+    private bool IsInRangeOfTruck()
+    {
+        //@TODO: Do proper math to check range... probably store radius on player for activation range, etc
+        //return true;
+
+        Truck truck = Truck.Get();
+        return (truck.transform.position - this.transform.position).sqrMagnitude <= _activateRadius * _activateRadius;
+    }
+
+    //@TEMP/@TODO: Later track scrap resources, positioning for which upgrade to do, UI, etc
+    private void DoRandomTruckUpgrade()
+    {
+        Truck truck = Truck.Get();
+        truck.DoRangomUpgrade();
+    }
+
+    private void Repair()
+    {
+        if(IsInRangeOfTruck())
+        {
+            DoRandomTruckRepair();
+        }
+    }
+
+    //@TEMP/@TODO: Later track scrap resources, positioning for which repair to do, etc
+    private void DoRandomTruckRepair()
+    {
+        const float REPAIR_AMOUNT = 10f;
+
+        Truck truck = Truck.Get();
+        truck.DoRandomRepair(REPAIR_AMOUNT);
     }
 
     private void FixedUpdate()

@@ -56,6 +56,12 @@ TagManager:
   - name: B-Road
     uniqueID: 1899208497
     locked: 0
+  - name: Truck
+    uniqueID: 3746220027
+    locked: 0
+  - name: TruckUpgrades
+    uniqueID: 3634447411
+    locked: 0
   - name: Player
     uniqueID: 1040551821
     locked: 0
