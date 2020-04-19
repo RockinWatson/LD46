@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Turret : Attachment
 {
-    override public void TakeDamage(float damage)
+    override public float TakeDamage(float damage)
     {
-        base.TakeDamage(damage);
+        return base.TakeDamage(damage);
     }
 
     private void Update()

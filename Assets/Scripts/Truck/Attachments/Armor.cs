@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Armor : Attachment
 {
-    override public void TakeDamage(float damage)
+    override public float TakeDamage(float damage)
     {
-        base.TakeDamage(damage);
+        return base.TakeDamage(damage);
     }
 }

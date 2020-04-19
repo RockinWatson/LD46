@@ -46,7 +46,9 @@ public class AttachmentSystem : MonoBehaviour
         //  ... if no armor exists, 100% goes to turrets
         //  ... any damage not taken by the system gets returned and would be applied to the tank
 
-        return damage;
+        //return damage;
+
+        return DamageAttachments_Random(damage);
     }
 
     //@TEMP: Random until positional upgrade and UI works
@@ -62,7 +64,7 @@ public class AttachmentSystem : MonoBehaviour
 
     private void UpgradeSockets_Random<T>(List<AttachmentSocket> sockets, GameObject attachmentPrefab) where T : Attachment
     {
-        List<AttachmentSocket> vacantSockets = GetVacantSockets(_turretSockets);
+        List<AttachmentSocket> vacantSockets = GetVacantSockets(sockets);
         if (vacantSockets != null && vacantSockets.Count > 0)
         {
             T attachment = Instantiate(attachmentPrefab).GetComponent<T>();
@@ -75,6 +77,71 @@ public class AttachmentSystem : MonoBehaviour
     private List<AttachmentSocket> GetVacantSockets(List<AttachmentSocket> sockets)
     {
         return sockets.Where((t) => !t.HasAttachment()).ToList();
+    }
+
+    public float DamageAttachments_Random(float damage)
+    {
+        float armorScale = 0.7f;
+        float turretScale = 0.3f;
+        bool hasArmor = HasFunctioningArmorSockets();
+        bool hasTurrets = HasFunctioningTurretSockets();
+        if (hasArmor && !hasTurrets)
+        {
+            armorScale = 1f;
+            turretScale = 0f;
+        }
+        else if (!hasArmor && hasTurrets)
+        {
+            armorScale = 0f;
+            turretScale = 1f;
+        }
+
+        float remainingDamage = DamageArmor_Random(damage * armorScale);
+
+        remainingDamage = DamageTurret_Random(damage * turretScale + remainingDamage);
+
+        return remainingDamage;
+    }
+
+    public float DamageTurret_Random(float damage)
+    {
+        return DamageSockets_Random<Turret>(_turretSockets, damage);
+    }
+
+    public float DamageArmor_Random(float damage)
+    {
+        return DamageSockets_Random<Armor>(_armorSockets, damage);
+    }
+
+    private float DamageSockets_Random<T>(List<AttachmentSocket> sockets, float damage) where T : Attachment
+    {
+        List<AttachmentSocket> aliveSockets = GetFunctioningSockets(sockets);
+        if (aliveSockets != null && aliveSockets.Count > 0)
+        {
+            var res = from item in aliveSockets orderby Guid.NewGuid() select item;
+            foreach (AttachmentSocket socket in res)
+            {
+                //@TODO: Repair damage and track how much has been repaired.
+                damage = socket.GetAttachment().TakeDamage(damage);
+            }
+        }
+
+        return damage;
+    }
+
+    private List<AttachmentSocket> GetFunctioningSockets(List<AttachmentSocket> sockets)
+    {
+        return sockets.Where((t) => (t.HasAttachment() && t.GetAttachment().IsAlive())).ToList();
+    }
+
+    private bool HasFunctioningTurretSockets()
+    {
+        return _turretSockets.Where((t) => (t.HasAttachment() && t.GetAttachment().IsAlive())).ToList().Count > 0;
+    }
+
+    private bool HasFunctioningArmorSockets()
+    {
+        return _armorSockets.Where((t) => (t.HasAttachment() && t.GetAttachment().IsAlive())).ToList().Count > 0;
     }
 
     public float RepairAttachments_Random(float damage)
@@ -102,14 +169,14 @@ public class AttachmentSystem : MonoBehaviour
 
     private float RepairSockets_Random<T>(List<AttachmentSocket> sockets, float repairAmount) where T : Attachment
     {
-        List<AttachmentSocket> damagedTurretSockets = GetDamagedSockets(_turretSockets);
+        List<AttachmentSocket> damagedTurretSockets = GetDamagedSockets(sockets);
         if (damagedTurretSockets != null && damagedTurretSockets.Count > 0)
         {
             var res = from item in damagedTurretSockets orderby Guid.NewGuid() select item;
             foreach(AttachmentSocket socket in res)
             {
                 //@TODO: Repair damage and track how much has been repaired.
-                socket.GetAttachment().RepairDamage(repairAmount);
+                repairAmount = socket.GetAttachment().RepairDamage(repairAmount);
             }
         }
 

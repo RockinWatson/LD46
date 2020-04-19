@@ -47,6 +47,8 @@ public class Truck : MonoBehaviour
     private void Update()
     {
         //@TODO: Update how the thing will move around within an area of motion in the middle of the playfield to make it feel a bit more lively...
+
+        DEBUG_Input();
     }
 
     //@TEMP/@NOTE: This is temp until we figure out position indicating what to upgrade and UI, etc
@@ -69,5 +71,19 @@ public class Truck : MonoBehaviour
     {
         //@TODO: Do repair.
         _attachmentSystem.RepairAttachments_Random(damage);
+    }
+
+    private void DEBUG_Input()
+    {
+        if(Input.GetKeyDown(KeyCode.T))
+        {
+            DEBUG_RandomDamage();
+        }
+    }
+
+    private void DEBUG_RandomDamage()
+    {
+        float damage = Random.Range(5f, 25f);
+        _attachmentSystem.TakeDamage(damage);
     }
 }
