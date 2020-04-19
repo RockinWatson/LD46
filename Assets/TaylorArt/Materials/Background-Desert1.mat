@@ -61,7 +61,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - PixelSnap: 0
+    - _BorderBottom: 10
+    - _BorderLeft: 10
+    - _BorderRight: 10
+    - _BorderTop: 10
     - _BumpScale: 1
+    - _Curvature: 0.001
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -72,6 +77,11 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _OffsetBottom: 0
+    - _OffsetBottomInverted: 0
+    - _OffsetLeft: 0
+    - _OffsetTop: 0
+    - _OffsetTopInverted: 0
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -79,7 +89,10 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    - _BorderColor: {r: 1, g: 0, b: 0, a: 0}
     - _Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
