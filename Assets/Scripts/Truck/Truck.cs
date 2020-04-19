@@ -22,6 +22,7 @@ public class Truck : MonoBehaviour
         if(_instance != null)
         {
             Debug.LogWarning("Should only be one Tank instance.");
+            Destroy(this.gameObject);
             return;
         }
         _instance = this;
