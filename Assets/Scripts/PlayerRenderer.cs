@@ -26,14 +26,15 @@ public class PlayerRenderer : MonoBehaviour
         string[] directionArray;
         if (direction.magnitude < 0.1f)
         {
-            directionArray = directions;
+            //directionArray = directions;
+            _animator.Play(directions[7]);
         }
         else
         {
             directionArray = directions;
             _lastDirection = DirectionToIndex(direction, 8);
-        }     
-        _animator.Play(directionArray[_lastDirection]);
+            _animator.Play(directionArray[_lastDirection]);
+        }
     }
 
     public static int DirectionToIndex(Vector2 dir, int sliceCount)

@@ -124,7 +124,7 @@ GameObject:
   m_Layer: 0
   m_Name: TerrainScrapSpawner
   m_TagString: Untagged
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -136,7 +136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134614644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.61, y: 6.8, z: 0}
+  m_LocalPosition: {x: 0.61, y: 8.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1491309380}
@@ -1191,12 +1191,12 @@ PrefabInstance:
     - target: {fileID: 4532063373144985630, guid: 4da3fe44de45e714190a4a8caba88bdf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4532063373144985630, guid: 4da3fe44de45e714190a4a8caba88bdf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.27
       objectReference: {fileID: 0}
     - target: {fileID: 4532063373144985630, guid: 4da3fe44de45e714190a4a8caba88bdf,
         type: 3}
@@ -1242,6 +1242,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532063374053474864, guid: 4da3fe44de45e714190a4a8caba88bdf,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532063374053474864, guid: 4da3fe44de45e714190a4a8caba88bdf,
+        type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4da3fe44de45e714190a4a8caba88bdf, type: 3}
