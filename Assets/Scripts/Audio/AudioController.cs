@@ -25,7 +25,7 @@ public class AudioController : MonoBehaviour
     [SerializeField]
     private bool globalMute;
     private Scene _activeScene;
-    private bool _select() { return Input.GetKeyDown(KeyCode.Space); }
+    private bool _select() { return (Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return)); }
     private bool _titleIsPlaying;
     private bool _storyIsPlaying;
 
