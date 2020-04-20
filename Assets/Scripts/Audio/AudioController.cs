@@ -10,6 +10,10 @@ public class AudioController : MonoBehaviour
     public static AudioSource repair;
     public static AudioSource truckDamage;
     public static AudioSource truckExplode;
+    public AudioSource cat1;
+    public AudioSource cat2;
+    public AudioSource cat3;
+    public AudioSource cat4;
 
     [SerializeField]
     private bool globalMute;
@@ -41,6 +45,10 @@ public class AudioController : MonoBehaviour
             repair = audio[2];
             truckDamage = audio[3];
             truckExplode = audio[4];
+            cat1 = audio[5];
+            cat2 = audio[6];
+            cat3 = audio[7];
+            cat4 = audio[8];
 
             for (int i = 0; i < audio.Length; i++)
             {
@@ -54,6 +62,10 @@ public class AudioController : MonoBehaviour
             repair.volume = .4f;
             truckDamage.volume = .6f;
             truckExplode.volume = .8f;
+            cat1.volume = .8f;
+            cat2.volume = .8f;
+            cat3.volume = .8f;
+            cat4.volume = .8f;
 
             //Play and loop 
             levelMusic.Play();
