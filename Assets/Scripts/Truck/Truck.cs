@@ -10,6 +10,8 @@ public class Truck : MonoBehaviour
 
     private AttachmentSystem _attachmentSystem = null;
 
+    private bool truckExploded = false;
+
     //@TODO: This is gonna eventually be some separate data structure with all the attachments, their health, etc.
     private float _health = 100f;
     public bool IsAlive() { return _health > 0f; }
@@ -40,6 +42,9 @@ public class Truck : MonoBehaviour
 
         _health -= adjustedDamage;
 
+        //Play truck damage audio
+        AudioController.truckDamage.Play();
+
         if(_health <= 0f)
         {
             _health = 0f;
@@ -51,6 +56,14 @@ public class Truck : MonoBehaviour
     private void Die()
     {
         //@TODO: Fire off some more major death FX / anim and trigger the game ending...
+
+        //Play explosion audio
+        if (AudioController.truckExplode.isPlaying == false && truckExploded == false)
+        {
+            AudioController.truckDamage.volume = 0f;
+            AudioController.truckExplode.Play();
+            truckExploded = true;
+        }
     }
 
     private void Update()

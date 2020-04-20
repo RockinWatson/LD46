@@ -129,6 +129,9 @@ public class AttachmentSystem : MonoBehaviour
             {
                 //@TODO: Repair damage and track how much has been repaired.
                 damage = socket.GetAttachment().TakeDamage(damage);
+
+                //Play truck and attachment damage audio
+                AudioController.truckDamage.Play();
             }
         }
 

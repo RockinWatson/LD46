@@ -8,6 +8,8 @@ public class AudioController : MonoBehaviour
     public static AudioSource levelMusic;
     public static AudioSource build;
     public static AudioSource repair;
+    public static AudioSource truckDamage;
+    public static AudioSource truckExplode;
 
     [SerializeField]
     private bool globalMute;
@@ -37,6 +39,9 @@ public class AudioController : MonoBehaviour
             levelMusic = audio[0];
             build = audio[1];
             repair = audio[2];
+            truckDamage = audio[3];
+            truckExplode = audio[4];
+
             for (int i = 0; i < audio.Length; i++)
             {
                 audio[i].playOnAwake = false;
@@ -47,6 +52,8 @@ public class AudioController : MonoBehaviour
             levelMusic.volume = .85f;
             build.volume = 1f;
             repair.volume = .4f;
+            truckDamage.volume = .6f;
+            truckExplode.volume = .8f;
 
             //Play and loop 
             levelMusic.Play();
