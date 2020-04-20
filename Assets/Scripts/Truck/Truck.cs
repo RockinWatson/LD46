@@ -78,14 +78,27 @@ public class Truck : MonoBehaviour
     public void DoRangomUpgrade()
     {
         //@TEMP: Randomly pick armor or turret to upgrade...
-        if(Random.Range(0,2) == 0)
+        AttachmentSocket.SocketType socketType = (AttachmentSocket.SocketType)Random.Range(0, (int)AttachmentSocket.SocketType.COUNT);
+        switch(socketType)
         {
-            //@TODO: Upgrade random armor piece.
-            _attachmentSystem.UpgradeArmor_Random();
-        } else
-        {
-            //@TODO: Upgrade random turret piece.
-            _attachmentSystem.UpgradeTurret_Random();
+            case AttachmentSocket.SocketType.Armor:
+                {
+                    _attachmentSystem.UpgradeArmor_Random();
+                }
+                break;
+            case AttachmentSocket.SocketType.Turret:
+                {
+                    _attachmentSystem.UpgradeTurret_Random();
+                }
+                break;
+            case AttachmentSocket.SocketType.Trailer:
+                {
+                    _attachmentSystem.UpgradeTrailer();
+                }
+                break;
+            default:
+                Debug.LogWarning("Unrecognized Attachment type.");
+                break;
         }
     }
 
