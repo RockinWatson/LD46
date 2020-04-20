@@ -140,6 +140,9 @@ public class PlayerBehavior : MonoBehaviour
         _scrapCount += amount;
 
         UpdateScrapText();
+
+        //Play scrap pickup audio
+        AudioController.scrapPickup.Play();
     }
 
     private void UpdateScrapText()

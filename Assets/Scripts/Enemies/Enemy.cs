@@ -84,6 +84,26 @@ public class Enemy : MonoBehaviour
     {
         //@TODO: FX and maybe notify AttachmentSystem er Socket?
         this.gameObject.SetActive(false);
+
+        //Play cat audio
+            switch (Random.Range(1, 5))
+            {
+                case 1:
+                    AudioController.cat1.Play();
+                    break;
+                case 2:
+                    AudioController.cat2.Play();
+                    break;
+                case 3:
+                    AudioController.cat3.Play();
+                    break;
+                case 4:
+                    AudioController.cat4.Play();
+                    break;
+                default:
+                    break;
+            }
+            AudioController.catExplode.Play();
     }
 
     private void UpdateHealthText()

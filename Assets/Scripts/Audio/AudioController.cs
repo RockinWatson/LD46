@@ -10,10 +10,14 @@ public class AudioController : MonoBehaviour
     public static AudioSource repair;
     public static AudioSource truckDamage;
     public static AudioSource truckExplode;
-    public AudioSource cat1;
-    public AudioSource cat2;
-    public AudioSource cat3;
-    public AudioSource cat4;
+    public static AudioSource cat1;
+    public static AudioSource cat2;
+    public static AudioSource cat3;
+    public static AudioSource cat4;
+    public static AudioSource scrapPickup;
+    public static AudioSource laser1;
+    public static AudioSource laser2;
+    public static AudioSource catExplode;
 
     [SerializeField]
     private bool globalMute;
@@ -49,6 +53,11 @@ public class AudioController : MonoBehaviour
             cat2 = audio[6];
             cat3 = audio[7];
             cat4 = audio[8];
+            scrapPickup = audio[9];
+            laser1 = audio[10];
+            laser2 = audio[11];
+            catExplode = audio[12];
+
 
             for (int i = 0; i < audio.Length; i++)
             {
@@ -62,10 +71,16 @@ public class AudioController : MonoBehaviour
             repair.volume = .4f;
             truckDamage.volume = .6f;
             truckExplode.volume = .8f;
-            cat1.volume = .8f;
-            cat2.volume = .8f;
-            cat3.volume = .8f;
-            cat4.volume = .8f;
+            cat1.volume = .5f;
+            cat2.volume = .5f;
+            cat3.volume = .55f;
+            cat4.volume = .6f;
+            scrapPickup.volume = 8.5f;
+            laser1.volume = .4f;
+            laser2.volume = .4f;
+            catExplode.volume = .25f;
+
+            scrapPickup.reverbZoneMix = 1f;
 
             //Play and loop 
             levelMusic.Play();

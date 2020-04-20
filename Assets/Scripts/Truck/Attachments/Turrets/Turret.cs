@@ -99,5 +99,15 @@ public class Turret : Attachment
         //@TODO: Setup the shell w/ target.
         Shell shell = Instantiate(_shellPrefab).GetComponent<Shell>();
         shell.SetupTarget(_fireNode, _target.gameObject);
+
+        switch (Random.Range(1,3))
+        {
+            case 1: AudioController.laser1.Play();
+                break;
+            case 2: AudioController.laser2.Play();
+                break;
+            default:
+                break;
+        }
     }
 }
