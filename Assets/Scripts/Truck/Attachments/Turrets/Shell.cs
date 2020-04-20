@@ -11,6 +11,12 @@ public class Shell : MonoBehaviour
     [SerializeField] private float _damage = 15f;
     public float GetDamage() { return _damage; }
 
+    private void Start()
+    {
+        SpriteRenderer sprite = this.GetComponent<SpriteRenderer>();
+        sprite.color = Color.magenta;
+    }
+
     public void SetupTarget(GameObject source, GameObject target)
     {
         this.transform.position = source.transform.position;
