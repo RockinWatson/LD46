@@ -26,7 +26,7 @@ public class AudioController : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        globalMute = false;
+        //globalMute = false;
         _activeScene = SceneManager.GetActiveScene();
         InitAudio();
     }
