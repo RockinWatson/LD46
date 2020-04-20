@@ -18,10 +18,14 @@ public class AudioController : MonoBehaviour
     public static AudioSource laser1;
     public static AudioSource laser2;
     public static AudioSource catExplode;
+    public static AudioSource titleMusic;
+    public static AudioSource startGame;
 
     [SerializeField]
     private bool globalMute;
     private Scene _activeScene;
+    private bool _select() { return Input.GetKeyDown(KeyCode.Space); }
+    private bool _titleIsPlaying;
 
     // Start is called before the first frame update
     void Awake()
@@ -34,36 +38,52 @@ public class AudioController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if ((_activeScene.name == "Title") && (_select()) && (_titleIsPlaying == true))
+        {
+            StartCoroutine(LoadStory());
+        }
     }
 
     private void InitAudio()
     {
-        //Check scene
-        if (_activeScene.name == "GameScene" || _activeScene.name == "AudioTest");
+
+        //Initialize audio components
+        AudioSource[] audio = GetComponents<AudioSource>();
+        levelMusic = audio[0];
+        build = audio[1];
+        repair = audio[2];
+        truckDamage = audio[3];
+        truckExplode = audio[4];
+        cat1 = audio[5];
+        cat2 = audio[6];
+        cat3 = audio[7];
+        cat4 = audio[8];
+        scrapPickup = audio[9];
+        laser1 = audio[10];
+        laser2 = audio[11];
+        catExplode = audio[12];
+        titleMusic = audio[13];
+        startGame = audio[14];
+
+        for (int i = 0; i < audio.Length; i++)
         {
-            //Initialize audio components
-            AudioSource[] audio = GetComponents<AudioSource>();
-            levelMusic = audio[0];
-            build = audio[1];
-            repair = audio[2];
-            truckDamage = audio[3];
-            truckExplode = audio[4];
-            cat1 = audio[5];
-            cat2 = audio[6];
-            cat3 = audio[7];
-            cat4 = audio[8];
-            scrapPickup = audio[9];
-            laser1 = audio[10];
-            laser2 = audio[11];
-            catExplode = audio[12];
+            audio[i].playOnAwake = false;
+            audio[i].loop = false;
+        }
 
 
-            for (int i = 0; i < audio.Length; i++)
-            {
-                audio[i].playOnAwake = false;
-                audio[i].loop = false;
-            }
+
+        //Check scene
+        if (_activeScene.name == "Title")
+        {
+            _titleIsPlaying = true;
+            titleMusic.volume = .9f;
+            startGame.volume = .8f;
+            titleMusic.Play();
+            titleMusic.loop = true;
+        }
+        else if (_activeScene.name == "GameScene" || _activeScene.name == "AudioTest")
+        {
 
             //Set initial volumes
             levelMusic.volume = .85f;
@@ -95,5 +115,14 @@ public class AudioController : MonoBehaviour
             }
 
         }
+    }
+
+    IEnumerator LoadStory()
+    {
+        startGame.Play();
+        titleMusic.Stop();
+        _titleIsPlaying = false;
+        yield return new WaitForSeconds(3.2f);
+        SceneManager.LoadScene("Story");
     }
 }
