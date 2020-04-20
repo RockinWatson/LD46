@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shell : MonoBehaviour
+public class ShellLazer : Shell
 {
-    private GameObject _target = null;
     private Vector3 _direction = Vector3.zero;
 
     [SerializeField] private float _speed = 3f;
     [SerializeField] private float _damage = 15f;
-    public float GetDamage() { return _damage; }
 
     private void Start()
     {
@@ -17,11 +15,9 @@ public class Shell : MonoBehaviour
         sprite.color = Color.magenta;
     }
 
-    public void SetupTarget(GameObject source, GameObject target)
+    override public void SetupTarget(GameObject source, GameObject target)
     {
-        this.transform.position = source.transform.position;
-
-        _target = target;
+        base.SetupTarget(source, target);
 
         _direction = (_target.transform.position - this.transform.position).normalized;
     }
@@ -36,11 +32,6 @@ public class Shell : MonoBehaviour
         Die();
     }
 
-    public void Die()
-    {
-        Destroy(this.gameObject);
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Enemy")
@@ -48,8 +39,7 @@ public class Shell : MonoBehaviour
             Enemy enemy = collision.GetComponent<Enemy>();
 
             //@TODO: Do damage from shell.
-            float damage = GetDamage();
-            enemy.TakeDamage(damage);
+            enemy.TakeDamage(_damage);
 
             Die();
         }

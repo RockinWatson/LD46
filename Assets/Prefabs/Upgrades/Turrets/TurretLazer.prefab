@@ -49,7 +49,7 @@ MonoBehaviour:
   _maxHealth: 100
   _healthText: {fileID: 6508331256500751106}
   _fireNode: {fileID: 4624495587874875855}
-  _shellPrefab: {fileID: 8216344295748102329, guid: 005b325a6c811574a9fe4417da2ea165,
+  _shellPrefab: {fileID: 8216344295748102329, guid: 94a90402b59daab4facec67cb5e9cf2e,
     type: 3}
   _attackSpeed: 1
   _attackRange: 8
