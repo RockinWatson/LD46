@@ -2,6 +2,9 @@
 
 public class ShakeBehavior : MonoBehaviour
 {
+    static private ShakeBehavior _instance = null;
+    static public ShakeBehavior Get() { return _instance; }
+
     // Transform of the GameObject you want to shake
     private Transform _transform;
 
@@ -24,6 +27,13 @@ public class ShakeBehavior : MonoBehaviour
 
     void Awake()
     {
+        if(_instance)
+        {
+            Debug.LogWarning("Should only be one Screen Shake.");
+            Destroy(this.gameObject);
+            return;
+        }
+        _instance = this;
         if (_transform == null)
         {
             _transform = GetComponent<Transform>();
@@ -53,5 +63,10 @@ public class ShakeBehavior : MonoBehaviour
     public void TriggerShake()
     {
         _shakeDuration = _shakeTime;
+    }
+
+    public void TriggerShake(float shakeTime)
+    {
+        _shakeDuration = shakeTime;
     }
 }

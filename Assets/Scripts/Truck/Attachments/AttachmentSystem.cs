@@ -13,7 +13,7 @@ public class AttachmentSystem : MonoBehaviour
 
     private List<AttachmentSocket> _turretSockets = new List<AttachmentSocket>();
     //private List<Turret> _turrets = new List<Turret>();
-    [SerializeField] private GameObject _turretPrefab = null;
+    [SerializeField] private GameObject[] _turretPrefabs = null;
 
     private List<AttachmentSocket> _trailerSockets = new List<AttachmentSocket>();
     //private List<Trailer> _trailer = new List<Trailer>();
@@ -63,7 +63,8 @@ public class AttachmentSystem : MonoBehaviour
     //@TEMP: Random until positional upgrade and UI works
     public void UpgradeTurret_Random()
     {
-        UpgradeSockets_Random<Turret>(_turretSockets, _turretPrefab);
+        GameObject turretPrefab = GetRandomTurretPrefab();
+        UpgradeSockets_Random<Turret>(_turretSockets, turretPrefab);
     }
 
     public void UpgradeArmor_Random()
@@ -247,5 +248,10 @@ public class AttachmentSystem : MonoBehaviour
             }
         }
         return null;
+    }
+
+    private GameObject GetRandomTurretPrefab()
+    {
+        return _turretPrefabs[UnityEngine.Random.Range(0, _turretPrefabs.Length)];
     }
 }
