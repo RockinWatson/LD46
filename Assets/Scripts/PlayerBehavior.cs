@@ -152,4 +152,44 @@ public class PlayerBehavior : MonoBehaviour
         _scrapText.text = _scrapCount.ToString("0");
         GlobalController.Instance.ScrapCollected = Convert.ToInt32(_scrapCount);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+
+            float damage = enemy.GetDamage();
+            TakeDamage(damage);
+        }
+    }
+
+    virtual public float TakeDamage(float damage)
+    {
+        //@TODO: Only damage what is needed and return the extra.
+        float adjustedDamage = damage;
+        if (damage > _health)
+        {
+            adjustedDamage = _health;
+        }
+
+        _health -= adjustedDamage;
+        damage -= adjustedDamage;
+
+        UpdateHealthText();
+
+        if (_health <= 0f)
+        {
+            _health = 0f;
+
+            Die();
+        }
+
+        return damage;
+    }
+
+    private void Die()
+    {
+        //@TODO: End game, etc.
+    }
 }

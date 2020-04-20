@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
     private float _attackTimer = 0f;
 
     [SerializeField] private float _attackDamage = 3f;
+    public float GetDamage() { return _attackDamage; }
 
     private EnemyMovement _movement = null;
 
