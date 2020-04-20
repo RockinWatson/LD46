@@ -53,6 +53,15 @@ MonoBehaviour:
     type: 3}
   _attackSpeed: 1
   _attackRange: 8
+  _renderer: {fileID: 6602879282569050774}
+  _healthAnims:
+  - {fileID: 9100000, guid: 172e63caa6db6ab419128e37244d3326, type: 2}
+  - {fileID: 9100000, guid: 51e68b1482c06e14dbe61b7ab36d5499, type: 2}
+  - {fileID: 9100000, guid: 603831cc036f3c041b8e49184fbf441e, type: 2}
+  _animOffsets:
+  - {x: 0, y: 1.05, z: 0}
+  - {x: -0.8, y: 0.77, z: 0}
+  - {x: 0, y: 0.8, z: 0}
 --- !u!1 &3065423511293970730
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,7 +294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6602879282569050774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.15, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4240517245620972540}
