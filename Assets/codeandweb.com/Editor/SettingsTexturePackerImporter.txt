@@ -2,11 +2,14 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/TaylorArt/SpriteSheets/Statics/Player-Leto.tpsheet
 - Assets/TaylorArt/SpriteSheets/Statics/statics.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/TaylorArt/SpriteSheets/Statics/Player-Leto.png
 - Assets/TaylorArt/SpriteSheets/Statics/statics.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 enableDebugOutput: 0

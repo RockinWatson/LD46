@@ -1,0 +1,5162 @@
+fileFormatVersion: 2
+guid: bd9e5dbf70136404b94417e646c301dc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Player-Leto
+    21300002: DL-Leto_000
+    21300004: DL-Leto_001
+    21300006: DL-Leto_002
+    21300008: DL-Leto_003
+    21300010: DL-Leto_004
+    21300012: DL-Leto_005
+    21300014: DL-Leto_006
+    21300016: DL-Leto_007
+    21300018: DL-Leto_008
+    21300020: DL-Leto_009
+    21300022: DL-Leto_010
+    21300024: DL-Leto_011
+    21300026: DL-Leto_012
+    21300028: DL-Leto_013
+    21300030: DL-Leto_014
+    21300032: DL-Leto_015
+    21300034: DL-Leto_016
+    21300036: DL-Leto_017
+    21300038: DL-Leto_018
+    21300040: DL-Leto_019
+    21300042: DL-Leto_020
+    21300044: DL-Leto_021
+    21300046: DL-Leto_022
+    21300048: DL-Leto_023
+    21300050: DL-Leto_024
+    21300052: DL-Leto_025
+    21300054: DL-Leto_026
+    21300056: DL-Leto_027
+    21300058: DL-Leto_028
+    21300060: DL-Leto_029
+    21300062: DR-Leto_000
+    21300064: DR-Leto_001
+    21300066: DR-Leto_002
+    21300068: DR-Leto_003
+    21300070: DR-Leto_004
+    21300072: DR-Leto_005
+    21300074: DR-Leto_006
+    21300076: DR-Leto_007
+    21300078: DR-Leto_008
+    21300080: DR-Leto_009
+    21300082: DR-Leto_010
+    21300084: DR-Leto_011
+    21300086: DR-Leto_012
+    21300088: DR-Leto_013
+    21300090: DR-Leto_014
+    21300092: DR-Leto_015
+    21300094: DR-Leto_016
+    21300096: DR-Leto_017
+    21300098: DR-Leto_018
+    21300100: DR-Leto_019
+    21300102: DR-Leto_020
+    21300104: DR-Leto_021
+    21300106: DR-Leto_022
+    21300108: DR-Leto_023
+    21300110: DR-Leto_024
+    21300112: DR-Leto_025
+    21300114: DR-Leto_026
+    21300116: DR-Leto_027
+    21300118: DR-Leto_028
+    21300120: DR-Leto_029
+    21300122: L-Leto_000
+    21300124: L-Leto_001
+    21300126: L-Leto_002
+    21300128: L-Leto_003
+    21300130: L-Leto_004
+    21300132: L-Leto_005
+    21300134: L-Leto_006
+    21300136: L-Leto_007
+    21300138: L-Leto_008
+    21300140: L-Leto_009
+    21300142: L-Leto_010
+    21300144: L-Leto_011
+    21300146: L-Leto_012
+    21300148: L-Leto_013
+    21300150: L-Leto_014
+    21300152: L-Leto_015
+    21300154: L-Leto_016
+    21300156: L-Leto_017
+    21300158: L-Leto_018
+    21300160: L-Leto_019
+    21300162: L-Leto_020
+    21300164: L-Leto_021
+    21300166: L-Leto_022
+    21300168: L-Leto_023
+    21300170: L-Leto_024
+    21300172: L-Leto_025
+    21300174: L-Leto_026
+    21300176: L-Leto_027
+    21300178: L-Leto_028
+    21300180: L-Leto_029
+    21300182: Player-Leto_000
+    21300184: Player-Leto_001
+    21300186: Player-Leto_002
+    21300188: Player-Leto_003
+    21300190: Player-Leto_004
+    21300192: Player-Leto_005
+    21300194: Player-Leto_006
+    21300196: Player-Leto_007
+    21300198: Player-Leto_008
+    21300200: Player-Leto_009
+    21300202: Player-Leto_010
+    21300204: Player-Leto_011
+    21300206: Player-Leto_012
+    21300208: Player-Leto_013
+    21300210: Player-Leto_014
+    21300212: Player-Leto_015
+    21300214: Player-Leto_016
+    21300216: Player-Leto_017
+    21300218: Player-Leto_018
+    21300220: Player-Leto_019
+    21300222: Player-Leto_020
+    21300224: Player-Leto_021
+    21300226: Player-Leto_022
+    21300228: Player-Leto_023
+    21300230: Player-Leto_024
+    21300232: Player-Leto_025
+    21300234: Player-Leto_026
+    21300236: Player-Leto_027
+    21300238: Player-Leto_028
+    21300240: Player-Leto_029
+    21300242: R-Leto_000
+    21300244: R-Leto_001
+    21300246: R-Leto_002
+    21300248: R-Leto_003
+    21300250: R-Leto_004
+    21300252: R-Leto_005
+    21300254: R-Leto_006
+    21300256: R-Leto_007
+    21300258: R-Leto_008
+    21300260: R-Leto_009
+    21300262: R-Leto_010
+    21300264: R-Leto_011
+    21300266: R-Leto_012
+    21300268: R-Leto_013
+    21300270: R-Leto_014
+    21300272: R-Leto_015
+    21300274: R-Leto_016
+    21300276: R-Leto_017
+    21300278: R-Leto_018
+    21300280: R-Leto_019
+    21300282: R-Leto_020
+    21300284: R-Leto_021
+    21300286: R-Leto_022
+    21300288: R-Leto_023
+    21300290: R-Leto_024
+    21300292: R-Leto_025
+    21300294: R-Leto_026
+    21300296: R-Leto_027
+    21300298: R-Leto_028
+    21300300: R-Leto_029
+    21300302: U-Leto_000
+    21300304: U-Leto_001
+    21300306: U-Leto_002
+    21300308: U-Leto_003
+    21300310: U-Leto_004
+    21300312: U-Leto_005
+    21300314: U-Leto_006
+    21300316: U-Leto_007
+    21300318: U-Leto_008
+    21300320: U-Leto_009
+    21300322: U-Leto_010
+    21300324: U-Leto_011
+    21300326: U-Leto_012
+    21300328: U-Leto_013
+    21300330: U-Leto_014
+    21300332: U-Leto_015
+    21300334: U-Leto_016
+    21300336: U-Leto_017
+    21300338: U-Leto_018
+    21300340: U-Leto_019
+    21300342: U-Leto_020
+    21300344: U-Leto_021
+    21300346: U-Leto_022
+    21300348: U-Leto_023
+    21300350: U-Leto_024
+    21300352: U-Leto_025
+    21300354: U-Leto_026
+    21300356: U-Leto_027
+    21300358: U-Leto_028
+    21300360: U-Leto_029
+    21300362: UL-Leto_000
+    21300364: UL-Leto_001
+    21300366: UL-Leto_002
+    21300368: UL-Leto_003
+    21300370: UL-Leto_004
+    21300372: UL-Leto_005
+    21300374: UL-Leto_006
+    21300376: UL-Leto_007
+    21300378: UL-Leto_008
+    21300380: UL-Leto_009
+    21300382: UL-Leto_010
+    21300384: UL-Leto_011
+    21300386: UL-Leto_012
+    21300388: UL-Leto_013
+    21300390: UL-Leto_014
+    21300392: UL-Leto_015
+    21300394: UL-Leto_016
+    21300396: UL-Leto_017
+    21300398: UL-Leto_018
+    21300400: UL-Leto_019
+    21300402: UL-Leto_020
+    21300404: UL-Leto_021
+    21300406: UL-Leto_022
+    21300408: UL-Leto_023
+    21300410: UL-Leto_024
+    21300412: UL-Leto_025
+    21300414: UL-Leto_026
+    21300416: UL-Leto_027
+    21300418: UL-Leto_028
+    21300420: UL-Leto_029
+    21300422: UR-Leto_000
+    21300424: UR-Leto_001
+    21300426: UR-Leto_002
+    21300428: UR-Leto_003
+    21300430: UR-Leto_004
+    21300432: UR-Leto_005
+    21300434: UR-Leto_006
+    21300436: UR-Leto_007
+    21300438: UR-Leto_008
+    21300440: UR-Leto_009
+    21300442: UR-Leto_010
+    21300444: UR-Leto_011
+    21300446: UR-Leto_012
+    21300448: UR-Leto_013
+    21300450: UR-Leto_014
+    21300452: UR-Leto_015
+    21300454: UR-Leto_016
+    21300456: UR-Leto_017
+    21300458: UR-Leto_018
+    21300460: UR-Leto_019
+    21300462: UR-Leto_020
+    21300464: UR-Leto_021
+    21300466: UR-Leto_022
+    21300468: UR-Leto_023
+    21300470: UR-Leto_024
+    21300472: UR-Leto_025
+    21300474: UR-Leto_026
+    21300476: UR-Leto_027
+    21300478: UR-Leto_028
+    21300480: UR-Leto_029
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DL-Leto_000
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 3962
+        width: 131
+        height: 133
+      alignment: 9
+      pivot: {x: 0.52290076, y: 0.52255636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1ac8b086284d84abd1cedd123d1978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_001
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 3962
+        width: 131
+        height: 133
+      alignment: 9
+      pivot: {x: 0.52290076, y: 0.52255636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ee3d2de238e4f4cab1bc42310552f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_002
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 3821
+        width: 130
+        height: 139
+      alignment: 9
+      pivot: {x: 0.52692306, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf460de59682de4cbb55173aaa0e0ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_003
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3255
+        width: 127
+        height: 136
+      alignment: 9
+      pivot: {x: 0.53149605, y: 0.5110294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597f78bc3c1d42245a4dfd453741c27f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_004
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 3673
+        width: 128
+        height: 137
+      alignment: 9
+      pivot: {x: 0.51171875, y: 0.50729924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e8834c33083fc45984d505fda600dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3956
+        width: 136
+        height: 139
+      alignment: 9
+      pivot: {x: 0.49632353, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d44203b489d274b9eba61c1b0fde8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_006
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 3957
+        width: 132
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5113636, y: 0.5036232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6a60182f35bda448716767dbe1d858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_007
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 3676
+        width: 130
+        height: 138
+      alignment: 9
+      pivot: {x: 0.48846152, y: 0.5036232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faec351250e3db4693163d638e2cb2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3675
+        width: 130
+        height: 138
+      alignment: 9
+      pivot: {x: 0.48076922, y: 0.5036232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfd7dd93de267f4b9f08cafe99c186b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_009
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3957
+        width: 135
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5036232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfff91a9c06e6b43b8eead8a5adb812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_010
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 3245
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.5036232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c920539a815e58d4498db35186ad679f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_011
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 2111
+        width: 90
+        height: 138
+      alignment: 9
+      pivot: {x: 0.27222222, y: 0.5036232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac18a5a7c8e68a49bca08191f2f0d58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_012
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3532
+        width: 127
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48425198, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fb26da18c97b14a9984d7f2801e444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_013
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3815
+        width: 130
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48846152, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9017252d13ac848a6854a1f66c463e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3815
+        width: 132
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48863637, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6416ac2114fcd419837e6573662f1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_015
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 3956
+        width: 132
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4810606, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0107738f968eea42a9b96f384fd8e9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_016
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3956
+        width: 133
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4924812, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adf74b346c41c84e8667607fcc02755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_017
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 3956
+        width: 132
+        height: 139
+      alignment: 9
+      pivot: {x: 0.49621212, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7ce636637f45840a26655f6e729a9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_018
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3816
+        width: 133
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4924812, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef3dae9c36129946bff80c8aa459cda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_019
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3673
+        width: 128
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48046875, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca1ff6a478805946b92f7403e84c108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_020
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 2112
+        width: 92
+        height: 139
+      alignment: 9
+      pivot: {x: 0.3097826, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5683431ae2346da4a9a9e3f62bee99fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_021
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 2819
+        width: 125
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be7cbbee4452cc4baf331b7a27fc3a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_022
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 3381
+        width: 126
+        height: 139
+      alignment: 9
+      pivot: {x: 0.50396824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c641894742d3e8e49aac097dcd5c84b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_023
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 3956
+        width: 128
+        height: 139
+      alignment: 9
+      pivot: {x: 0.51171875, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d390ec28eb8b90d42bb6269f6b733fb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_024
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 3536
+        width: 129
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5155039, y: 0.5036232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c1db20fd0c1a6438b8aa97f0bb72cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_025
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 3377
+        width: 126
+        height: 139
+      alignment: 9
+      pivot: {x: 0.51984125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f6cd53fbfcd524b90e0bedbf52983a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_026
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 3959
+        width: 131
+        height: 136
+      alignment: 9
+      pivot: {x: 0.52290076, y: 0.5110294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46159c34d6637814dabd38775f8400b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_027
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2680
+        width: 125
+        height: 137
+      alignment: 9
+      pivot: {x: 0.532, y: 0.50729924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fde8cbce7325b4195ca34b58d9268e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_028
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3817
+        width: 130
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5192308, y: 0.50729924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f059e75876aa5449068faebccf96cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DL-Leto_029
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 3822
+        width: 130
+        height: 132
+      alignment: 9
+      pivot: {x: 0.52692306, y: 0.5265151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef59a3d64c01aa748856883025c3e6c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_000
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 2545
+        width: 125
+        height: 133
+      alignment: 9
+      pivot: {x: 0.484, y: 0.518797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f882f1a38689144b0d7ea730b6b576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_001
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 2836
+        width: 126
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.52671754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cecdaa178a880d469ff47279b4a66f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_002
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 3118
+        width: 127
+        height: 136
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.50735295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474718f40cd0d1e4ab24f866813d8ec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_003
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 3260
+        width: 126
+        height: 137
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.50364965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b490bef8cf2e6c84e83c9cb94f9b90cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_004
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 3110
+        width: 126
+        height: 136
+      alignment: 9
+      pivot: {x: 0.50396824, y: 0.50735295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092e2c9b69b4f144ba7007b04d87c986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_005
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 2675
+        width: 125
+        height: 137
+      alignment: 9
+      pivot: {x: 0.484, y: 0.50364965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516b24b10c6f4ad41bdd8e8bebd6f349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_006
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3532
+        width: 127
+        height: 138
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f02660e8a47d54ea5928bb8d658dd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_007
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 2698
+        width: 125
+        height: 136
+      alignment: 9
+      pivot: {x: 0.516, y: 0.50735295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bac5b7c68cb8742b564263f9704fdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_008
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2275
+        width: 122
+        height: 137
+      alignment: 9
+      pivot: {x: 0.51229507, y: 0.50364965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e2abc66da707e4aa34036f53b53292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_009
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 3957
+        width: 128
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49609375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55a4bacf271782408125ed0091a8531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_010
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2546
+        width: 122
+        height: 138
+      alignment: 9
+      pivot: {x: 0.52868855, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99815a8b96fd9a49af16468d8c09b48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_011
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 2699
+        width: 83
+        height: 138
+      alignment: 9
+      pivot: {x: 0.71686745, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ddaaf9f2b0c054dba0393abefc3967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_012
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 3542
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8d214387bb1e2459abe4a57f4dc2fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3535
+        width: 129
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645c2f52d75181e4389012ae7b998547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_014
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 2094
+        width: 120
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7028fab69e73747812792922bb32bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_015
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 3533
+        width: 129
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae03e4739a736c54daf2662b4fac6f47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_016
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 3402
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2a1b24c6e050f468dacff0f5218cff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_017
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3527
+        width: 127
+        height: 138
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf0e7e138ba55445ac576dfe433e146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_018
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1982
+        width: 120
+        height: 138
+      alignment: 9
+      pivot: {x: 0.52916664, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141f48f9db6b9664ebed1bea286b2f5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1976
+        width: 121
+        height: 138
+      alignment: 9
+      pivot: {x: 0.53305787, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99184417f4eaa4d4b9c84e9ea996508b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_020
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1690
+        width: 81
+        height: 138
+      alignment: 9
+      pivot: {x: 0.70987654, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd40db558df7bcc4885d26f6440e0876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_021
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 2414
+        width: 122
+        height: 138
+      alignment: 9
+      pivot: {x: 0.52868855, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a66252d67d88c46b9e8f57975ee0f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_022
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1970
+        width: 121
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5165289, y: 0.50364965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d854673ea320749aa9dffbfa0e7a22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_023
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 2673
+        width: 125
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50364965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eaa2fca301ada54fb7ffe045e641aca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_024
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2268
+        width: 122
+        height: 135
+      alignment: 9
+      pivot: {x: 0.50409836, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf41993c1e956b14d9349a91c4ac8883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_025
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2695
+        width: 123
+        height: 136
+      alignment: 9
+      pivot: {x: 0.47560975, y: 0.50735295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c8b4473448ccc4cb248ea87eb6f2b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_026
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2693
+        width: 123
+        height: 135
+      alignment: 9
+      pivot: {x: 0.49186993, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a499029b91051a499f8fbc9f5f54fc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3117
+        width: 127
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50735295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bf48bd042b0fe44ad63705fb930323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_028
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 3682
+        width: 128
+        height: 132
+      alignment: 9
+      pivot: {x: 0.50390625, y: 0.52272725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892dea3560b77c047a8489dea2f7b936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DR-Leto_029
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 3102
+        width: 126
+        height: 133
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.518797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a11164ab8e05748bd0dc5a9f625f64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_000
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 2117
+        width: 120
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e46e281522a8b488de897fff316d50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_001
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2100
+        width: 121
+        height: 146
+      alignment: 9
+      pivot: {x: 0.53305787, y: 0.5068493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29aa71101cf37949b58a37aed94b8a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_002
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 2109
+        width: 123
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5243902, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d24759007232e44bc671ecb2fdcffe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_003
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2104
+        width: 121
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5247934, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8755bc1aa80299478050b7d95e2e923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_004
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2253
+        width: 121
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5165289, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddacafce72e50542b76914423bd0e5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_005
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 3110
+        width: 125
+        height: 148
+      alignment: 9
+      pivot: {x: 0.508, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2889d3b8b3919c46a93b59971dde24d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_006
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 3085
+        width: 125
+        height: 148
+      alignment: 9
+      pivot: {x: 0.508, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d988bb41ee54749a748de77832db86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_007
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 2386
+        width: 123
+        height: 148
+      alignment: 9
+      pivot: {x: 0.49186993, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a081a9c41c7c3d44806c60218b55f24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_008
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 2548
+        width: 124
+        height: 148
+      alignment: 9
+      pivot: {x: 0.49596775, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2925b6157aad6d4a9d8f12de9f4f4d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_009
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2970
+        width: 126
+        height: 148
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d14ac363039c0141b27f56057a584ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_010
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2248
+        width: 121
+        height: 148
+      alignment: 9
+      pivot: {x: 0.48347107, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4621688c3b22c741851a679f393d957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_011
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2839
+        width: 70
+        height: 148
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645fa4dc81a7de34b8d87ecdcf485acb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_012
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 2554
+        width: 122
+        height: 148
+      alignment: 9
+      pivot: {x: 0.47131148, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c4d28fccab55c4f87aa5bba03a4b9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_013
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 2960
+        width: 125
+        height: 148
+      alignment: 9
+      pivot: {x: 0.484, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a43e66c524f25b44b069bdbd083f668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_014
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2968
+        width: 126
+        height: 148
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2707e1197da46547857c221d54e2de9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_015
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 2374
+        width: 123
+        height: 148
+      alignment: 9
+      pivot: {x: 0.47560975, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58454adcf88f9f44689cf5a08379c1c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2967
+        width: 126
+        height: 148
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef446a6be1c870346a08c60393b073b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_017
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 2955
+        width: 125
+        height: 148
+      alignment: 9
+      pivot: {x: 0.484, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3661a6e4833b943aa4ede961010f65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_018
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 2952
+        width: 125
+        height: 148
+      alignment: 9
+      pivot: {x: 0.484, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1363a06d7a35fd042acf39a8cb4b6f1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_019
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2246
+        width: 121
+        height: 148
+      alignment: 9
+      pivot: {x: 0.4752066, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6eced7fd196124a9f5c33de4787999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_020
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1956
+        width: 85
+        height: 148
+      alignment: 9
+      pivot: {x: 0.2882353, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef8287ebddff5f4494ad7b719604c73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_021
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2258
+        width: 123
+        height: 148
+      alignment: 9
+      pivot: {x: 0.47560975, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd14273ae47d8d4b89497c95dd7a62d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_022
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 3657
+        width: 127
+        height: 148
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1da68be39e562e4e8127a94fe5ccee6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2116
+        width: 121
+        height: 148
+      alignment: 9
+      pivot: {x: 0.49173555, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ab62c5d182cbd46a316d55a4e0979d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_024
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1981
+        width: 123
+        height: 147
+      alignment: 9
+      pivot: {x: 0.49186993, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7759abb824674c94ab9058e3e54f9e39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_025
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2822
+        width: 123
+        height: 146
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5068493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c33653e1d255a499faf0238e9ad03b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_026
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 2820
+        width: 125
+        height: 148
+      alignment: 9
+      pivot: {x: 0.516, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fa3e8cc50610740b5e9b6ca9783899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_027
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2391
+        width: 121
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5165289, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ef12609adcb9a4dab2f36855c27423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_028
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 2538
+        width: 122
+        height: 147
+      alignment: 9
+      pivot: {x: 0.52868855, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5847de8ced902f48ae5d4aed9c99368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L-Leto_029
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2383
+        width: 121
+        height: 148
+      alignment: 9
+      pivot: {x: 0.53305787, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ddf945e131fff4e8c9b4095aecaa93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_000
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 2253
+        width: 120
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4625, y: 0.5234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b755a4da9a62d4d944b042a14485bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_001
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 2970
+        width: 126
+        height: 133
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5037594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1274546508580e44ad4a6014d043d2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_002
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 2267
+        width: 121
+        height: 131
+      alignment: 9
+      pivot: {x: 0.46694216, y: 0.5114504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254a91637288e4748bac40de1bc1c3d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_003
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2963
+        width: 126
+        height: 132
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.50757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afeb014617a085c4ab4462240f8dd4e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_004
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 3118
+        width: 127
+        height: 131
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5114504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a47ec5de4e5eb84682634b0fda93b29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_005
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2704
+        width: 126
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5114504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9449bf885d5cd5243bb147166a2d1553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_006
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2540
+        width: 125
+        height: 131
+      alignment: 9
+      pivot: {x: 0.508, y: 0.5114504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64105ba5ec207840919409b729d686c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_007
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 3259
+        width: 127
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7158c1aa9fac8af46b3aa07c9f12784d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_008
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 2685
+        width: 125
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c816716ab35ee44894a02a3760bf20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_009
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 2687
+        width: 123
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5243902, y: 0.5037594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a5cee24f2debd459e82d9313bfa80e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_010
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1982
+        width: 119
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5168067, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c2cf30efe54344a9c9927cf9407fbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_011
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 2420
+        width: 94
+        height: 134
+      alignment: 9
+      pivot: {x: 0.62234044, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccf0bdddec8fa74196edcee5871012b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_012
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 3396
+        width: 127
+        height: 134
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8016d8a3d51ea3c4b8576f1bffdcaef7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_013
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 3260
+        width: 127
+        height: 134
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ff64c6676156e4c8ef0a2521b3693a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_014
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3961
+        width: 129
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a9c58c5b9b9d140bff9e42e1f6d6d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_015
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1968
+        width: 119
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5420168, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb19f9f2deb327b4384ae20501d2986c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_016
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 3961
+        width: 129
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e7e39d27590644c806cca68c02a098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_017
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 3105
+        width: 126
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1134d8e1a838042892adc77b113677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_018
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1845
+        width: 121
+        height: 134
+      alignment: 9
+      pivot: {x: 0.53305787, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187d2ad715c75494abe90bb99ad442ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_019
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2667
+        width: 125
+        height: 134
+      alignment: 9
+      pivot: {x: 0.508, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d17e0fe4e669c4c8ccbe2c995c2f14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_020
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1964
+        width: 94
+        height: 134
+      alignment: 9
+      pivot: {x: 0.65425533, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f444afbaff97c5446bc5ecba1433f2a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_021
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1820
+        width: 120
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5e4b8c193324841bdf18a12282380c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_022
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 3256
+        width: 127
+        height: 134
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8aaadd5574b3134b8c036cc402135b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_023
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 3251
+        width: 127
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db68bfb09ad85934794b6ffa37abe4e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_024
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3120
+        width: 127
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5037594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6586eb68a1e9ad34ba7419fe739463ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_025
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 3682
+        width: 128
+        height: 133
+      alignment: 9
+      pivot: {x: 0.49609375, y: 0.5037594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeba356fa038edd47ae835782bd6d1c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_026
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 3126
+        width: 127
+        height: 132
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.50757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7fe294977082747a112e2f7125f347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_027
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 3122
+        width: 127
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e80003ec852164d8c84e6c080c3538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_028
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2264
+        width: 121
+        height: 134
+      alignment: 9
+      pivot: {x: 0.46694216, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04ad17dc345afb4da270dd8503bdc76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Leto_029
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 3129
+        width: 126
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5114504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20eb31d1e7372a74b8aa1ca845daf1e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_000
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 3665
+        width: 127
+        height: 144
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.5138889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad34438b1da7274da8cae4e2accefa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_001
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 2970
+        width: 126
+        height: 146
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5068493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed37ef60fa29784b888cbc1b92f906d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_002
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 3527
+        width: 127
+        height: 147
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac69ced1eb10aac4286c7af93acc2bd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_003
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2977
+        width: 126
+        height: 147
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d173726523e7f4248a7a63375238ba56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_004
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2973
+        width: 126
+        height: 147
+      alignment: 9
+      pivot: {x: 0.50396824, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd80ca010321ad42aaad0c97afe4790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_005
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2545
+        width: 122
+        height: 148
+      alignment: 9
+      pivot: {x: 0.48770493, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb11daaf6cf83fd488d98edd24a13a35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_006
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 2543
+        width: 122
+        height: 148
+      alignment: 9
+      pivot: {x: 0.49590164, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6e6ccde85cbb948b0d401d96471847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_007
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2813
+        width: 125
+        height: 148
+      alignment: 9
+      pivot: {x: 0.492, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdb2a61f18d01946b3d669ffc372db9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_008
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2236
+        width: 123
+        height: 148
+      alignment: 9
+      pivot: {x: 0.51626015, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8f00763ba00ed41a32d5a41a9f3267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_009
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 2130
+        width: 123
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5243902, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b2794af150da74e87801ea3b4a810b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_010
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 2106
+        width: 119
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5168067, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b5cc66f4bc5a94298373950766f43a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_011
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1961
+        width: 77
+        height: 148
+      alignment: 9
+      pivot: {x: 0.6818182, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8fb15b6167233438c65d3617577489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_012
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 3672
+        width: 129
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d1f9c70572e8040afde7f486e0e138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_013
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3667
+        width: 129
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dacc8de1dfa20141951dd6671f885ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_014
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 2686
+        width: 125
+        height: 148
+      alignment: 9
+      pivot: {x: 0.516, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5653bae93aab70c4f97cebcce3bc9c28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_015
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 3947
+        width: 128
+        height: 148
+      alignment: 9
+      pivot: {x: 0.50390625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fe4ef5ee0d0bc4ab0bf3e012badab1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_016
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 2979
+        width: 125
+        height: 148
+      alignment: 9
+      pivot: {x: 0.516, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de53e9f177b51942a6c8f07ee1e97bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_017
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 3661
+        width: 127
+        height: 148
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb78571bd8d60b40ae8f39122adbdbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_018
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3811
+        width: 128
+        height: 148
+      alignment: 9
+      pivot: {x: 0.49609375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118100ee90cb127479aebfe8234cdc0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_019
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2256
+        width: 121
+        height: 148
+      alignment: 9
+      pivot: {x: 0.53305787, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b534e1cc39f1ff46859bddb784a7187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_020
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1974
+        width: 77
+        height: 148
+      alignment: 9
+      pivot: {x: 0.7077922, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59077c5390894594da2a5e43203bc616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_021
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 2125
+        width: 121
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5247934, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4392546558251654a91b747d84953b61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_022
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 3237
+        width: 126
+        height: 148
+      alignment: 9
+      pivot: {x: 0.50396824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f68477266b8594d8cfbc676519c85e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_023
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 3528
+        width: 127
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49728e86bc3a79348a654bdd11329727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_024
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 2961
+        width: 125
+        height: 147
+      alignment: 9
+      pivot: {x: 0.492, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544f752c00a45954dbb22607a7b77138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_025
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 2536
+        width: 124
+        height: 147
+      alignment: 9
+      pivot: {x: 0.4798387, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9119e1447637c94883811a80fa8b1d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_026
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2536
+        width: 122
+        height: 147
+      alignment: 9
+      pivot: {x: 0.48770493, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f765cb71bf48bf498ce866d1f623460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_027
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2118
+        width: 121
+        height: 148
+      alignment: 9
+      pivot: {x: 0.4752066, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d9f8690d6a7f944a48a2f1cfd5d9fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_028
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 3109
+        width: 126
+        height: 148
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30a1bdf288f9b24b9cceca18a4061af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-Leto_029
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 3812
+        width: 128
+        height: 147
+      alignment: 9
+      pivot: {x: 0.49609375, y: 0.50340134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de63f6110435894d97075992bc50651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_000
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 2541
+        width: 125
+        height: 137
+      alignment: 9
+      pivot: {x: 0.48, y: 0.51459855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2aa4b8402549245be2fe8948e13a61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_001
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 3235
+        width: 126
+        height: 137
+      alignment: 9
+      pivot: {x: 0.48412699, y: 0.51459855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6521a0acff1059246b64c6785f5e6704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_002
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 3530
+        width: 127
+        height: 141
+      alignment: 9
+      pivot: {x: 0.48818898, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbaf5000c44b8ca4aa54b54090eded42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2406
+        width: 122
+        height: 139
+      alignment: 9
+      pivot: {x: 0.47540984, y: 0.5071942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f685d9af8c03f314d84ef0ac16561a2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_004
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 2943
+        width: 125
+        height: 140
+      alignment: 9
+      pivot: {x: 0.496, y: 0.50357145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41236edca736b04488c7d870f3b8de3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_005
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 3388
+        width: 126
+        height: 140
+      alignment: 9
+      pivot: {x: 0.50793654, y: 0.50357145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ab2fe43d695e24c9e0397bc169eca7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_006
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 3811
+        width: 128
+        height: 141
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb06996dce2fda44dad8aba0f0764179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_007
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2524
+        width: 124
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5080645, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac14510b33372be4bbdc478d87aaf953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_008
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 2836
+        width: 125
+        height: 141
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa718f297e54704299dcc9ab61a18ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_009
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 3954
+        width: 130
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1c28f9a0c376244a33530649ef2645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_010
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1982
+        width: 119
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5126051, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0aa912ed391774aba9bae62bc328ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_011
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 2556
+        width: 96
+        height: 141
+      alignment: 9
+      pivot: {x: 0.6145833, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d332d584a941c4eaecc341a0b0643a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_012
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 3819
+        width: 130
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cc3780bd66733429ff9c8ac7d49559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_013
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 3816
+        width: 130
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86efb57e2304d5745b19daee2478fbb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_014
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 2122
+        width: 120
+        height: 141
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59701611ec8b7c34a8122daa997e4709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_015
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 3814
+        width: 130
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319d317b336c68a42829f7735ced367b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_016
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 3678
+        width: 128
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5078125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4987f12685c665b44b1443960b62fe0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_017
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 3676
+        width: 128
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5078125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a6b1c397d070547b0f80d31004564d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_018
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 3673
+        width: 128
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5078125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d398466facdfd6442a9e6eac856c5236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_019
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 3522
+        width: 127
+        height: 141
+      alignment: 9
+      pivot: {x: 0.503937, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ae2d18235aa754ba60a6e16f0a4161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_020
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1969
+        width: 89
+        height: 141
+      alignment: 9
+      pivot: {x: 0.7303371, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d85a9bee1c91364891184cf25a9dd25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_021
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2104
+        width: 121
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5123967, y: 0.50357145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c843c3261ececf48837dbe42f4d1133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_022
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3673
+        width: 129
+        height: 140
+      alignment: 9
+      pivot: {x: 0.503876, y: 0.50357145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bfbe46ad3fa304889ae3c6b492044c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_023
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 3518
+        width: 127
+        height: 141
+      alignment: 9
+      pivot: {x: 0.503937, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efa58e1ea1bb984aa812e689a768113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_024
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 2814
+        width: 125
+        height: 139
+      alignment: 9
+      pivot: {x: 0.512, y: 0.5071942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b02350a0f7bba4cbb49c1d0caee29c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_025
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2825
+        width: 123
+        height: 141
+      alignment: 9
+      pivot: {x: 0.4715447, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94960f54113fa734781cba4625a5f682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_026
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1964
+        width: 121
+        height: 138
+      alignment: 9
+      pivot: {x: 0.47933885, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a5f8325e5dd704c9d74f5259cdf4e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_027
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 3385
+        width: 127
+        height: 141
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c933034ab52b72c489d355cbce191a99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_028
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 3539
+        width: 126
+        height: 141
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2b3701b96bcab47900f122e185e3d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U-Leto_029
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 3514
+        width: 126
+        height: 141
+      alignment: 9
+      pivot: {x: 0.48412699, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4013533a224f1364eab081158d0cbf83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_000
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 3399
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74496f8609c07a44b8358a227cb1c17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1836
+        width: 121
+        height: 138
+      alignment: 9
+      pivot: {x: 0.53305787, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6ac9623e6e9134398b455463470c67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_002
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 2405
+        width: 124
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5201613, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea1b1e221945964997c466becd5dea5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_003
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 3393
+        width: 127
+        height: 138
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6495d3b44a0fa27489d814fe10ef8738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_004
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2408
+        width: 124
+        height: 138
+      alignment: 9
+      pivot: {x: 0.50403225, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57f4925c81581c489d7429682e7d1c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_005
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 3374
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d80e80b2e583804188fbf656f595867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_006
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 2812
+        width: 125
+        height: 138
+      alignment: 9
+      pivot: {x: 0.492, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b02a9a0c3832745a280548d5c9c6f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_007
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 3248
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bb964314172714a8dbfc8ae2acb9d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_008
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3256
+        width: 127
+        height: 138
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8016db797e58e1f4b966ed6144babecc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_009
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2400
+        width: 121
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49173555, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c726ee95eec6f64f83763c49eae7aff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_010
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2405
+        width: 122
+        height: 138
+      alignment: 9
+      pivot: {x: 0.4795082, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb83c0597ab5ad4181ff4a68b96c35d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_011
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2989
+        width: 72
+        height: 138
+      alignment: 9
+      pivot: {x: 0.25694445, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f78d862100cedc48a2df4fa21d9fcf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_012
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 3241
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f77074af2e2f864b992decba23afb0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_013
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2680
+        width: 125
+        height: 138
+      alignment: 9
+      pivot: {x: 0.484, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38309d63fd9a82459bac432c04a7005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_014
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2673
+        width: 125
+        height: 138
+      alignment: 9
+      pivot: {x: 0.484, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13b6bf6624f03c4587511317b474a46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2827
+        width: 123
+        height: 138
+      alignment: 9
+      pivot: {x: 0.47560975, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6316d60eadc88f444ad7024bed99ff45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_016
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 2400
+        width: 121
+        height: 138
+      alignment: 9
+      pivot: {x: 0.46694216, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0321987836175b341bb081c379a87267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_017
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 2821
+        width: 125
+        height: 138
+      alignment: 9
+      pivot: {x: 0.484, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9f5ddc17e91cd4b91af2787a870568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_018
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 2265
+        width: 121
+        height: 138
+      alignment: 9
+      pivot: {x: 0.46694216, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225b8b6ef17ae274c971e62358c836f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_019
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 2251
+        width: 120
+        height: 138
+      alignment: 9
+      pivot: {x: 0.47083333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af81856ed1ab4c64595d00287673148e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_020
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1705
+        width: 82
+        height: 138
+      alignment: 9
+      pivot: {x: 0.33536586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d4e638d68a82c4eb77b471bdc8bd05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_021
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3396
+        width: 129
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6a4ca9867316e439d4f8e2ed625020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_022
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 2280
+        width: 124
+        height: 138
+      alignment: 9
+      pivot: {x: 0.4798387, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472e6cbd274ecd544bd4204be392fd5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_023
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1956
+        width: 120
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49583334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4146603d79b8e74badab84cd2c679e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3255
+        width: 127
+        height: 138
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb21bfbc9bd60124f9cb67363bfe1f21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_025
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 3817
+        width: 128
+        height: 138
+      alignment: 9
+      pivot: {x: 0.50390625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad19f0c8eb2d4cf43bde2097e5807266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_026
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 3533
+        width: 127
+        height: 138
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfd9089564189642a66e3671ef21703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_027
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 1954
+        width: 120
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dc90e927be420449b332e01dd7f12b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_028
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 2403
+        width: 122
+        height: 138
+      alignment: 9
+      pivot: {x: 0.52868855, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae9d00c15c03c040a59ca984bc04504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UL-Leto_029
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 2234
+        width: 121
+        height: 138
+      alignment: 9
+      pivot: {x: 0.53305787, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e22dbf2ce0540a43aa069ccad7f675b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_000
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 2540
+        width: 125
+        height: 133
+      alignment: 9
+      pivot: {x: 0.484, y: 0.518797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef7f3e31c989af42aad4a959f43d9fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_001
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 3393
+        width: 127
+        height: 138
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64622f9d57f9770409b13d0cd65af072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_002
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 3387
+        width: 127
+        height: 138
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce85cbf017338ea4ca0cbbb161ebe132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_003
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 3237
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac9eaf1f9c1eb54faa3828f4ee78389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_004
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 3105
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.50396824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011667dec29c41f45ae720270eebf374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2687
+        width: 123
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49186993, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c624f69c1d75f848a79207076880a0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_006
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 3097
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182163f430a8ab847a00a5c2a46262c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_007
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2969
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b36ea054f914764a99b43ec745a48b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_008
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2398
+        width: 122
+        height: 138
+      alignment: 9
+      pivot: {x: 0.51229507, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c66ca14e0ff51408c5a9598d4cd127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_009
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2396
+        width: 122
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5204918, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f46c809febbff409d92ada939aeef3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_010
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 2124
+        width: 120
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e4feea738b4084ea6144ed70d36010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_011
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1984
+        width: 81
+        height: 138
+      alignment: 9
+      pivot: {x: 0.7222222, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5723170c55f70ff489c2842385c1b0bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_012
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3392
+        width: 127
+        height: 138
+      alignment: 9
+      pivot: {x: 0.507874, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d900128be55324c830565d5f98104b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3395
+        width: 129
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061d9609ef237c048a41e3593db61c91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_014
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 2803
+        width: 125
+        height: 138
+      alignment: 9
+      pivot: {x: 0.516, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c080116c2a71445be6d8f29af66dc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_015
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 3816
+        width: 128
+        height: 138
+      alignment: 9
+      pivot: {x: 0.50390625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbde3cf8da01ee48a108e825029f2b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_016
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 2837
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de8b9858b8812b44b1f40cd674ca233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_017
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1830
+        width: 120
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf54e602d5c60c479dba921ceb0bdb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_018
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2833
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a5ea2e630c9d940b616df2e60e65af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_019
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 2096
+        width: 121
+        height: 138
+      alignment: 9
+      pivot: {x: 0.53305787, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4d3c89b70f760468cfeaa527ada289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_020
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1705
+        width: 85
+        height: 138
+      alignment: 9
+      pivot: {x: 0.6647059, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ed9f8b1fdb9924d9e9fcb2f293bf2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2266
+        width: 122
+        height: 138
+      alignment: 9
+      pivot: {x: 0.52868855, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d158d790d2dd2854baf320bd0138d460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_022
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 2533
+        width: 122
+        height: 138
+      alignment: 9
+      pivot: {x: 0.51229507, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cea6540ecf49b0408f7354d6056bee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_023
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 3807
+        width: 128
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49609375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7042142e7afa07747b9e56f089b4c442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_024
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2685
+        width: 123
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5081301, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0befebe573333f24bb3ef6121670e3c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2547
+        width: 123
+        height: 138
+      alignment: 9
+      pivot: {x: 0.47560975, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605f868e89631c44791319e94b46f311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_026
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2406
+        width: 122
+        height: 138
+      alignment: 9
+      pivot: {x: 0.48770493, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b3f37a510f58240a4d8a92b98ee184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_027
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 3387
+        width: 127
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d3980da2eed9641aafe8bea01ea9f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_028
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 3262
+        width: 126
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec566642eb6813f44baa9699a7291d33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UR-Leto_029
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2830
+        width: 123
+        height: 138
+      alignment: 9
+      pivot: {x: 0.47560975, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4194dea67380114b83aeb6e8d3af24b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9bdd8251aca9c9c4c939780a96237a9d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
