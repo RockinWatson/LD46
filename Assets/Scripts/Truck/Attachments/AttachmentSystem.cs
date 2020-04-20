@@ -71,6 +71,12 @@ public class AttachmentSystem : MonoBehaviour
             int index = UnityEngine.Random.Range(0, vacantSockets.Count);
             vacantSockets[index].SetAttachment(attachment);
             //@TODO: Might need to subscribe to death events etc?
+
+            //Play build audio
+            if (AudioController.build.isPlaying == false)
+            {
+                AudioController.build.Play();
+            }
         }
     }
 
@@ -177,6 +183,12 @@ public class AttachmentSystem : MonoBehaviour
             {
                 //@TODO: Repair damage and track how much has been repaired.
                 repairAmount = socket.GetAttachment().RepairDamage(repairAmount);
+
+                //Play repair audio
+                if (AudioController.repair.isPlaying == false)
+                {
+                    AudioController.repair.Play();
+                }
             }
         }
 
