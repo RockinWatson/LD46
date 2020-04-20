@@ -24,9 +24,13 @@ public class EnemyMovement : MonoBehaviour
     {
         float distanceToTargetSq = (_target.transform.position - transform.position).sqrMagnitude;
         if (distanceToTargetSq <= _rangeToStop*_rangeToStop ||
-            _isCollidingWithEnemy)
+           (distanceToTargetSq <= _rangeToStop * _rangeToStop && _isCollidingWithEnemy))
         {
             _isAtTarget = true;
+        }
+        else
+        {
+            _isAtTarget = false;
         }
     }
 
