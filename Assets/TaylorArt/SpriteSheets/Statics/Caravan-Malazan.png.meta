@@ -1,0 +1,1382 @@
+fileFormatVersion: 2
+guid: c5f0cd07b8826f54dad8391986774782
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Caravan-Malazan
+    21300002: Caravan-Malazan_000
+    21300004: Caravan-Malazan_001
+    21300006: Caravan-Malazan_002
+    21300008: Caravan-Malazan_003
+    21300010: Caravan-Malazan_004
+    21300012: Caravan-Malazan_005
+    21300014: Caravan-Malazan_006
+    21300016: Caravan-Malazan_007
+    21300018: Caravan-Malazan_008
+    21300020: Caravan-Malazan_009
+    21300022: Caravan-Malazan_010
+    21300024: Caravan-Malazan_011
+    21300026: Caravan-Malazan_012
+    21300028: Caravan-Malazan_013
+    21300030: Caravan-Malazan_014
+    21300032: Caravan-Malazan_015
+    21300034: Caravan-Malazan_016
+    21300036: Caravan-Malazan_017
+    21300038: Caravan-Malazan_018
+    21300040: Caravan-Malazan_019
+    21300042: Caravan-Malazan_020
+    21300044: Caravan-Malazan_021
+    21300046: Caravan-Malazan_022
+    21300048: Caravan-Malazan_023
+    21300050: Caravan-Malazan_024
+    21300052: Caravan-Malazan_025
+    21300054: Caravan-Malazan_026
+    21300056: Caravan-Malazan_027
+    21300058: Caravan-Malazan_028
+    21300060: Caravan-Malazan_029
+    21300062: Trailer_000
+    21300064: Trailer_001
+    21300066: Trailer_002
+    21300068: Trailer_003
+    21300070: Trailer_004
+    21300072: Trailer_005
+    21300074: Trailer_006
+    21300076: Trailer_007
+    21300078: Trailer_008
+    21300080: Trailer_009
+    21300082: Trailer_010
+    21300084: Trailer_011
+    21300086: Trailer_012
+    21300088: Trailer_013
+    21300090: Trailer_014
+    21300092: Trailer_015
+    21300094: Trailer_016
+    21300096: Trailer_017
+    21300098: Trailer_018
+    21300100: Trailer_019
+    21300102: Trailer_020
+    21300104: Trailer_021
+    21300106: Trailer_022
+    21300108: Trailer_023
+    21300110: Trailer_024
+    21300112: Trailer_025
+    21300114: Trailer_026
+    21300116: Trailer_027
+    21300118: Trailer_028
+    21300120: Trailer_029
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Caravan-Malazan_000
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 367
+        width: 173
+        height: 220
+      alignment: 9
+      pivot: {x: 0.3815029, y: 0.49772727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67fbfb7b6a02574795b218b8f4c777c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_001
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1081
+        width: 222
+        height: 231
+      alignment: 9
+      pivot: {x: 0.46846846, y: 0.530303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68201fe3791de4c419feaec53e2e627d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_002
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 577
+        width: 230
+        height: 236
+      alignment: 9
+      pivot: {x: 0.4869565, y: 0.5190678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12ddc25f7feb634ab7a3fe03b0b6318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_003
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1325
+        width: 221
+        height: 231
+      alignment: 9
+      pivot: {x: 0.46606335, y: 0.530303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ee8b965f8aea941b0831c372de648f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_004
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 93
+        width: 221
+        height: 236
+      alignment: 9
+      pivot: {x: 0.46606335, y: 0.5190678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc75cc25def05f40ba41c1e63df905d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_005
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 589
+        width: 222
+        height: 233
+      alignment: 9
+      pivot: {x: 0.46846846, y: 0.52575105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742fdcd5d3cbe134795f59ba6c21ed72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_006
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1572
+        width: 232
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.5326087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b303f8e53ffdf4f9e80443fd7adc8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_007
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 111
+        width: 219
+        height: 228
+      alignment: 9
+      pivot: {x: 0.4611872, y: 0.5372807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721929ae143eea347954e52567a84e0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_008
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1818
+        width: 233
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49356222, y: 0.5349345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eafe8de7f739a043a7e28fd898d0083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_009
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 829
+        width: 227
+        height: 231
+      alignment: 9
+      pivot: {x: 0.4801762, y: 0.530303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9247e405841f14f9cc73ae4ea4cbb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_010
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 824
+        width: 222
+        height: 236
+      alignment: 9
+      pivot: {x: 0.46846846, y: 0.5190678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0350f23bc2191454ba40f6c1f69b6e2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_011
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 331
+        width: 222
+        height: 238
+      alignment: 9
+      pivot: {x: 0.46846846, y: 0.5147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a0a52cad831a84f83b56d9801440fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_012
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 341
+        width: 228
+        height: 234
+      alignment: 9
+      pivot: {x: 0.48245615, y: 0.52350426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c56cab716c9d74dac7d1028e597697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_013
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1557
+        width: 218
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4587156, y: 0.5020492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e166c2e6d394747aa0c53245e77c0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 327
+        width: 219
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4611872, y: 0.50619835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed91edcac8214264599861471bd7a748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 83
+        width: 218
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4587156, y: 0.50206614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fe64b278ba27d4b8502b38bbe8dc54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_016
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1803
+        width: 219
+        height: 244
+      alignment: 9
+      pivot: {x: 0.46575344, y: 0.5020492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651fead959e91774c9601ef8a3269a60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_017
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1558
+        width: 234
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0344ed7b7f0636f4ea6562261d3a2491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_018
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1804
+        width: 231
+        height: 243
+      alignment: 9
+      pivot: {x: 0.5021645, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d52498d71b777a4fbf98fbd01e4aa5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_019
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 84
+        width: 222
+        height: 241
+      alignment: 9
+      pivot: {x: 0.490991, y: 0.49585062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cb2d69021acef4c98cf8b62de1a104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_020
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1314
+        width: 224
+        height: 242
+      alignment: 9
+      pivot: {x: 0.50446427, y: 0.49380165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bab81052b14c3a45b604e8c55d0fc60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 571
+        width: 223
+        height: 242
+      alignment: 9
+      pivot: {x: 0.50672644, y: 0.49380165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa1f6471466a0742a708228a873afa4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_022
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1309
+        width: 221
+        height: 244
+      alignment: 9
+      pivot: {x: 0.49773756, y: 0.49795082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d1ea2fb99e7f64aac34ace4d90753c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_023
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1804
+        width: 223
+        height: 243
+      alignment: 9
+      pivot: {x: 0.49775785, y: 0.49588478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec81772e2b396264286c55f71de09c07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1061
+        width: 228
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb91e8e878321274bbe835cfc4ce67ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_025
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1062
+        width: 233
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5064378, y: 0.49795082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3ac1f1d6c2f1144b32fe3907df4158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1308
+        width: 233
+        height: 245
+      alignment: 9
+      pivot: {x: 0.50214595, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eedc04050cda4242b51eb09098108d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 815
+        width: 234
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49795082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a2d4c1906e8d345ac2908b399825e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1802
+        width: 236
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08eb52290ece99e428a6bac31b761b20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caravan-Malazan_029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1555
+        width: 236
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de7a9c7a2b69c541af7dba01c7d9b44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_000
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1288
+        width: 137
+        height: 137
+      alignment: 9
+      pivot: {x: 0.540146, y: 0.60583943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f4f8b3e505a6548bcb806f4dc54135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_001
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1854
+        width: 226
+        height: 193
+      alignment: 9
+      pivot: {x: 0.49557522, y: 0.50259066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c67e470ba8e344a87cd549f995b166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_002
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1855
+        width: 224
+        height: 192
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.5052083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff43d1e633c3db4f96be53523800933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_003
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1855
+        width: 219
+        height: 192
+      alignment: 9
+      pivot: {x: 0.47945204, y: 0.5052083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b8cd76f40721344b01bfba7456bac5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_004
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1469
+        width: 219
+        height: 191
+      alignment: 9
+      pivot: {x: 0.47945204, y: 0.5078534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2a18e1fe3e39e449611602241a9ad6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_005
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1661
+        width: 223
+        height: 192
+      alignment: 9
+      pivot: {x: 0.48878923, y: 0.5052083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4040a304c7537458a75b1d0ff86d31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_006
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 437
+        width: 226
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49557522, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87c857da1d37f04f855befd2ba2ee36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_007
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1622
+        width: 218
+        height: 194
+      alignment: 9
+      pivot: {x: 0.47706422, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d069015cbea9bea4593f1928178fcb2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_008
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1274
+        width: 218
+        height: 193
+      alignment: 9
+      pivot: {x: 0.47706422, y: 0.50259066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f08d12aaa9ef2b4f88d83e9be3cb4d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_009
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 633
+        width: 227
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49779737, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6162c120c658824aa66a62dc6d72c94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_010
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 737
+        width: 220
+        height: 194
+      alignment: 9
+      pivot: {x: 0.48636365, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80f1647d2f02c14294c2fb4818fa04c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_011
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1272
+        width: 218
+        height: 193
+      alignment: 9
+      pivot: {x: 0.48165137, y: 0.50259066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b03cb41f97e7504ab0d644dbd9b5e1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_012
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 241
+        width: 224
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4955357, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293d59511fff29b44a35a61543c56107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_013
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1622
+        width: 221
+        height: 194
+      alignment: 9
+      pivot: {x: 0.48868778, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433870ed19c896842a4ed97a58d64e2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_014
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1854
+        width: 219
+        height: 193
+      alignment: 9
+      pivot: {x: 0.48401827, y: 0.4974093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3a86880d4b85d49af775f757fa9e09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_015
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 542
+        width: 222
+        height: 193
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.4974093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3321a570c90fc36498fbf497c9edda7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_016
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1129
+        width: 223
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49327356, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7b2b54ad3e9524c934e781cc406183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_017
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1376
+        width: 223
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49327356, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b3ce41b7326fc4ebc45d634428ee74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_018
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 45
+        width: 224
+        height: 194
+      alignment: 9
+      pivot: {x: 0.50446427, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ab880d727189549b2b4984f8566416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_019
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1467
+        width: 222
+        height: 192
+      alignment: 9
+      pivot: {x: 0.509009, y: 0.5052083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6f241af609ccd46ba9842d7cb91ffd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_020
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 738
+        width: 222
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.50259066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b56cb49284d7f24b98698894b3276ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_021
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1662
+        width: 220
+        height: 191
+      alignment: 9
+      pivot: {x: 0.5181818, y: 0.5078534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b2cf1596536e94b9bbd76db69fad1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_022
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 933
+        width: 220
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5181818, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1998abc45e432ba449e1a0a1e387dbbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_023
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 985
+        width: 221
+        height: 193
+      alignment: 9
+      pivot: {x: 0.51583713, y: 0.50259066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb441ae493900b04f9f0a9f6ffc6dea4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_024
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1427
+        width: 220
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5181818, y: 0.50259066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdcde6153b11c74694d1ab7f478a5e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_025
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1180
+        width: 220
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5181818, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e4d78fbc094de4f9478f9b32603940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_026
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1231
+        width: 221
+        height: 193
+      alignment: 9
+      pivot: {x: 0.51583713, y: 0.4974093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0398bd4ea4517a640bcb0ee0ede7abd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_027
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1426
+        width: 220
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5181818, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce12932c357a5db4983ccc1696bde848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_028
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1659
+        width: 220
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5181818, y: 0.4974093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d6bc89c52afb942ac4e92e4f5187f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trailer_029
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 933
+        width: 221
+        height: 194
+      alignment: 9
+      pivot: {x: 0.51583713, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f5b43f2f782be4099ec71c50a9f308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 937f417d54dff6246843cd43eaf954be
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
