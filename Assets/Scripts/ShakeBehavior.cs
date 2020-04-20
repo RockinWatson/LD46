@@ -64,4 +64,9 @@ public class ShakeBehavior : MonoBehaviour
     {
         _shakeDuration = _shakeTime;
     }
+
+    public void TriggerShake(float shakeTime)
+    {
+        _shakeDuration = shakeTime;
+    }
 }
