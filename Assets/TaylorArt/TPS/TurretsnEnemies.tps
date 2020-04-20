@@ -132,7 +132,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename></filename>
+                <filename>../SpriteSheets/Statics/TurretsnEnemies.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -181,6 +181,35 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_000.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_001.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_002.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_003.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_004.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_005.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_006.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_007.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_008.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_009.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_010.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_011.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_012.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_013.png</key>
+            <key type="filename">../../../../ld46ART/final/Scrap/scrap_014.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>18,27,35,53</rect>
+                <key>scale9Paddings</key>
+                <rect>18,27,35,53</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">../../../../ld46ART/final/badcat1/Guncat1/GunCat1_000.png</key>
             <key type="filename">../../../../ld46ART/final/badcat1/Guncat1/GunCat1_001.png</key>
             <key type="filename">../../../../ld46ART/final/badcat1/Guncat1/GunCat1_002.png</key>
@@ -829,6 +858,7 @@
             <filename>../../../../ld46ART/final/badcat1/Guncat1</filename>
             <filename>../../../../ld46ART/final/badcat3/UFOcat</filename>
             <filename>../../../../ld46ART/final/badcat2/TankLaserCat</filename>
+            <filename>../../../../ld46ART/final/Scrap</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
