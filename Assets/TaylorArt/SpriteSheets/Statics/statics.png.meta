@@ -1,0 +1,1076 @@
+fileFormatVersion: 2
+guid: 1b851483d3ce06f498cd733c647d5a89
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: statics
+    21300002: Background-Mountain10
+    21300004: Background-Mountain11
+    21300006: Background-Road2
+    21300008: Background-Road3
+    21300010: cactusA1
+    21300012: cactusA2
+    21300014: cactusA3
+    21300016: cactusC1
+    21300018: cactusC2
+    21300020: cactusC3
+    21300022: catusB1
+    21300024: catusB2
+    21300026: catusB3
+    21300028: down-head
+    21300030: head
+    21300032: headtop
+    21300034: horizonline
+    21300036: plantA1
+    21300038: plantA2
+    21300040: plantA3
+    21300042: plantB1
+    21300044: plantB2
+    21300046: plantB3
+    21300048: rockA1
+    21300050: rockA2
+    21300052: rockA3
+    21300054: rockB1
+    21300056: rockB2
+    21300058: rockB3
+    21300060: rockC1
+    21300062: rockC2
+    21300064: rockC3
+    21300066: scraps
+    21300068: ship
+    21300070: skull1
+    21300072: skull2
+    21300074: skull3
+    21300076: trailer
+    21300078: truck
+    21300080: turret1-broke
+    21300082: turret1
+    21300084: turret2-broke
+    21300086: turret2-broke2
+    21300088: turret2
+    21300090: turret3-broke
+    21300092: turret3-broke2
+    21300094: turret3
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background-Mountain10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 16
+        width: 682
+        height: 96
+      alignment: 9
+      pivot: {x: 0.51099706, y: 0.7083333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060b7c1be59d76f4187771e1058d1350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background-Mountain11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 294
+        width: 726
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4979339, y: 0.519084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae9f4514af0e3041932c5a94780e456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background-Road2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 796
+        width: 1953
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49118942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4363d5aa153de3d4a81c30030e4f2158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background-Road3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 571
+        width: 1953
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e559139147fe16468a041f8c7b06141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cactusA1
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 232
+        width: 76
+        height: 160
+      alignment: 9
+      pivot: {x: 0.49342105, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f090c8cc955ab7408d7332dfe15ff34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cactusA2
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 399
+        width: 76
+        height: 160
+      alignment: 9
+      pivot: {x: 0.49342105, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a1ede97ef88bd4886ed316acb3cd39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cactusA3
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 237
+        width: 76
+        height: 160
+      alignment: 9
+      pivot: {x: 0.49342105, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd899e3121f53a2419c1afab7d9d205f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cactusC1
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 115
+        width: 63
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bfa38dc4653f04f9cfd0c717e3a741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cactusC2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 427
+        width: 63
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711ab7c769489184ab44018a9b251a57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cactusC3
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 427
+        width: 63
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72313762700ad441839dd4aeb48dfa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catusB1
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 246
+        width: 45
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5777778, y: 0.4903226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0e456f96367f843900807dfe649072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catusB2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 403
+        width: 45
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5777778, y: 0.49358973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfd0cb50646c374e82d8241a5eac966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catusB3
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 404
+        width: 45
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5777778, y: 0.4903226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc61cf7239157745872bf054e94d52d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down-head
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 11
+        width: 38
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d20556b6ee9c5d439131a99662f245d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: head
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 45
+        height: 70
+      alignment: 9
+      pivot: {x: 0.45555556, y: 0.5285714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089a448bdc64e97409bea1b16eedd157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: headtop
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 249
+        width: 146
+        height: 153
+      alignment: 9
+      pivot: {x: 0.50342464, y: 0.50653595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4346ebda71ab6f4d878b582686a9c8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horizonline
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 394
+        width: 235
+        height: 165
+      alignment: 9
+      pivot: {x: 0.50212765, y: 0.47575757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e4df32d4c701b429f6128c670a1a29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantA1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 123
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4915254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71befa69507fbbe4c86c5309caa32ba4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantA2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 17
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7e75fa9e9f6b5419694ae8b9e7efaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantA3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 123
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4915254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427425a9db5d14244aef6b40addcd704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantB1
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 900
+        width: 82
+        height: 123
+      alignment: 9
+      pivot: {x: 0.49390244, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e7f6c434b040149a9744913c35f337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantB2
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 436
+        width: 75
+        height: 123
+      alignment: 9
+      pivot: {x: 0.55333334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222fa89380715d34692111a0c197ecb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantB3
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 436
+        width: 73
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5684931, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dd235cd8ce38c43a776f796c216c7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockA1
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 136
+        width: 105
+        height: 91
+      alignment: 9
+      pivot: {x: 0.4904762, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6900125947f4aa14c8436c999559cf4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockA2
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 136
+        width: 106
+        height: 91
+      alignment: 9
+      pivot: {x: 0.48584905, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3e5634768996f4fb2ce7a2aa18cc2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockA3
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 22
+        width: 105
+        height: 91
+      alignment: 9
+      pivot: {x: 0.4904762, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a667bdc7a150d0b40b925a0a41a2298e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockB1
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 509
+        width: 41
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4878049, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f805eb033b3f214d9f50e90bd783a9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockB2
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 510
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4878049, y: 0.5102041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29480730241916e49ab68789bb7e4394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockB3
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 457
+        width: 41
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4878049, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a47da5fb5d3ffe4187a005e79ad15e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockC1
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 786
+        width: 82
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50446427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb3ee84e87b19f4ca8f992ae647c228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockC2
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 561
+        width: 82
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51834863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608664045cb5872489e2089c8b32cb32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockC3
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 672
+        width: 82
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50446427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed34d68a9a3d7a345845a0c215f7456a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scraps
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 472
+        width: 60
+        height: 87
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.4827586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214e1aebaae2ede439abc98c8912ff4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 229
+        width: 163
+        height: 163
+      alignment: 9
+      pivot: {x: 0.5030675, y: 0.506135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3759d8916c90c46b8426e96b3b1350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skull1
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 428
+        width: 71
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48591548, y: 0.5152672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff40453315a08f947a007b013a49a553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skull2
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 428
+        width: 71
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48591548, y: 0.5152672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8526a9d05ad27040979cd71d878825b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skull3
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 428
+        width: 71
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48591548, y: 0.5152672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00bfae9288e6f841a6b0fd7f33413da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trailer
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 118
+        width: 125
+        height: 126
+      alignment: 9
+      pivot: {x: 0.512, y: 0.4920635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd15f7ab8a19494faf5bfac567dec2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: truck
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 369
+        width: 157
+        height: 190
+      alignment: 9
+      pivot: {x: 0.50318474, y: 0.49736843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a023c35b78c55c4f8b851a7aff7fae0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret1-broke
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 134
+        width: 52
+        height: 93
+      alignment: 9
+      pivot: {x: 0.30769232, y: 0.9731183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2517aa0f24085eb40a2f88e2b7a03c15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 184
+        width: 106
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5188679, y: 0.4945355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ca15d0c3fdb414b9e82b92e350b12c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret2-broke
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 118
+        width: 59
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5084746, y: 0.9273504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21176bf8bb1245545903597c11583aba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret2-broke2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 114
+        width: 64
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5047847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cd7b2625caeb649b93ec65c468afd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 114
+        width: 64
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5047847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a9f22845b26884083757fea3481cd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret3-broke
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 101
+        height: 238
+      alignment: 9
+      pivot: {x: 0.48019803, y: 0.50840336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519d87db30311ca418a1c14ac66efcfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret3-broke2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 325
+        width: 81
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5123457, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea7059bdf4a0be42b6feb8b91276f28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 319
+        width: 92
+        height: 240
+      alignment: 9
+      pivot: {x: 0.46195653, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174fd3835ac47744bbc7d1c5b4a75d0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 525f3b6b9954ef94aabca12ab596fa39
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
