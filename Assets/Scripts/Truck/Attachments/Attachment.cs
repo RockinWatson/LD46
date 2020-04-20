@@ -8,12 +8,13 @@ public class Attachment : MonoBehaviour
 {
     [SerializeField] private float _maxHealth = 100f;
     private float _health = 100f;
+    public float GetHealth() { return _health; }
     [SerializeField] private Text _healthText = null;
     public bool IsAlive() { return _health > 0f; }
     public bool IsDead() { return _health == 0f; }
     public bool HasDamage() { return _health < _maxHealth; }
 
-    private void Start()
+    virtual protected void Start()
     {
         UpdateHealthText();
     }

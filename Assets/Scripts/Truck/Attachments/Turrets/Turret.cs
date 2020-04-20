@@ -14,6 +14,23 @@ public class Turret : Attachment
     [SerializeField] private float _attackSpeed = 3f;
     [SerializeField] private float _attackRange = 8f;
 
+    [SerializeField] private GameObject _renderer = null;
+    [SerializeField] private RuntimeAnimatorController[] _healthAnims = null;
+    [SerializeField] private Vector3[] _animOffsets = null;
+    private Animator _animator = null;
+
+    private void Awake()
+    {
+        _animator = _renderer.GetComponent<Animator>();
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+
+        UpdateHealthAnim();
+    }
+
     override public float TakeDamage(float damage)
     {
         return base.TakeDamage(damage);
@@ -21,7 +38,12 @@ public class Turret : Attachment
 
     private void Update()
     {
-        UpdateCombat();
+        if (IsAlive())
+        {
+            UpdateCombat();
+        }
+
+        UpdateHealthAnim();
     }
 
     private void UpdateCombat()
@@ -111,5 +133,38 @@ public class Turret : Attachment
         //@TODO: Setup the shell w/ target.
         Shell shell = Instantiate(_shellPrefab).GetComponent<Shell>();
         shell.SetupTarget(_fireNode, _target.gameObject);
+    }
+
+    private void UpdateHealthAnim()
+    {
+        HealthColorUtility.HealthStatus status = HealthColorUtility.GetHealthStatus(GetHealth());
+        _animator.runtimeAnimatorController = _healthAnims[(int)status];
+        _renderer.transform.localPosition = _animOffsets[(int)status];
+        //switch (status)
+        //{
+        //    case HealthColorUtility.HealthStatus.HIGH:
+        //        {
+        //            _animator.runtimeAnimatorController = _healthAnims[(int)status];
+        //        }
+        //        break;
+        //    case HealthColorUtility.HealthStatus.MEDIUM:
+        //        {
+        //            _animator.runtimeAnimatorController = _healthAnims[(int)status];
+        //            _renderer.transform.localPosition = new Vector3(-0.795f, .77f);
+        //        }
+        //        break;
+        //    case HealthColorUtility.HealthStatus.DEAD:
+        //        {
+        //            _animator.runtimeAnimatorController = _healthAnims[(int)status];
+        //        }
+        //        break;
+        //}
+    }
+
+    protected override void Die()
+    {
+        base.Die();
+
+        _target = null;
     }
 }
