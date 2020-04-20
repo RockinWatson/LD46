@@ -13,7 +13,7 @@ public class WaveTimer : MonoBehaviour
     [SerializeField] private float[] _waveTimers;
 
     [SerializeField] private Text _text = null;
-    [SerializeField] private Animator _textAnim = null;
+    [SerializeField] private Animator _textAnim;
 
     private void Start()
     {
@@ -31,22 +31,24 @@ public class WaveTimer : MonoBehaviour
 
     private void WaveActivations()
     {
-        if (_timer >= _waveTimers[0])
+        for (int i = 0; i < _waves.Length; i++)
         {
-            StartWaveText("One");
-            _waves[0].SetActive(true);
-        }
-        if (_timer >= _waveTimers[1])
-        {
-            StartWaveText("Two");
-            _waves[0].SetActive(false);
-            //TODO: Display Wave Num Text
-            _waves[1].SetActive(true);
+            if (_timer >= _waveTimers[i])
+            {
+                StartWaveText((i + 1).ToString());
+                _waves[i].SetActive(true);
+                if (i > 0)
+                {
+                    //De activate the previous Wave if not First wave.
+                    _waves[i - 1].SetActive(false);
+                }
+            }
         }
     }
 
     private void StartWaveText(string waveInt)
     {
-        _text.text = "Wave " + waveInt;  
+        _text.text = "Wave " + waveInt;
+        _textAnim.Play("fadeIn");
     }
 }
