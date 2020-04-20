@@ -3,14 +3,14 @@
 public class PlayerRenderer : MonoBehaviour
 {
     public static readonly string[] directions = {
-        //"Ani-Player-Up",
-        //"Ani-Player-UpLeft",
-        //"Ani-Player-Left",
-        //"Ani-Player-DownLeft",
-        //"Ani-Player-Down",
-        //"Ani-Player-DownRight",
-        //"Ani-Player-Right",
-        //"Ani-Player-UpRight"   
+        "Player-U",
+        "Player-UL",
+        "Player-L",
+        "Player-DL",
+        "Player-D",
+        "Player-DR",
+        "Player-R",
+        "Player-UR"
     };
 
     private Animator _animator;
