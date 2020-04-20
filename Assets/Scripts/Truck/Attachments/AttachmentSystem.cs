@@ -8,12 +8,16 @@ using System.Linq;
 public class AttachmentSystem : MonoBehaviour
 {
     private List<AttachmentSocket> _armorSockets = new List<AttachmentSocket>();
-    private List<Armor> _armors = new List<Armor>();
+    //private List<Armor> _armors = new List<Armor>();
     [SerializeField] private GameObject _armorPrefab = null;
 
     private List<AttachmentSocket> _turretSockets = new List<AttachmentSocket>();
-    private List<Turret> _turrets = new List<Turret>();
+    //private List<Turret> _turrets = new List<Turret>();
     [SerializeField] private GameObject _turretPrefab = null;
+
+    private List<AttachmentSocket> _trailerSockets = new List<AttachmentSocket>();
+    //private List<Trailer> _trailer = new List<Trailer>();
+    [SerializeField] private GameObject _trailerPrefab = null;
 
     private void Awake()
     {
@@ -30,6 +34,11 @@ public class AttachmentSystem : MonoBehaviour
                 case AttachmentSocket.SocketType.Turret:
                     {
                         _turretSockets.Add(socket);
+                    }
+                    break;
+                case AttachmentSocket.SocketType.Trailer:
+                    {
+                        _trailerSockets.Add(socket);
                     }
                     break;
                 default:
@@ -69,14 +78,19 @@ public class AttachmentSystem : MonoBehaviour
         {
             T attachment = Instantiate(attachmentPrefab).GetComponent<T>();
             int index = UnityEngine.Random.Range(0, vacantSockets.Count);
-            vacantSockets[index].SetAttachment(attachment);
-            //@TODO: Might need to subscribe to death events etc?
+            SetAttachmentToSocket(vacantSockets[index], attachment);
+        }
+    }
 
-            //Play build audio
-            if (AudioController.build.isPlaying == false)
-            {
-                AudioController.build.Play();
-            }
+    private void SetAttachmentToSocket(AttachmentSocket socket, Attachment attachment)
+    {
+        socket.SetAttachment(attachment);
+        //@TODO: Might need to subscribe to death events etc?
+
+        //Play build audio
+        if (AudioController.build.isPlaying == false)
+        {
+            AudioController.build.Play();
         }
     }
 
@@ -201,5 +215,37 @@ public class AttachmentSystem : MonoBehaviour
     private List<AttachmentSocket> GetDamagedSockets(List<AttachmentSocket> sockets)
     {
         return sockets.Where((t) => (t.HasAttachment() && t.GetAttachment().HasDamage())).ToList();
+    }
+
+    public void UpgradeTrailer()
+    {
+        AttachmentSocket trailerSocket = GetNextVacantTrailerSocket();
+        if (trailerSocket)
+        {
+            Trailer trailer = Instantiate(_trailerPrefab).GetComponent<Trailer>();
+            SetAttachmentToSocket(trailerSocket, trailer);
+
+            //@TODO: Add all the trailer's new sockets
+            foreach(AttachmentSocket turretSocket in trailer.GetTurretSockets())
+            {
+                _turretSockets.Add(turretSocket);
+            }
+            foreach(AttachmentSocket armorSocket in trailer.GetArmorSockets())
+            {
+                _armorSockets.Add(armorSocket);
+            }
+        }
+    }
+
+    private AttachmentSocket GetNextVacantTrailerSocket()
+    {
+        foreach(AttachmentSocket socket in _trailerSockets)
+        {
+            if(!socket.HasAttachment())
+            {
+                return socket;
+            }
+        }
+        return null;
     }
 }

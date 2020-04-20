@@ -66,10 +66,13 @@ public class Attachment : MonoBehaviour
 
     private void UpdateHealthText()
     {
-        _healthText.text = _health.ToString("0");
+        if (_healthText)
+        {
+            _healthText.text = _health.ToString("0");
 
-        Color healthColor = HealthColorUtility.GetHealthColor(_health);
-        //_healthText.CrossFadeColor(healthColor, 0.5f, false, false);
-        _healthText.color = healthColor;
+            Color healthColor = HealthColorUtility.GetHealthColor(_health);
+            //_healthText.CrossFadeColor(healthColor, 0.5f, false, false);
+            _healthText.color = healthColor;
+        }
     }
 }
