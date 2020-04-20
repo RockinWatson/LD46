@@ -188,8 +188,8 @@ GameObject:
   - component: {fileID: 6246011081909000193}
   - component: {fileID: 5237540204370136159}
   - component: {fileID: 114938957935873930}
-  - component: {fileID: 3726663512720300767}
   - component: {fileID: 114227169351996844}
+  - component: {fileID: 1172148644202735730}
   m_Layer: 9
   m_Name: BadCat1
   m_TagString: Enemy
@@ -296,22 +296,6 @@ MonoBehaviour:
   _target: {fileID: 1533974316527972856, guid: bc6b3cf0d7a948542a91bdf8402aeace, type: 3}
   _speed: 2
   _rangeToStop: 2
---- !u!58 &3726663512720300767
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040506117946963445}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.067197084}
-  serializedVersion: 2
-  m_Radius: 0.34476686
 --- !u!114 &114227169351996844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,3 +310,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHealth: 100
   _healthText: {fileID: 7529591974394287305}
+  _attackSpeed: 3
+  _attackDamage: 3
+--- !u!70 &1172148644202735730
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040506117946963445}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.039553314, y: -0.017579198}
+  m_Size: {x: 0.8608934, y: 0.9948416}
+  m_Direction: 0
