@@ -20,12 +20,14 @@ public class AudioController : MonoBehaviour
     public static AudioSource catExplode;
     public static AudioSource titleMusic;
     public static AudioSource startGame;
+    public static AudioSource storyMusic;
 
     [SerializeField]
     private bool globalMute;
     private Scene _activeScene;
     private bool _select() { return Input.GetKeyDown(KeyCode.Space); }
     private bool _titleIsPlaying;
+    private bool _storyIsPlaying;
 
     // Start is called before the first frame update
     void Awake()
@@ -41,6 +43,10 @@ public class AudioController : MonoBehaviour
         if ((_activeScene.name == "Title") && (_select()) && (_titleIsPlaying == true))
         {
             StartCoroutine(LoadStory());
+        }
+        if ((_activeScene.name == "Story") && (_select()) && (_storyIsPlaying == true))
+        {
+            StartCoroutine(LoadGame());
         }
     }
 
@@ -64,6 +70,7 @@ public class AudioController : MonoBehaviour
         catExplode = audio[12];
         titleMusic = audio[13];
         startGame = audio[14];
+        storyMusic = audio[15];
 
         for (int i = 0; i < audio.Length; i++)
         {
@@ -77,10 +84,20 @@ public class AudioController : MonoBehaviour
         if (_activeScene.name == "Title")
         {
             _titleIsPlaying = true;
+            _storyIsPlaying = false;
             titleMusic.volume = .9f;
-            startGame.volume = .8f;
+            startGame.volume = .55f;
             titleMusic.Play();
             titleMusic.loop = true;
+        }
+        else if (_activeScene.name == "Story")
+        {
+            _storyIsPlaying = true;
+            _titleIsPlaying = false;
+            storyMusic.volume = .9f;
+            startGame.volume = .55f;
+            storyMusic.Play();
+            storyMusic.loop = true;
         }
         else if (_activeScene.name == "GameScene" || _activeScene.name == "AudioTest")
         {
@@ -124,5 +141,14 @@ public class AudioController : MonoBehaviour
         _titleIsPlaying = false;
         yield return new WaitForSeconds(3.2f);
         SceneManager.LoadScene("Story");
+    }
+
+    IEnumerator LoadGame()
+    {
+        startGame.Play();
+        storyMusic.Stop();
+        _storyIsPlaying = false;
+        yield return new WaitForSeconds(3.2f);
+        SceneManager.LoadScene("GameScene");
     }
 }
