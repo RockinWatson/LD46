@@ -293,6 +293,7 @@ MonoBehaviour:
   _waveTimers:
   - 5
   - 30
+  _text: {fileID: 1536259439}
 --- !u!1001 &512878699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1235,7 +1236,7 @@ GameObject:
   - component: {fileID: 1536259440}
   - component: {fileID: 1536259439}
   m_Layer: 0
-  m_Name: WaveOne
+  m_Name: Wave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
