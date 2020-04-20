@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Assets.Scripts;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +13,7 @@ public class Scrap : MonoBehaviour
         if(collision.tag == "Player")
         {
             collision.GetComponent<PlayerBehavior>().AddScrap(_scrapAmount);
-
+            
             //Destroy(this.gameObject);
             this.gameObject.SetActive(false);
         }

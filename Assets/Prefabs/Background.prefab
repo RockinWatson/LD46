@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa83893b62adea34e8eb10838d885380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgSpeed: 0.08
+  bgSpeed: 0.065
   bgRend: {fileID: 7896699917046405037}
 --- !u!1 &7896699917197556662
 GameObject:
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa83893b62adea34e8eb10838d885380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgSpeed: 0.08
+  bgSpeed: 0.065
   bgRend: {fileID: 7896699917306254410}
 --- !u!114 &7896699917306254415
 MonoBehaviour:
