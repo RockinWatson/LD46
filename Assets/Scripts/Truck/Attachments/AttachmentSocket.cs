@@ -8,6 +8,8 @@ public class AttachmentSocket : MonoBehaviour
     {
         Turret = 0,
         Armor = 1,
+        Trailer = 2,
+        COUNT,
     }
     [SerializeField]
     private SocketType _socketType = SocketType.Turret;
