@@ -9,6 +9,11 @@ public class EnemyMovement : MonoBehaviour
     private bool _isAtTarget = false;
     private bool _isCollidingWithEnemy = false;
 
+    private void OnEnable()
+    {
+        _isAtTarget = false;
+    }
+
     private void Update()
     {
         IsAtTarget();
