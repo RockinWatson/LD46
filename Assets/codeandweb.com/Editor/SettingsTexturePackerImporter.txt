@@ -5,13 +5,16 @@ tpsheetFileNames:
 - Assets/TaylorArt/SpriteSheets/Statics/Caravan-Malazan.tpsheet
 - Assets/TaylorArt/SpriteSheets/Statics/Player-Leto.tpsheet
 - Assets/TaylorArt/SpriteSheets/Statics/statics.tpsheet
+- Assets/TaylorArt/SpriteSheets/Statics/TurretsnEnemies.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/TaylorArt/SpriteSheets/Statics/Caravan-Malazan.png
 - Assets/TaylorArt/SpriteSheets/Statics/Player-Leto.png
 - Assets/TaylorArt/SpriteSheets/Statics/statics.png
+- Assets/TaylorArt/SpriteSheets/Statics/TurretsnEnemies.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 

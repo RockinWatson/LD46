@@ -1,0 +1,6800 @@
+fileFormatVersion: 2
+guid: 36939a13e879dee4d815d353707add6e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TurretsnEnemies
+    21300002: bob
+    21300004: CAT-ufo_000
+    21300006: CAT-ufo_001
+    21300008: CAT-ufo_002
+    21300010: CAT-ufo_003
+    21300012: CAT-ufo_004
+    21300014: CAT-ufo_005
+    21300016: CAT-ufo_006
+    21300018: CAT-ufo_007
+    21300020: CAT-ufo_008
+    21300022: CAT-ufo_009
+    21300024: CAT-ufo_010
+    21300026: CAT-ufo_011
+    21300028: CAT-ufo_012
+    21300030: CAT-ufo_013
+    21300032: CAT-ufo_014
+    21300034: CAT-ufo_015
+    21300036: CAT-ufo_016
+    21300038: CAT-ufo_017
+    21300040: CAT-ufo_018
+    21300042: CAT-ufo_019
+    21300044: CAT-ufo_020
+    21300046: CAT-ufo_021
+    21300048: CAT-ufo_022
+    21300050: CAT-ufo_023
+    21300052: CAT-ufo_024
+    21300054: CAT-ufo_025
+    21300056: CAT-ufo_026
+    21300058: CAT-ufo_027
+    21300060: CAT-ufo_028
+    21300062: CAT-ufo_029
+    21300064: clapper
+    21300066: GunCat1_000
+    21300068: GunCat1_001
+    21300070: GunCat1_002
+    21300072: GunCat1_003
+    21300074: GunCat1_004
+    21300076: GunCat1_005
+    21300078: GunCat1_006
+    21300080: GunCat1_007
+    21300082: GunCat1_008
+    21300084: GunCat1_009
+    21300086: GunCat1_010
+    21300088: GunCat1_011
+    21300090: GunCat1_012
+    21300092: GunCat1_013
+    21300094: GunCat1_014
+    21300096: GunCat1_015
+    21300098: GunCat1_016
+    21300100: GunCat1_017
+    21300102: GunCat1_018
+    21300104: GunCat1_019
+    21300106: GunCat1_020
+    21300108: GunCat1_021
+    21300110: GunCat1_022
+    21300112: GunCat1_023
+    21300114: GunCat1_024
+    21300116: GunCat1_025
+    21300118: GunCat1_026
+    21300120: GunCat1_027
+    21300122: GunCat1_028
+    21300124: GunCat1_029
+    21300126: line
+    21300128: MelleCat1_000
+    21300130: MelleCat1_001
+    21300132: MelleCat1_002
+    21300134: MelleCat1_003
+    21300136: MelleCat1_004
+    21300138: MelleCat1_005
+    21300140: MelleCat1_006
+    21300142: MelleCat1_007
+    21300144: MelleCat1_008
+    21300146: MelleCat1_009
+    21300148: MelleCat1_010
+    21300150: MelleCat1_011
+    21300152: MelleCat1_012
+    21300154: MelleCat1_013
+    21300156: MelleCat1_014
+    21300158: MelleCat1_015
+    21300160: MelleCat1_016
+    21300162: MelleCat1_017
+    21300164: MelleCat1_018
+    21300166: MelleCat1_019
+    21300168: MelleCat1_020
+    21300170: MelleCat1_021
+    21300172: MelleCat1_022
+    21300174: MelleCat1_023
+    21300176: MelleCat1_024
+    21300178: MelleCat1_025
+    21300180: MelleCat1_026
+    21300182: MelleCat1_027
+    21300184: MelleCat1_028
+    21300186: MelleCat1_029
+    21300188: ring
+    21300190: ring2
+    21300192: ring3
+    21300194: shadow1
+    21300196: shadow2
+    21300198: shadow3
+    21300200: smoke
+    21300202: TankLazerCat_000
+    21300204: TankLazerCat_001
+    21300206: TankLazerCat_002
+    21300208: TankLazerCat_003
+    21300210: TankLazerCat_004
+    21300212: TankLazerCat_005
+    21300214: TankLazerCat_006
+    21300216: TankLazerCat_007
+    21300218: TankLazerCat_008
+    21300220: TankLazerCat_009
+    21300222: TankLazerCat_010
+    21300224: TankLazerCat_011
+    21300226: TankLazerCat_012
+    21300228: TankLazerCat_013
+    21300230: TankLazerCat_014
+    21300232: TankLazerCat_015
+    21300234: TankLazerCat_016
+    21300236: TankLazerCat_017
+    21300238: TankLazerCat_018
+    21300240: TankLazerCat_019
+    21300242: TankLazerCat_020
+    21300244: TankLazerCat_021
+    21300246: TankLazerCat_022
+    21300248: TankLazerCat_023
+    21300250: TankLazerCat_024
+    21300252: TankLazerCat_025
+    21300254: TankLazerCat_026
+    21300256: TankLazerCat_027
+    21300258: TankLazerCat_028
+    21300260: TankLazerCat_029
+    21300262: Turret-1-Turret-1_000
+    21300264: Turret-1-Turret-1_001
+    21300266: Turret-1-Turret-1_002
+    21300268: Turret-1-Turret-1_003
+    21300270: Turret-1-Turret-1_004
+    21300272: Turret-1-Turret-1_005
+    21300274: Turret-1-Turret-1_006
+    21300276: Turret-1-Turret-1_007
+    21300278: Turret-1-Turret-1_008
+    21300280: Turret-1-Turret-1_009
+    21300282: Turret-1-Turret-1_010
+    21300284: Turret-1-Turret-1_011
+    21300286: Turret-1-Turret-1_012
+    21300288: Turret-1-Turret-1_013
+    21300290: Turret-1-Turret-1_014
+    21300292: Turret-1-Turret-1_015
+    21300294: Turret-1-Turret-1_016
+    21300296: Turret-1-Turret-1_017
+    21300298: Turret-1-Turret-1_018
+    21300300: Turret-1-Turret-1_019
+    21300302: Turret-1-Turret-1_020
+    21300304: Turret-1-Turret-1_021
+    21300306: Turret-1-Turret-1_022
+    21300308: Turret-1-Turret-1_023
+    21300310: Turret-1-Turret-1_024
+    21300312: Turret-1-Turret-1_025
+    21300314: Turret-1-Turret-1_026
+    21300316: Turret-1-Turret-1_027
+    21300318: Turret-1-Turret-1_028
+    21300320: Turret-1-Turret-1_029
+    21300322: Turret-1-Turret-1_broken_000
+    21300324: Turret-1-Turret-1_broken_001
+    21300326: Turret-1-Turret-1_broken_002
+    21300328: Turret-1-Turret-1_broken_003
+    21300330: Turret-1-Turret-1_broken_004
+    21300332: Turret-1-Turret-1_broken_005
+    21300334: Turret-1-Turret-1_broken_006
+    21300336: Turret-1-Turret-1_broken_007
+    21300338: Turret-1-Turret-1_broken_008
+    21300340: Turret-1-Turret-1_broken_009
+    21300342: Turret-1-Turret-1_broken_010
+    21300344: Turret-1-Turret-1_broken_011
+    21300346: Turret-1-Turret-1_broken_012
+    21300348: Turret-1-Turret-1_broken_013
+    21300350: Turret-1-Turret-1_broken_014
+    21300352: Turret-1-Turret-1_broken_015
+    21300354: Turret-1-Turret-1_broken_016
+    21300356: Turret-1-Turret-1_broken_017
+    21300358: Turret-1-Turret-1_broken_018
+    21300360: Turret-1-Turret-1_broken_019
+    21300362: Turret-1-Turret-1_broken_020
+    21300364: Turret-1-Turret-1_broken_021
+    21300366: Turret-1-Turret-1_broken_022
+    21300368: Turret-1-Turret-1_broken_023
+    21300370: Turret-1-Turret-1_broken_024
+    21300372: Turret-1-Turret-1_broken_025
+    21300374: Turret-1-Turret-1_broken_026
+    21300376: Turret-1-Turret-1_broken_027
+    21300378: Turret-1-Turret-1_broken_028
+    21300380: Turret-1-Turret-1_broken_029
+    21300382: Turret-2-Turret-2_000
+    21300384: Turret-2-Turret-2_001
+    21300386: Turret-2-Turret-2_002
+    21300388: Turret-2-Turret-2_003
+    21300390: Turret-2-Turret-2_004
+    21300392: Turret-2-Turret-2_005
+    21300394: Turret-2-Turret-2_006
+    21300396: Turret-2-Turret-2_007
+    21300398: Turret-2-Turret-2_008
+    21300400: Turret-2-Turret-2_009
+    21300402: Turret-2-Turret-2_010
+    21300404: Turret-2-Turret-2_011
+    21300406: Turret-2-Turret-2_012
+    21300408: Turret-2-Turret-2_013
+    21300410: Turret-2-Turret-2_014
+    21300412: Turret-2-Turret-2_015
+    21300414: Turret-2-Turret-2_016
+    21300416: Turret-2-Turret-2_017
+    21300418: Turret-2-Turret-2_018
+    21300420: Turret-2-Turret-2_019
+    21300422: Turret-2-Turret-2_020
+    21300424: Turret-2-Turret-2_021
+    21300426: Turret-2-Turret-2_022
+    21300428: Turret-2-Turret-2_023
+    21300430: Turret-2-Turret-2_024
+    21300432: Turret-2-Turret-2_025
+    21300434: Turret-2-Turret-2_026
+    21300436: Turret-2-Turret-2_027
+    21300438: Turret-2-Turret-2_028
+    21300440: Turret-2-Turret-2_029
+    21300442: Turret-2-Turret-2_broken_000
+    21300444: Turret-2-Turret-2_broken_001
+    21300446: Turret-2-Turret-2_broken_002
+    21300448: Turret-2-Turret-2_broken_003
+    21300450: Turret-2-Turret-2_broken_004
+    21300452: Turret-2-Turret-2_broken_005
+    21300454: Turret-2-Turret-2_broken_006
+    21300456: Turret-2-Turret-2_broken_007
+    21300458: Turret-2-Turret-2_broken_008
+    21300460: Turret-2-Turret-2_broken_009
+    21300462: Turret-2-Turret-2_broken_010
+    21300464: Turret-2-Turret-2_broken_011
+    21300466: Turret-2-Turret-2_broken_012
+    21300468: Turret-2-Turret-2_broken_013
+    21300470: Turret-2-Turret-2_broken_014
+    21300472: Turret-2-Turret-2_broken_015
+    21300474: Turret-2-Turret-2_broken_016
+    21300476: Turret-2-Turret-2_broken_017
+    21300478: Turret-2-Turret-2_broken_018
+    21300480: Turret-2-Turret-2_broken_019
+    21300482: Turret-2-Turret-2_broken_020
+    21300484: Turret-2-Turret-2_broken_021
+    21300486: Turret-2-Turret-2_broken_022
+    21300488: Turret-2-Turret-2_broken_023
+    21300490: Turret-2-Turret-2_broken_024
+    21300492: Turret-2-Turret-2_broken_025
+    21300494: Turret-2-Turret-2_broken_026
+    21300496: Turret-2-Turret-2_broken_027
+    21300498: Turret-2-Turret-2_broken_028
+    21300500: Turret-2-Turret-2_broken_029
+    21300502: Turret-3-Turret3-Broken_000
+    21300504: Turret-3-Turret3-Broken_001
+    21300506: Turret-3-Turret3-Broken_002
+    21300508: Turret-3-Turret3-Broken_003
+    21300510: Turret-3-Turret3-Broken_004
+    21300512: Turret-3-Turret3-Broken_005
+    21300514: Turret-3-Turret3-Broken_006
+    21300516: Turret-3-Turret3-Broken_007
+    21300518: Turret-3-Turret3-Broken_008
+    21300520: Turret-3-Turret3-Broken_009
+    21300522: Turret-3-Turret3-Broken_010
+    21300524: Turret-3-Turret3-Broken_011
+    21300526: Turret-3-Turret3-Broken_012
+    21300528: Turret-3-Turret3-Broken_013
+    21300530: Turret-3-Turret3-Broken_014
+    21300532: Turret-3-Turret3-Broken_015
+    21300534: Turret-3-Turret3-Broken_016
+    21300536: Turret-3-Turret3-Broken_017
+    21300538: Turret-3-Turret3-Broken_018
+    21300540: Turret-3-Turret3-Broken_019
+    21300542: Turret-3-Turret3-Broken_020
+    21300544: Turret-3-Turret3-Broken_021
+    21300546: Turret-3-Turret3-Broken_022
+    21300548: Turret-3-Turret3-Broken_023
+    21300550: Turret-3-Turret3-Broken_024
+    21300552: Turret-3-Turret3-Broken_025
+    21300554: Turret-3-Turret3-Broken_026
+    21300556: Turret-3-Turret3-Broken_027
+    21300558: Turret-3-Turret3-Broken_028
+    21300560: Turret-3-Turret3-Broken_029
+    21300562: Turret-3-Turret3_000
+    21300564: Turret-3-Turret3_001
+    21300566: Turret-3-Turret3_002
+    21300568: Turret-3-Turret3_003
+    21300570: Turret-3-Turret3_004
+    21300572: Turret-3-Turret3_005
+    21300574: Turret-3-Turret3_006
+    21300576: Turret-3-Turret3_007
+    21300578: Turret-3-Turret3_008
+    21300580: Turret-3-Turret3_009
+    21300582: Turret-3-Turret3_010
+    21300584: Turret-3-Turret3_011
+    21300586: Turret-3-Turret3_012
+    21300588: Turret-3-Turret3_013
+    21300590: Turret-3-Turret3_014
+    21300592: Turret-3-Turret3_015
+    21300594: Turret-3-Turret3_016
+    21300596: Turret-3-Turret3_017
+    21300598: Turret-3-Turret3_018
+    21300600: Turret-3-Turret3_019
+    21300602: Turret-3-Turret3_020
+    21300604: Turret-3-Turret3_021
+    21300606: Turret-3-Turret3_022
+    21300608: Turret-3-Turret3_023
+    21300610: Turret-3-Turret3_024
+    21300612: Turret-3-Turret3_025
+    21300614: Turret-3-Turret3_026
+    21300616: Turret-3-Turret3_027
+    21300618: Turret-3-Turret3_028
+    21300620: Turret-3-Turret3_029
+    21300622: turret1-broke
+    21300624: turret1
+    21300626: turret2-broke
+    21300628: turret2-broke2
+    21300630: turret2
+    21300632: turret3-broke
+    21300634: turret3-broke2
+    21300636: turret3
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bob
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 3282
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.34375, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95df054fe77c45d4babaaaa02ed2b077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_000
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 3900
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8674d1d39058d46b2e4d008e15ebd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_001
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1581
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd918a28ec6b404593416552529cb7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_002
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1935
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7832afddd092620498cff95bb970528e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_003
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 2148
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9279c6586c8f97d49b83904621e67c01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_004
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 9
+        width: 161
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5025773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19da14d9213c8644b5c929853ff0c53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_005
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 2391
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4a40529004d0a4593f5c6a593d3cab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_006
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 2631
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8971d7ffcbaa0c24da16d77189e77008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_007
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2849
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a98873247b06bc49b3430ee440c0a0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_008
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 3062
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4616679128f54843a8077eefdd600d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_009
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 3275
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e12210f02fb1d4eb0ab61f71496ca6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_010
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 3489
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19892f648aea0594f93ca50f860972ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_011
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 3703
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c064d182d2e9847b1255a9f288dfa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_012
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 3900
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc7a58a6d824b44d9842b993e91c859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_013
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1384
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4236150140cb147a0a8939d5a93d68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_014
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1585
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935816c034553c74b92c1b663da40654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_015
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1951
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f495ec6c893d64b9e57ddc1f0bfcc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_016
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2194
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e9a506d0e0545439bb8c13645d34da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_017
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2434
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef18039f96475bc409663c1ee0307172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_018
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 2652
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad765d786bf2664296a841ff6b72677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_019
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2865
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291c1df219605544e82b039860593ca0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_020
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 3078
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4b9396a20f556439bba6e4d7e7a4d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_021
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 3292
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8375e5eb3ac0d4c4bb85507780762a7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_022
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 3506
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd5107d6484a514abf98b5e7819b1ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_023
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 3703
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1c3db88ca6a8a4c8910dbe5463a242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_024
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 3900
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02c368efdc57974898bae3ecbd4eb04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_025
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 205
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0747aa0c859d0614caf3c14cabb16176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_026
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 443
+        width: 161
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5025773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78f8702a01b57c419ee9b62ec31dea9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_027
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 670
+        width: 161
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5025773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd731e92da34dfd4ea9a53e13149ab62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_028
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 247
+        width: 161
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5025773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c42c83cc7fddb34dbec1b25edbc2951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAT-ufo_029
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 474
+        width: 161
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5025773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1baa8808099c6344a9b4e7554d9b18f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clapper
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2206
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de6c2b1f232dab478802d9ecc95214c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_000
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1731
+        width: 97
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5618557, y: 0.4798387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75c38831bad74246b34b393cbb1c9dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_001
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1733
+        width: 115
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49224806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7b9c46f5b40554f998fa75177aee3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_002
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 772
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e2ffb0b785ea8478d04fb37c6f15b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_003
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1119
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bbfc4cd38dd67459ee927eadbdbe1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_004
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1318
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d536a5f6540804fad90eecc7949209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_005
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1500
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbaf2fc400fb914c8292e6aae81ed57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_006
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 1697
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76017ce71cc590a47ba472afdd3e99e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_007
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1937
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc32e5f7870777746a01634916b90e2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_008
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 2155
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115bfd562b94ac64c922415acf4e5989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_009
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 2368
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2c24ea68836964da940b7b25cc6717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_010
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 2627
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b68fb53d22a95498bbffe9cc806144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_011
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 2841
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3583d79493012041a5186bb643275b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_012
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 3055
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c61124a909eb4489a53167294ad760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_013
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 3252
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e0f4c125a1fbf41aafe86473d11fd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_014
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3449
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4121ab8ef6fc8cf479a8a3044f1836ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_015
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 3631
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ee757e87f73394686ab29cd8651e12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_016
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 3828
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0f3e318c3c1b94b9db19cdb3994bc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_017
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 3964
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b715ac7471f6f4d46b07e1abfc7caabb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_018
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1185
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b78987488da6a549ad293134c59f023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_019
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1052
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a99bd3160836d47948cbdec52cc3b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_020
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 919
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509759c5438835441ae76b519d073ff3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_021
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 1367
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c13e66539cad147bf1527f3bfcaf4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_022
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 1564
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e48bd4e8bc4ec24dacdd78de0c1bb10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_023
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 786
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1128fc02e4edc9145b564665e40de811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_024
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 653
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c002ddd1eab91c74a837e9098479117e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_025
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 520
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe72b8a5124286438f288e06993ef80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_026
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 387
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e796eae2f71299459559e09bbd67d7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_027
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 254
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea3438887669904aa92f9c5ad385437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_028
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1804
+        width: 115
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd59f1184805ab4a8622a255d2a4753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunCat1_029
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 2023
+        width: 115
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49615383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e2485c0beafaa4083bc773c90d7a70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: line
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 3280
+        width: 26
+        height: 18
+      alignment: 9
+      pivot: {x: 0.42307693, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc324c6adf65fbf4d8361c3bd1720dd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_000
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1733
+        width: 108
+        height: 122
+      alignment: 9
+      pivot: {x: 0.7407407, y: 0.50409836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd7322fe1d5bf84fae72a44f2cbea24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_001
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 76
+        width: 134
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5895522, y: 0.49626866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a74eebdf15e7745bbb27ae5110b927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_002
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 404
+        width: 137
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5839416, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb53852c6d50a67459919f9c74064ed5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_003
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 298
+        width: 142
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e341bce0dca63b4483200e6d7c46bde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_004
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 3961
+        width: 139
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5755396, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0274b3648f81b4b419150fd48e60bf80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_005
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 212
+        width: 139
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5755396, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d645c9b6dd60941bd725ff9d7e2406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_006
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1
+        width: 140
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5152672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e19200fa720d94e8cacfd9c2aa8e6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_007
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1782
+        width: 142
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b8cf25fced5cf4eb74892ac8b2ff92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_008
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 163
+        width: 142
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5db28d2228077478acabd03115f437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_009
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 298
+        width: 146
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5479452, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1093beaefa0f0d498c3c98afeee408f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_010
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 433
+        width: 152
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c839b3395fb39394ebc2ca6286637781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_011
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 568
+        width: 154
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5194805, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5042a2b28f2744cbfc73f258404f39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_012
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 134
+        width: 155
+        height: 133
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4078978bd1e69a0469c1c91e3c9626fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_013
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 269
+        width: 157
+        height: 133
+      alignment: 9
+      pivot: {x: 0.50955415, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f83a09799e54d4b963b0cc0ea135d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_014
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 77
+        width: 159
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5031447, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd96c4b8f58e5c84bb24c3c94a0a98ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_015
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1
+        width: 150
+        height: 131
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.5152672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1888eb7230b89b047a43cad130e2c7e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_016
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1778
+        width: 159
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5031447, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbc797dea7981948b77f45ecd101333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_017
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1815
+        width: 159
+        height: 134
+      alignment: 9
+      pivot: {x: 0.49685535, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbc019b1f3d16f46a0a762115c90789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_018
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 2974
+        width: 152
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1ae969c734cf642a6dd66f9668c7fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_019
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 3385
+        width: 151
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5231788, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ced440b47283449b3d9ea74ca4500b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_020
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 2760
+        width: 153
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5163399, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884abb1982ab73445afc75fe94ecd707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_021
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 3582
+        width: 151
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5231788, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5eac8af5c85a1e44a640d094cd36a73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_022
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 3764
+        width: 151
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5231788, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de60dd1ccbc0ff4c815d5ce0ad03e25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_023
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 3188
+        width: 152
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.50373137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0321585867fa54f4cb29ea436dbb738c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_024
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 703
+        width: 155
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5096774, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0ffa68ebf0bfe4db2c2484c014f1cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_025
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 568
+        width: 152
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5197368, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5243cb92f4dde724ebcc9e590de469d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_026
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 433
+        width: 145
+        height: 133
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5e3f06b3129d74d8e6e26f25fc0547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_027
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 905
+        width: 141
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5673759, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798a3e25df9878f4d9e78f17bc507f28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_028
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 28
+        width: 137
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5839416, y: 0.50751877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7fed8550d37ad4c9878dfba75af3ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MelleCat1_029
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1798
+        width: 136
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b93b33aa45c8a54a9956361b4be9a6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ring
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2734
+        width: 101
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb7b6976d293c34a9942f2af65ebefc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ring2
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 7
+        width: 73
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5067af6efb1481479790d69b5ce7ae1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ring3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2499
+        width: 71
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.527027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9f70afdc634384e8943b496eaa5c85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2498
+        width: 42
+        height: 38
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.47368422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce042eb545f105245b4c7d4a15c2770c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2509
+        width: 62
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5080645, y: 0.5277778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539fdc67cb7ee8a4393566d2278f1d63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2204
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.61290324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38346dbf487b0fa4995962a5831de402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3301
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ce3c73d1dbe2d42a6453b0f516efab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_000
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2145
+        width: 197
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8534dc5588adb364d9e4edaf22770eee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_001
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1074
+        width: 198
+        height: 216
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d32b1962972b549bf22f70f2c52e17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_002
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 856
+        width: 198
+        height: 216
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4767976bb836d564f9bc7ff7cb26dc17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_003
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1068
+        width: 198
+        height: 218
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.49541286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff9cc737792d2b4e9d55d56059a2bb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_004
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1083
+        width: 198
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93fc1412cd69b448ae2a1ae77bcc03e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_005
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 866
+        width: 198
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f0ca765fd647d478c91bad683a1864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_006
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 2174
+        width: 198
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d55f82640c67b4baf475f6e45c81f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_007
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1957
+        width: 198
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcf080240bbcb344bce200e1239069b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_008
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 2974
+        width: 198
+        height: 213
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.48356807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7413dadd43af8b4ab16175b9e8ae76d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_009
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 3881
+        width: 198
+        height: 214
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.48598132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4956db5e547aa3b4687d39929869a392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_010
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2493
+        width: 197
+        height: 214
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.48598132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a64d981923c9d4cb93823611756447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_011
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 3168
+        width: 197
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e5a1f6ddb516b4db9117ffc6cee759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_012
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1740
+        width: 198
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9393c98edf11164796601ce7165fdda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_013
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 2391
+        width: 196
+        height: 216
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2720e84fb86dc2d44817e5ccc28fbc6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_014
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3406
+        width: 197
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbfb5b4cc38688448945a4d950b13d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_015
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1928
+        width: 199
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb2fed0793dcb34fa4ca4c84df96f59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_016
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1517
+        width: 199
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd0218938baca245aeb1a6ef53e859c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_017
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 639
+        width: 200
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6363e109a1e20254f9ae72de83ed67d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_018
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 3646
+        width: 197
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b9c4303b4818147918a72de22621ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_019
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 3880
+        width: 197
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ee80a313ad228479067f37ca034bb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_020
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1523
+        width: 198
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2ea9d03a73642488823f6f8d7cc339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_021
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1306
+        width: 198
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81234c334fdc14e4b8a80652a4e7be50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_022
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1089
+        width: 198
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cc7b7474a4a734f9810c2c4d499478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_023
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 2709
+        width: 197
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4094335603205ad40a3feb0594407951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_024
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1300
+        width: 199
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2977aab9deed2c04baa4393e38086503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_025
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 2951
+        width: 197
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4586eb664a4d1384ebac7f8a29273b31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_026
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 2926
+        width: 198
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0232bc3d126bb834da3c5d1020f36fe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_027
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 3189
+        width: 197
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5eb0d08dab0a541bcf6d0f28fde182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_028
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 3429
+        width: 197
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c58f81b6db06564aa89552e824f7ae2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankLazerCat_029
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2363
+        width: 197
+        height: 217
+      alignment: 9
+      pivot: {x: 0.49238577, y: 0.49308756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a2a232435b85b4cb1cbb2f7a980647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_000
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 3578
+        width: 106
+        height: 245
+      alignment: 9
+      pivot: {x: 0.45754716, y: 0.5857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528b667f4a5c47849bd8c481fef3914e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_001
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 3850
+        width: 106
+        height: 245
+      alignment: 9
+      pivot: {x: 0.45754716, y: 0.5857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44caf81e484a1694d8c776b2288ab6f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_002
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 3300
+        width: 113
+        height: 246
+      alignment: 9
+      pivot: {x: 0.49115044, y: 0.5833333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f8f72dd61dd884eb9bc07a594db2fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_003
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 3608
+        width: 114
+        height: 240
+      alignment: 9
+      pivot: {x: 0.50438595, y: 0.59791666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bb39973cf3b004780b1f55475cdd9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1958
+        width: 111
+        height: 244
+      alignment: 9
+      pivot: {x: 0.490991, y: 0.58811474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6b1b3ad1b247e4296c227c276d984c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_005
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 3336
+        width: 115
+        height: 240
+      alignment: 9
+      pivot: {x: 0.50869566, y: 0.59791666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee5132f8a1bfa741a1c620d28e56b44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_006
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2781
+        width: 115
+        height: 247
+      alignment: 9
+      pivot: {x: 0.4304348, y: 0.58097166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47fc197876235f48a8aa68b7bf81ea8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_007
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 3058
+        width: 128
+        height: 240
+      alignment: 9
+      pivot: {x: 0.48828125, y: 0.59791666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676c0e05ad2c9f44987ae15267b5e120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_008
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2816
+        width: 118
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5127119, y: 0.59791666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fa97dd003f85546a7906d5638349ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_009
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2258
+        width: 115
+        height: 239
+      alignment: 9
+      pivot: {x: 0.526087, y: 0.6004184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf2a4ac3aa816e4aa35deeed3ff9160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_010
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 3619
+        width: 114
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5219298, y: 0.6080508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da7aab9ef3de2c4e9e971df116d10d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1231
+        width: 114
+        height: 235
+      alignment: 9
+      pivot: {x: 0.5219298, y: 0.6106383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aac7b2ca202f34fab4b687cf5ed936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_012
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 3377
+        width: 112
+        height: 237
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.60548526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807b4b92ba10b824784c4e3a954f1b95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_013
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1714
+        width: 107
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4906542, y: 0.5929752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d90413c7bcc384bb003e284813205d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1468
+        width: 109
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5929752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193563809e042e645aaf1dd3d6866512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_015
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 3031
+        width: 113
+        height: 247
+      alignment: 9
+      pivot: {x: 0.49115044, y: 0.58097166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdb00eed1e3fe8409a19b7675c0e4fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_016
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2480
+        width: 112
+        height: 250
+      alignment: 9
+      pivot: {x: 0.47767857, y: 0.574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba270574818ba374eb677793f7d70906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2204
+        width: 112
+        height: 260
+      alignment: 9
+      pivot: {x: 0.48660713, y: 0.5519231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf9c056f0f208d45b9bcbfe04b83f19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_018
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 3280
+        width: 113
+        height: 266
+      alignment: 9
+      pivot: {x: 0.46460176, y: 0.5394737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b4e5894a91a684490161d43db86d0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2466
+        width: 110
+        height: 264
+      alignment: 9
+      pivot: {x: 0.45909092, y: 0.5435606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edb2345e7921c5409431da75343ea5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_020
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3825
+        width: 120
+        height: 270
+      alignment: 9
+      pivot: {x: 0.52916664, y: 0.5314815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a842b941ed60204409d389a00e876508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_021
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 3548
+        width: 123
+        height: 271
+      alignment: 9
+      pivot: {x: 0.49186993, y: 0.5295203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4618bb1ed5f59e541bcd932a8f580213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3545
+        width: 117
+        height: 274
+      alignment: 9
+      pivot: {x: 0.508547, y: 0.52372265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bef14fe16f4d544acd85ebfc6623eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3821
+        width: 129
+        height: 274
+      alignment: 9
+      pivot: {x: 0.5387597, y: 0.52372265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cef733e37c79b445b2eeebff9fcf3d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3270
+        width: 119
+        height: 273
+      alignment: 9
+      pivot: {x: 0.49159664, y: 0.525641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7f1c9f90360ea428a3ed0db916430a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2999
+        width: 121
+        height: 269
+      alignment: 9
+      pivot: {x: 0.45041323, y: 0.5334572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7067062045ffe054b850a28994921d85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2732
+        width: 121
+        height: 265
+      alignment: 9
+      pivot: {x: 0.42561984, y: 0.54150945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca416799d62dab741922200b483ce82e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_027
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3030
+        width: 110
+        height: 248
+      alignment: 9
+      pivot: {x: 0.46818182, y: 0.578629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305c2c5eec508254197fe44544bd2cb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1712
+        width: 108
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4861111, y: 0.58811474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5e66d207af071499e9cf321db56160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_029
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2538
+        width: 105
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5095238, y: 0.5954357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d95292834d3dd4aa66496ede271e7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_000
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 61
+        width: 105
+        height: 232
+      alignment: 9
+      pivot: {x: -0.25714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586e901bdecf70d459095522c3478061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_001
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1025
+        width: 118
+        height: 232
+      alignment: 9
+      pivot: {x: -0.12711865, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78335d8cf1f0dc458197d4d0235fd48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_002
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 778
+        width: 127
+        height: 232
+      alignment: 9
+      pivot: {x: -0.03937008, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163df76917c59a540b1ca52c00711305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_003
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1259
+        width: 137
+        height: 232
+      alignment: 9
+      pivot: {x: 0.02919708, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538b0669a65445e489bd8adaf658eaeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_004
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1012
+        width: 139
+        height: 232
+      alignment: 9
+      pivot: {x: 0.043165468, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dec24978e941a4c81b1afdf448baa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_005
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 776
+        width: 140
+        height: 232
+      alignment: 9
+      pivot: {x: 0.05, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bee2f6d1e3943f4196a1bb089405073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_006
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1246
+        width: 146
+        height: 232
+      alignment: 9
+      pivot: {x: 0.0890411, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a94f1736417bd243b395d97880f74b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_007
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1493
+        width: 146
+        height: 232
+      alignment: 9
+      pivot: {x: 0.0890411, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb4403a079f5cb43baddef6725a75e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_008
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1010
+        width: 150
+        height: 232
+      alignment: 9
+      pivot: {x: 0.11333334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cdc841d32b2c04c85b7107697ab31b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_009
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 529
+        width: 158
+        height: 232
+      alignment: 9
+      pivot: {x: 0.15822785, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522a6355738de364c996d8881cf8016f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_010
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 529
+        width: 154
+        height: 232
+      alignment: 9
+      pivot: {x: 0.13636364, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6e1fda5aefa1a4fa58fddd89f2ff47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_011
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 763
+        width: 157
+        height: 232
+      alignment: 9
+      pivot: {x: 0.15286624, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039a048078c987743b050da927fb3aaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_012
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 295
+        width: 162
+        height: 232
+      alignment: 9
+      pivot: {x: 0.17901234, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226860f66f8a81f43a7ff4e617bcb27c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_013
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 61
+        width: 165
+        height: 232
+      alignment: 9
+      pivot: {x: 0.19393939, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca53cb6dd739964fba03d65852af76a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 169
+        height: 232
+      alignment: 9
+      pivot: {x: 0.21893491, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b7dc05ace2b214183bfda28159a198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 295
+        width: 178
+        height: 232
+      alignment: 9
+      pivot: {x: 0.25842696, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075e99d5bfc8a5d4f900048914189cd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 529
+        width: 180
+        height: 232
+      alignment: 9
+      pivot: {x: 0.26666668, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca81ea5686622b24babdc56a68aa0ce6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_017
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 3863
+        width: 197
+        height: 232
+      alignment: 9
+      pivot: {x: 0.32994923, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10a1c88cb5dada46a72c6fe1cb49781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 763
+        width: 192
+        height: 232
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9941275d60852a74aab78d5cda5a849f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_019
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 3385
+        width: 208
+        height: 232
+      alignment: 9
+      pivot: {x: 0.3653846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e508a55e3c009e479acadca63dd80e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_020
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 3623
+        width: 204
+        height: 232
+      alignment: 9
+      pivot: {x: 0.3529412, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f184946d76c10ad4397a73c9c0944808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_021
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 3143
+        width: 218
+        height: 232
+      alignment: 9
+      pivot: {x: 0.39449543, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3929dde47ab631f4981826146ec82758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_022
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2582
+        width: 221
+        height: 232
+      alignment: 9
+      pivot: {x: 0.40271494, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f7f457e3fd1284fbf51fd7d047af25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_023
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2828
+        width: 219
+        height: 232
+      alignment: 9
+      pivot: {x: 0.39726028, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53691e40e1a1da94c8bdfc218d334cc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_024
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2024
+        width: 224
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4107143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f393ee39d7371b48a0ad996b8d55e54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_025
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1480
+        width: 233
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4334764, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6d418c6e86e18438204be5cce3ef7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_026
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1727
+        width: 233
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4334764, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269efefba73860e47be3584c208ff177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 997
+        width: 244
+        height: 232
+      alignment: 9
+      pivot: {x: 0.45491803, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8952f9f706380654e8a212dddce810ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_028
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2313
+        width: 224
+        height: 232
+      alignment: 9
+      pivot: {x: 0.41964287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa38606b61269494ba46f0760bbc0b37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-1-Turret-1_broken_029
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1244
+        width: 241
+        height: 232
+      alignment: 9
+      pivot: {x: 0.46058092, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bd0851900628e489c4b6f4f056484f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_000
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 3451
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63370741a531384469b769bf7a7f344f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_001
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 3669
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67f7131f7f56444db3cf629713baedf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_002
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 3885
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6057c02526a14814687fb490aa52f99b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_003
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 3457
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd49ca2a7ddff4147bc0847836d7025f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_004
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3673
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dcac135d37f74459c9bda720e9cc6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_005
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 3885
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54024514fe69bc45bb70b79cbb14a60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_006
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2762
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939a93841b1630c4d9af0fe04bb45387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_007
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2281
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7b6815e81c65d46be81439e0aa0aad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_008
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2069
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6922032df851e93418e0714fa414bcb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_009
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2281
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f263f80a3db3a2d4c927dae70393aa65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_010
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 2550
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e008ba9e235ae44aad60e595eef5c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_011
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 2762
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8638432f03132da448c1ac21baa5b3a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_012
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 2069
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b87c07c54660df429f98a959ee412ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_013
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 2338
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546331567716e0c4ebfc863c1dad342f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_014
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2550
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c573d662a9172f4e80d52f7711e3e4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_015
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2762
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1926f96ff58cb4983f3109f44aaca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_016
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 3005
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5479d186389f83498b7cdc75b8def9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_017
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3245
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d3e38cdb6b765469b285e51a0654a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_018
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 3461
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637751928c38fe042939798c88faac32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_019
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 3673
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d722fa97faa923428e36b299c4be9c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_020
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 3885
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47292d7ce2365744b9732c689ecf6586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_021
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1857
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be9760928460024682784d82d4bcdbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_022
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 2126
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67babc89ed9beb64886cf40954a414d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_023
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 2338
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dca0be94bb8684aae5388933fda6fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_024
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 2550
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ec7bafc3808844682b3ba0a0968041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_025
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 2793
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bd6a1068c6e4342902358b35fd6665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_026
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 3033
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffaed1fa22f0e94280d00677373580e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_027
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 3249
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbecdb9bf77b4b48a01f4bf3e520bbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_028
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 3461
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4715c9cc77e3448aeff641ee52fad6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_029
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 3673
+        width: 73
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a571d4357de7e54f8601c00995eed21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_000
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 402
+        width: 81
+        height: 216
+      alignment: 9
+      pivot: {x: -0.34567901, y: 0.5578704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3766e336d2ec743becddebc29327d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_001
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 849
+        width: 82
+        height: 217
+      alignment: 9
+      pivot: {x: -0.34146342, y: 0.5552995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b51cfa3529aad04bbd84295eafc9a1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_002
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1795
+        width: 81
+        height: 227
+      alignment: 9
+      pivot: {x: -0.3580247, y: 0.530837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5d59b15af3f6b489856feda8d677ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_003
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2084
+        width: 76
+        height: 227
+      alignment: 9
+      pivot: {x: -0.4473684, y: 0.530837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e8cf508a308254298bb47cdd359e85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_004
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 65
+        width: 82
+        height: 230
+      alignment: 9
+      pivot: {x: -0.34146342, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebc2b3e0f79ac24ababffff26469983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_005
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 315
+        width: 88
+        height: 229
+      alignment: 9
+      pivot: {x: -0.25, y: 0.5262009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ec8044b8eedaa459e4858dddc73703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_006
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 546
+        width: 96
+        height: 230
+      alignment: 9
+      pivot: {x: -0.14583333, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b822e3c9d43514142bcfeafad938b8c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_007
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1505
+        width: 105
+        height: 224
+      alignment: 9
+      pivot: {x: -0.03809524, y: 0.5379464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26395b49a131b944d9d16340f0e66816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_008
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1857
+        width: 104
+        height: 225
+      alignment: 9
+      pivot: {x: -0.048076924, y: 0.53555554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad767061171e2b48acb771e20337ecb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_009
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2087
+        width: 109
+        height: 224
+      alignment: 9
+      pivot: {x: 0, y: 0.5379464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7eb54f4366a77499b377f2c674d34d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_010
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 112
+        width: 110
+        height: 225
+      alignment: 9
+      pivot: {x: 0.009090909, y: 0.53555554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024d5d15e5c03fc48ba664026d94466b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_011
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 839
+        width: 133
+        height: 219
+      alignment: 9
+      pivot: {x: 0.18045112, y: 0.5502283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2273b93cb879a764880f70230d1fcce2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_012
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1864
+        width: 145
+        height: 221
+      alignment: 9
+      pivot: {x: 0.24827586, y: 0.54524887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f80b5b0002cbc740b5ec791a57ae2c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_013
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1510
+        width: 137
+        height: 221
+      alignment: 9
+      pivot: {x: 0.1970803, y: 0.54524887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3f59f9533a03d4284a4c0719dadd45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_014
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 566
+        width: 146
+        height: 227
+      alignment: 9
+      pivot: {x: 0.24657534, y: 0.530837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d99e9b2cd0af24592d54943c519c70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_015
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 3857
+        width: 148
+        height: 238
+      alignment: 9
+      pivot: {x: 0.25675675, y: 0.50630254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e69855a97f95347a997f324c3ac671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_016
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 3062
+        width: 153
+        height: 237
+      alignment: 9
+      pivot: {x: 0.28104576, y: 0.5084388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d213f0e14c3906a4080f85f5131c2964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_017
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 795
+        width: 158
+        height: 228
+      alignment: 9
+      pivot: {x: 0.30379745, y: 0.5285088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da68c4b4ffd89a74c8a2456ec9445409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_018
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 548
+        width: 168
+        height: 228
+      alignment: 9
+      pivot: {x: 0.3452381, y: 0.5285088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6836b7eda06dfe49a54a91b1b1fbcd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_019
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2547
+        width: 174
+        height: 240
+      alignment: 9
+      pivot: {x: 0.3678161, y: 0.50208336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7dade518801a443b7e1912f049a08e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_020
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2789
+        width: 180
+        height: 240
+      alignment: 9
+      pivot: {x: 0.3888889, y: 0.50208336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd924c96854ecf84d809d55c55cead8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_021
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2237
+        width: 184
+        height: 241
+      alignment: 9
+      pivot: {x: 0.4021739, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686d5c453b33b0a4b888286274237699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_022
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1961
+        width: 192
+        height: 241
+      alignment: 9
+      pivot: {x: 0.42708334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86784985c55445479d82db80b254b14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_023
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3616
+        width: 194
+        height: 238
+      alignment: 9
+      pivot: {x: 0.4329897, y: 0.50630254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bb138b8e3184b48a826f9e116e7cd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_024
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 3856
+        width: 196
+        height: 239
+      alignment: 9
+      pivot: {x: 0.44387755, y: 0.5041841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4824673d56148b54aa5faee95ea6a703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_025
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 66
+        width: 190
+        height: 229
+      alignment: 9
+      pivot: {x: 0.42631578, y: 0.5262009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146ccb0629430b146aed2e3bbac1035c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_026
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 297
+        width: 197
+        height: 230
+      alignment: 9
+      pivot: {x: 0.4467005, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1060d1520e7586840bc45904975eb0e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_027
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 339
+        width: 199
+        height: 225
+      alignment: 9
+      pivot: {x: 0.4522613, y: 0.53555554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bd92df5641dd343a780651ec08cbb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_028
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 91
+        width: 199
+        height: 226
+      alignment: 9
+      pivot: {x: 0.4522613, y: 0.53318584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665322522d615074db1ed61eca2a81dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-2-Turret-2_broken_029
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 319
+        width: 192
+        height: 227
+      alignment: 9
+      pivot: {x: 0.43229166, y: 0.530837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a42290d90ca7b842b84a91c037cf131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_000
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 58
+        width: 101
+        height: 187
+      alignment: 9
+      pivot: {x: 0.2029703, y: 0.59090906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70088fcb5f4bcb48bd1d9ae0bbfb320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_001
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 898
+        width: 104
+        height: 189
+      alignment: 9
+      pivot: {x: 0.19711539, y: 0.58465606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18f0fddf406f2e4da722ffd12ad4703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_002
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 60
+        width: 107
+        height: 185
+      alignment: 9
+      pivot: {x: 0.20093457, y: 0.5972973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823aa7f7275f885429b6dc8f5f95dc5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_003
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 287
+        width: 105
+        height: 185
+      alignment: 9
+      pivot: {x: 0.1952381, y: 0.5972973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61865541469fb1549877f660cb884e6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_004
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 302
+        width: 101
+        height: 183
+      alignment: 9
+      pivot: {x: 0.2029703, y: 0.60382515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7068b7333254a4b9ddf8985c2bc99c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_005
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 102
+        width: 102
+        height: 183
+      alignment: 9
+      pivot: {x: 0.2009804, y: 0.60382515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fff572cf8f2584298ef34242e1dd0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_006
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 487
+        width: 101
+        height: 184
+      alignment: 9
+      pivot: {x: 0.2029703, y: 0.6005435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5084a368d5e7498418d79c4cf6ba5b7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_007
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 712
+        width: 101
+        height: 184
+      alignment: 9
+      pivot: {x: 0.2029703, y: 0.6005435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b61217830f5f641a85858dfc2de19c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_008
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1734
+        width: 100
+        height: 192
+      alignment: 9
+      pivot: {x: 0.195, y: 0.5755208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b13b51dbf9ba814da9d9d30e279272f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_009
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 673
+        width: 100
+        height: 191
+      alignment: 9
+      pivot: {x: 0.195, y: 0.578534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d2622fe3e39994f859493b6f46d5da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_010
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1734
+        width: 100
+        height: 192
+      alignment: 9
+      pivot: {x: 0.195, y: 0.5755208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ecbd2ae0759ec4183216d5351f079c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_011
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 3686
+        width: 100
+        height: 198
+      alignment: 9
+      pivot: {x: 0.195, y: 0.5580808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce8932c06ce85c479c569bde9892858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_012
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 3046
+        width: 100
+        height: 201
+      alignment: 9
+      pivot: {x: 0.195, y: 0.5497512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e941a5a1238f64e99c06aae9c0a57f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_013
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 3472
+        width: 101
+        height: 199
+      alignment: 9
+      pivot: {x: 0.2029703, y: 0.5552764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb09d04c1e5d4b4d94017fd659fbb36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_014
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 3259
+        width: 109
+        height: 200
+      alignment: 9
+      pivot: {x: 0.2614679, y: 0.5525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a973d21ff060d48a8ab2206e4a814c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_015
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2828
+        width: 104
+        height: 203
+      alignment: 9
+      pivot: {x: 0.21634616, y: 0.54433495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee5c367b6aefd64e888c360562051a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_016
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1919
+        width: 107
+        height: 205
+      alignment: 9
+      pivot: {x: 0.23831776, y: 0.5390244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c98744eddc39b44b858d422b0a211c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_017
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 2588
+        width: 111
+        height: 203
+      alignment: 9
+      pivot: {x: 0.27477476, y: 0.54433495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653da2da3c5b9da41b5e28df538e6cbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_018
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2132
+        width: 115
+        height: 204
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff90a740d7af3146852d7a6910ecc83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_019
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 620
+        width: 119
+        height: 217
+      alignment: 9
+      pivot: {x: 0.31512606, y: 0.5092166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b5dbbbfdb19b442bcfd64463f1f5f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_020
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 2735
+        width: 121
+        height: 214
+      alignment: 9
+      pivot: {x: 0.3264463, y: 0.51635516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e51a83b16257b42a40b11743b1e295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_021
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1288
+        width: 120
+        height: 220
+      alignment: 9
+      pivot: {x: 0.32916668, y: 0.5022727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd81093d5bb36e41907653aa07982d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_022
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1060
+        width: 127
+        height: 220
+      alignment: 9
+      pivot: {x: 0.35826772, y: 0.5022727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6c6f9fcee4d4142bf1201e67e0a73a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_023
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1292
+        width: 142
+        height: 218
+      alignment: 9
+      pivot: {x: 0.42605633, y: 0.50688076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485034f2bca9efd4e898e95d09c2706d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_024
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1282
+        width: 139
+        height: 221
+      alignment: 9
+      pivot: {x: 0.41366908, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6724fbb4a7c2eab41a3963c93d95c57f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_025
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 3663
+        width: 145
+        height: 215
+      alignment: 9
+      pivot: {x: 0.43793103, y: 0.5139535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73305000b64dd714cb53a9ad9c3b79c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_026
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1512
+        width: 146
+        height: 219
+      alignment: 9
+      pivot: {x: 0.44863012, y: 0.5045662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6863358d0b80044a79b14141518f8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_027
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 2609
+        width: 143
+        height: 217
+      alignment: 9
+      pivot: {x: 0.43706295, y: 0.5092166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a39000b494fb9a4ca7655b2a87640df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_028
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 3217
+        width: 144
+        height: 210
+      alignment: 9
+      pivot: {x: 0.4340278, y: 0.52619046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f1301145f4c124eae30a1bd3a03206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3-Broken_029
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 2345
+        width: 153
+        height: 203
+      alignment: 9
+      pivot: {x: 0.4738562, y: 0.54433495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c27c9096413d242aa61a3bf62a6e57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_000
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 2288
+        width: 101
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5049505, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da27d9d86852e6478816b965d5643c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_001
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 530
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1431f6766e7084c839be12effef0b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_002
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 722
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4d2dc7e023f2840a0beeda58bccdce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_003
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1202
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e506a9725160aa74eb5aab2bec2b294d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_004
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1403
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb59fd5a4da57c4bafccc55c7346bf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_005
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1616
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad54d2d6a59ba0d49ab6a03835b2369a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_006
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 2012
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a406f167349ec4aa50c3b9d47aa8e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_007
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 2252
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebdd90fa73aeab49983f4a6e79a316f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_008
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 2470
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead04cf762405984280d054afab00d66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_009
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2683
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ba635c0488cea438446065785b180d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_010
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 2896
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30e4901aa217ad40bb2c80714f57952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_011
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 2501
+        width: 100
+        height: 180
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd0714040df7a542932866524dbf39a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_012
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 3110
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2d996bfd42907459778361cdadc8d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_013
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 3324
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b556d4cfe47799a4990bf16f6a073b24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_014
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 3521
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961242ed225b2644eb8dc11b5fb1dbdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_015
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 3718
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246075d9673f89d4597c21bbb61cb282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_016
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1020
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273d9f5d9df334e4a81818ad59b21328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_017
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1221
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb293e4a83a92b48af4c7d915f2edb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_018
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1434
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af0235dc5336e54c9308322bf5242e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_019
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1633
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da573aa8c3a96849a02045c7485f20f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_020
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 120
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b360822b22491946bc69ba3c2cc095c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_021
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 348
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06864a2b99058eb4a9225781ff9d0b0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_022
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 540
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6c041892afdad41ac958ae890409d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_023
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 838
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0355c6b16d31206498d5f53d521edfd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_024
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1039
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b266c93f59390468c72583a264aa43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_025
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1252
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90c1da85ab921549bab5b9697e4c38c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_026
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1451
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb673ec1593820498b9765b9291df65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_027
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1633
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e293c9a6407bf48b05f116f3b8cb40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_028
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 1830
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1054f6b22f1bde14990ba03731e33a3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret-3-Turret3_029
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 2070
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ed5f7855955d04e92e2a3fc46703ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret1-broke
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 17
+        width: 52
+        height: 93
+      alignment: 9
+      pivot: {x: 0.30769232, y: 0.9731183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e992525095595649a3d7c6669815481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret1
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 904
+        width: 106
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5188679, y: 0.4945355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3926cefa772a5b54c8179e40bf649195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret2-broke
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1
+        width: 59
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5084746, y: 0.9273504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142554261849f3246a0a81eabb2f0bbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret2-broke2
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 3886
+        width: 64
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5047847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be35889dcef8bcb42b26d791672c9a74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret2
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1915
+        width: 64
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5047847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117635196b418ac44bdfd0ee72c05714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret3-broke
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3376
+        width: 101
+        height: 238
+      alignment: 9
+      pivot: {x: 0.48019803, y: 0.50840336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e55d22eaa8089d4388b824857e9c89b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret3-broke2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1478
+        width: 81
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5123457, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251695360f2e7ca459fc85e247307395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret3
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 3855
+        width: 92
+        height: 240
+      alignment: 9
+      pivot: {x: 0.46195653, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83411a97a3419842ba63925e644618c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 99b5302bff80ad941ba389b1b420fe98
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
