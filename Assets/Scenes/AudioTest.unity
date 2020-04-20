@@ -1451,8 +1451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf198a23da81e245b001800b66cad4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  build: {fileID: 0}
-  repair: {fileID: 0}
+  globalMute: 0
 --- !u!4 &1668266378
 Transform:
   m_ObjectHideFlags: 0

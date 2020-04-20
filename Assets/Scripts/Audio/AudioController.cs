@@ -9,13 +9,19 @@ public class AudioController : MonoBehaviour
     public static AudioSource build;
     public static AudioSource repair;
 
+    [SerializeField]
+    private bool globalMute = false;
     private Scene _activeScene;
 
     // Start is called before the first frame update
     void Awake()
     {
         _activeScene = SceneManager.GetActiveScene();
-        InitAudio();
+
+        if (globalMute == false)
+        {
+            InitAudio();
+        }
     }
 
     // Update is called once per frame
