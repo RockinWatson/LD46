@@ -294,6 +294,7 @@ MonoBehaviour:
   - 5
   - 30
   _text: {fileID: 1536259439}
+  _textAnim: {fileID: 1536259441}
 --- !u!1001 &512878699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1235,6 +1236,7 @@ GameObject:
   - component: {fileID: 1536259438}
   - component: {fileID: 1536259440}
   - component: {fileID: 1536259439}
+  - component: {fileID: 1536259441}
   m_Layer: 0
   m_Name: Wave
   m_TagString: Untagged
@@ -1301,6 +1303,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1536259437}
   m_CullTransparentMesh: 0
+--- !u!95 &1536259441
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536259437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d44564b2f8618c946924ff18f20dc9fc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1569100475
 PrefabInstance:
   m_ObjectHideFlags: 0
