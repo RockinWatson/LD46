@@ -807,7 +807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _armorPrefab: {fileID: 425739184518507432, guid: bcf35661709fced44bc3a1cccbf718ac,
     type: 3}
-  _turretPrefab: {fileID: 425739184518507432, guid: cf72f5174dbb42748ade51b39d06863b,
+  _turretPrefab: {fileID: 425739184518507432, guid: 3eb3e7d659dd52b4ab946b556d49b6e1,
     type: 3}
   _trailerPrefab: {fileID: 3242845852428232354, guid: 6d05466ba50f4c84f9866e9c86a72e6e,
     type: 3}
