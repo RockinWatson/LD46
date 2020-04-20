@@ -23,8 +23,8 @@ public class EnemyMovement : MonoBehaviour
     private void CheckIsAtTarget()
     {
         float distanceToTargetSq = (_target.transform.position - transform.position).sqrMagnitude;
-        if (distanceToTargetSq <= _rangeToStop*_rangeToStop ||
-           (distanceToTargetSq <= _rangeToStop * _rangeToStop && _isCollidingWithEnemy))
+        if (distanceToTargetSq <= _rangeToStop*_rangeToStop /*||
+           _isCollidingWithEnemy*/)
         {
             _isAtTarget = true;
         }
