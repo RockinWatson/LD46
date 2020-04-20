@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float _rangeToStop;
 
     private bool _isAtTarget = false;
+    public bool IsAtTarget() { return _isAtTarget; }
     private bool _isCollidingWithEnemy = false;
 
     private void OnEnable()
@@ -16,14 +17,14 @@ public class EnemyMovement : MonoBehaviour
 
     private void Update()
     {
-        IsAtTarget();
+        CheckIsAtTarget();
     }
 
-    private void IsAtTarget()
+    private void CheckIsAtTarget()
     {
-        var distanceToTarget = Vector3.Distance(_target.transform.position, transform.position);
-        if (distanceToTarget <= _rangeToStop ||
-           (distanceToTarget <= _rangeToStop && _isCollidingWithEnemy))
+        float distanceToTargetSq = (_target.transform.position - transform.position).sqrMagnitude;
+        if (distanceToTargetSq <= _rangeToStop*_rangeToStop ||
+            _isCollidingWithEnemy)
         {
             _isAtTarget = true;
         }
@@ -31,7 +32,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        GoToTarget();      
+        GoToTarget();
     }
 
     private void GoToTarget()
@@ -44,7 +45,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "BadCat1")
+        if (collision.gameObject.name == "Truck")
         {
             _isCollidingWithEnemy = true;
         }

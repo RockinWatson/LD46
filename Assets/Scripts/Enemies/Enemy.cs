@@ -14,6 +14,18 @@ public class Enemy : MonoBehaviour
     public bool HasDamage() { return _health < _maxHealth; }
     public bool IsValid() { return this.gameObject.activeInHierarchy; }
 
+    [SerializeField] private float _attackSpeed = 3f;
+    private float _attackTimer = 0f;
+
+    [SerializeField] private float _attackDamage = 3f;
+
+    private EnemyMovement _movement = null;
+
+    private void Awake()
+    {
+        _movement = this.GetComponent<EnemyMovement>();
+    }
+
     private void OnEnable()
     {
         _health = _maxHealth;
@@ -24,6 +36,25 @@ public class Enemy : MonoBehaviour
     //{
     //    UpdateHealthText();
     //}
+
+    private void Update()
+    {
+        UpdateCombat();
+    }
+
+    private void UpdateCombat()
+    {
+        if(_movement.IsAtTarget())
+        {
+            _attackTimer += Time.deltaTime;
+            if(_attackTimer > _attackSpeed)
+            {
+                _attackTimer = 0f;
+
+                Truck.Get().TakeDamage(_attackDamage);
+            }
+        }
+    }
 
     virtual public float TakeDamage(float damage)
     {

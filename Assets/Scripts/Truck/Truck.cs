@@ -41,6 +41,7 @@ public class Truck : MonoBehaviour
         float adjustedDamage = _attachmentSystem.TakeDamage(damage);
 
         _health -= adjustedDamage;
+        UpdateHealthText();
 
         //Play truck damage audio
         AudioController.truckDamage.Play();
