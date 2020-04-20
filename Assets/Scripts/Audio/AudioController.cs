@@ -10,18 +10,15 @@ public class AudioController : MonoBehaviour
     public static AudioSource repair;
 
     [SerializeField]
-    private bool globalMute = false;
+    private bool globalMute;
     private Scene _activeScene;
 
     // Start is called before the first frame update
     void Awake()
     {
+        globalMute = true;
         _activeScene = SceneManager.GetActiveScene();
-
-        if (globalMute == false)
-        {
-            InitAudio();
-        }
+        InitAudio();
     }
 
     // Update is called once per frame
@@ -54,6 +51,17 @@ public class AudioController : MonoBehaviour
             //Play and loop 
             levelMusic.Play();
             levelMusic.loop = true;
+
+            Debug.Log(globalMute);
+
+            if (globalMute == true)
+            {
+                for (int i = 0; i < audio.Length; i++)
+                {
+                    audio[i].volume = 0f;
+                    Debug.Log(i);
+                }
+            }
 
         }
     }
