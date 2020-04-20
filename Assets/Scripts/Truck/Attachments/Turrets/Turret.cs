@@ -12,6 +12,7 @@ public class Turret : Attachment
     [SerializeField] private GameObject _fireNode = null;
     [SerializeField] private GameObject _shellPrefab = null;
     [SerializeField] private float _attackSpeed = 3f;
+    [SerializeField] private float _attackRange = 8f;
 
     override public float TakeDamage(float damage)
     {
@@ -84,7 +85,14 @@ public class Turret : Attachment
     //@TODO: Check that we have a valid target (non-null and not dead)
     private bool IsTargetValid(Enemy target)
     {
-        return target && target.IsAlive();
+        if(target && target.IsAlive())
+        {
+            if((target.transform.position - this.transform.position).sqrMagnitude <= _attackRange* _attackRange)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     //@TODO: Maybe use new Enemy type instead of EnemyMovement

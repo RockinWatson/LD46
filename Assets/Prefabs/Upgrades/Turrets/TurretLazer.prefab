@@ -52,6 +52,7 @@ MonoBehaviour:
   _shellPrefab: {fileID: 8216344295748102329, guid: 005b325a6c811574a9fe4417da2ea165,
     type: 3}
   _attackSpeed: 1
+  _attackRange: 8
 --- !u!1 &3065423511293970730
 GameObject:
   m_ObjectHideFlags: 0
