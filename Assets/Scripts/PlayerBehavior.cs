@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts;
+using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerBehavior : MonoBehaviour
@@ -148,5 +150,6 @@ public class PlayerBehavior : MonoBehaviour
     private void UpdateScrapText()
     {
         _scrapText.text = _scrapCount.ToString("0");
+        GlobalController.Instance.ScrapCollected = Convert.ToInt32(_scrapCount);
     }
 }
