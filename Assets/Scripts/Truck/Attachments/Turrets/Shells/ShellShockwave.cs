@@ -16,6 +16,8 @@ public class ShellShockwave : Shell
         base.SetupTarget(source, target);
 
         //@TODO: Set off screen shake?
+
+        ShakeBehavior.Get().TriggerShake(_countdown * .75f);
     }
 
     private void Update()
@@ -30,7 +32,8 @@ public class ShellShockwave : Shell
     private void GoOff()
     {
         //@TODO: Find all Enemies within range of initial target and fuck them up.
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(_target.transform.position, _range);
+        Vector3 effectPos = this.transform.position;
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(effectPos, _range);
         foreach(Collider2D collider in colliders)
         {
             if(collider.tag == "Enemy")
@@ -38,7 +41,6 @@ public class ShellShockwave : Shell
                 Enemy enemy = collider.GetComponent<Enemy>();
                 enemy.TakeDamage(_damage);
 
-                Vector3 effectPos = this.transform.position;
                 Rigidbody2D rigidBody = collider.GetComponent<Rigidbody2D>();
                 Vector2 force = (enemy.transform.position - effectPos).normalized * _force;
                 rigidBody.AddForceAtPosition(force, effectPos, ForceMode2D.Impulse);
