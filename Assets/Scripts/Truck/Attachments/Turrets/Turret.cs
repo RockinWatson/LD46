@@ -77,8 +77,7 @@ public class Turret : Attachment
         {
             _attackTimer = 0f;
 
-            //@TODO: Create shell and initialize to target
-            SetupShell();
+            Fire();
         }
     }
 
@@ -102,20 +101,15 @@ public class Turret : Attachment
         return FindObjectsOfType<Enemy>().ToList();
     }
 
+    virtual protected void Fire()
+    {
+        SetupShell();
+    }
+
     private void SetupShell()
     {
         //@TODO: Setup the shell w/ target.
         Shell shell = Instantiate(_shellPrefab).GetComponent<Shell>();
         shell.SetupTarget(_fireNode, _target.gameObject);
-
-        switch (Random.Range(1,3))
-        {
-            case 1: AudioController.laser1.Play();
-                break;
-            case 2: AudioController.laser2.Play();
-                break;
-            default:
-                break;
-        }
     }
 }
