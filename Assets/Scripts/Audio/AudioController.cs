@@ -86,7 +86,7 @@ public class AudioController : MonoBehaviour
             _titleIsPlaying = true;
             _storyIsPlaying = false;
             titleMusic.volume = .9f;
-            startGame.volume = .55f;
+            startGame.volume = .45f;
             titleMusic.Play();
             titleMusic.loop = true;
         }
@@ -95,7 +95,7 @@ public class AudioController : MonoBehaviour
             _storyIsPlaying = true;
             _titleIsPlaying = false;
             storyMusic.volume = .9f;
-            startGame.volume = .55f;
+            startGame.volume = .45f;
             storyMusic.Play();
             storyMusic.loop = true;
         }
