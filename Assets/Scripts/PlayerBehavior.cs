@@ -59,7 +59,15 @@ public class PlayerBehavior : MonoBehaviour
     private void ReadInput()
     {
         _horizontalInput = Input.GetAxis("Horizontal");
+        if(_horizontalInput < 0f)
+        {
+            _horizontalInput *= 2f;
+        }
         _verticalInput = Input.GetAxis("Vertical");
+        if (_verticalInput < 0f)
+        {
+            _verticalInput *= 2f;
+        }
 
         if (Input.GetKeyDown(KeyCode.B))
         {
@@ -145,7 +153,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         var currentPos = _rbody.position;
         var inputVector = new Vector2(_horizontalInput, _verticalInput);
-        inputVector = Vector2.ClampMagnitude(inputVector, 1);
+        //inputVector = Vector2.ClampMagnitude(inputVector, 1);
         var movement = inputVector * MovementSpeed;
         var newPos = currentPos + movement * Time.fixedDeltaTime;
         _playerRend.SetDirection(movement);

@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShakeBehavior: {fileID: 0}
-  MovementSpeed: 2
+  MovementSpeed: 1.5
   _healthText: {fileID: 6539439035797043772}
   _scrapText: {fileID: 5206151066571091401}
   _activateRadius: 1.5
