@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Shell
   - Enemy
+  - Truck
   layers:
   - Default
   - TransparentFX
