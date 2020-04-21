@@ -74,3 +74,6 @@ TagManager:
   - name: Clouds
     uniqueID: 4292546223
     locked: 0
+  - name: Hud
+    uniqueID: 2565733585
+    locked: 0
