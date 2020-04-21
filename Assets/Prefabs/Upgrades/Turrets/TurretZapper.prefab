@@ -59,9 +59,9 @@ MonoBehaviour:
   - {fileID: 9100000, guid: 3a317b75084d89847808ac800df752ae, type: 2}
   - {fileID: 9100000, guid: aff1cff63c04ded4a88fb0b832534367, type: 2}
   _animOffsets:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
+  - {x: 0.05, y: 0.83, z: 0}
+  - {x: -0.68, y: 0.9, z: 0}
+  - {x: 0.05, y: 0.83, z: 0}
 --- !u!1 &3065423511293970730
 GameObject:
   m_ObjectHideFlags: 0
