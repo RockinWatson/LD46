@@ -8,11 +8,15 @@ public class ShellLazer : Shell
 
     [SerializeField] private float _speed = 3f;
     [SerializeField] private float _damage = 15f;
+    [SerializeField] private Color _color = Color.magenta;
+    [SerializeField] private bool _hurtEnemy = true;
+    [SerializeField] private bool _hurtTruck = false;
+    [SerializeField] private bool _hurtPlayer = false;
 
     private void Start()
     {
         SpriteRenderer sprite = this.GetComponent<SpriteRenderer>();
-        sprite.color = Color.magenta;
+        sprite.color = _color;
     }
 
     override public void SetupTarget(GameObject source, GameObject target)
@@ -34,12 +38,22 @@ public class ShellLazer : Shell
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Enemy")
+        if (_hurtEnemy && collision.tag == "Enemy")
         {
             Enemy enemy = collision.GetComponent<Enemy>();
-
-            //@TODO: Do damage from shell.
             enemy.TakeDamage(_damage);
+
+            Die();
+        } else if (_hurtTruck && collision.tag == "Truck")
+        {
+            Truck.Get().TakeDamage(_damage);
+
+            Die();
+        }
+        else if (_hurtPlayer && collision.tag == "Player")
+        {
+            PlayerBehavior player = collision.GetComponent<PlayerBehavior>();
+            player.TakeDamage(_damage);
 
             Die();
         }
