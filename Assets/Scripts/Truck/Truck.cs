@@ -78,8 +78,15 @@ public class Truck : MonoBehaviour
     //@TEMP/@NOTE: This is temp until we figure out position indicating what to upgrade and UI, etc
     public void DoRangomUpgrade()
     {
+        //@TODO: Build list of Socket Types we can even build.
+        List<AttachmentSocket.SocketType> socketTypes = _attachmentSystem.GetPossibleUpgradeTypes();
+        if(socketTypes == null || socketTypes.Count < 1)
+        {
+            return;
+        }
+
         //@TEMP: Randomly pick armor or turret to upgrade...
-        AttachmentSocket.SocketType socketType = (AttachmentSocket.SocketType)Random.Range(0, (int)AttachmentSocket.SocketType.COUNT);
+        AttachmentSocket.SocketType socketType = socketTypes[Random.Range(0, socketTypes.Count)];
         switch(socketType)
         {
             case AttachmentSocket.SocketType.Armor:

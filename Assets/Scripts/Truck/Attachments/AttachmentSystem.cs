@@ -100,6 +100,18 @@ public class AttachmentSystem : MonoBehaviour
         return sockets.Where((t) => !t.HasAttachment()).ToList();
     }
 
+    private bool HasVacantSockets(List<AttachmentSocket> sockets)
+    {
+        foreach(AttachmentSocket socket in sockets)
+        {
+            if(!socket.HasAttachment())
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public float DamageAttachments_Random(float damage)
     {
         float armorScale = 0.7f;
@@ -258,5 +270,23 @@ public class AttachmentSystem : MonoBehaviour
     public List<AttachmentSocket> GetFunctioningTrailerSockets()
     {
         return _trailerSockets.Where((t) => t.HasAttachment()).ToList();
+    }
+
+    public List<AttachmentSocket.SocketType> GetPossibleUpgradeTypes()
+    {
+        List<AttachmentSocket.SocketType> types = new List<AttachmentSocket.SocketType>();
+        if(HasVacantSockets(_trailerSockets))
+        {
+            types.Add(AttachmentSocket.SocketType.Trailer);
+        }
+        if (HasVacantSockets(_armorSockets))
+        {
+            types.Add(AttachmentSocket.SocketType.Armor);
+        }
+        if (HasVacantSockets(_turretSockets))
+        {
+            types.Add(AttachmentSocket.SocketType.Turret);
+        }
+        return types;
     }
 }
