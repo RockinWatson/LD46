@@ -66,12 +66,14 @@ public class Truck : MonoBehaviour
         }
     }
 
+#if UNITY_EDITOR
     private void Update()
     {
         //@TODO: Update how the thing will move around within an area of motion in the middle of the playfield to make it feel a bit more lively...
 
         DEBUG_Input();
     }
+#endif //UNITY_EDITOR
 
     //@TEMP/@NOTE: This is temp until we figure out position indicating what to upgrade and UI, etc
     public void DoRangomUpgrade()
@@ -108,6 +110,7 @@ public class Truck : MonoBehaviour
         _attachmentSystem.RepairAttachments_Random(damage);
     }
 
+#if UNITY_EDITOR
     private void DEBUG_Input()
     {
         if(Input.GetKeyDown(KeyCode.T))
@@ -115,6 +118,7 @@ public class Truck : MonoBehaviour
             DEBUG_RandomDamage();
         }
     }
+#endif //UNITY_EDITOR
 
     private void DEBUG_RandomDamage()
     {
