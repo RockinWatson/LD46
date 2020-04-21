@@ -127,7 +127,7 @@ public class AudioController : MonoBehaviour
             shockwave.volume = .75f;
             dogDeath.volume = .85f;
             dogDamage.volume = .55f;
-            zapper.volume = 1f;
+            zapper.volume = .4f;
 
             scrapPickup.reverbZoneMix = 1f;
 
