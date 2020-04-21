@@ -21,6 +21,7 @@ public class AudioController : MonoBehaviour
     public static AudioSource titleMusic;
     public static AudioSource startGame;
     public static AudioSource storyMusic;
+    public static AudioSource shockwave;
 
     [SerializeField]
     private bool globalMute;
@@ -71,6 +72,7 @@ public class AudioController : MonoBehaviour
         titleMusic = audio[13];
         startGame = audio[14];
         storyMusic = audio[15];
+        shockwave = audio[16];
 
         for (int i = 0; i < audio.Length; i++)
         {
@@ -86,7 +88,7 @@ public class AudioController : MonoBehaviour
             _titleIsPlaying = true;
             _storyIsPlaying = false;
             titleMusic.volume = .9f;
-            startGame.volume = .45f;
+            startGame.volume = .3f;
             titleMusic.Play();
             titleMusic.loop = true;
         }
@@ -95,7 +97,7 @@ public class AudioController : MonoBehaviour
             _storyIsPlaying = true;
             _titleIsPlaying = false;
             storyMusic.volume = .9f;
-            startGame.volume = .45f;
+            startGame.volume = .3f;
             storyMusic.Play();
             storyMusic.loop = true;
         }
@@ -116,6 +118,7 @@ public class AudioController : MonoBehaviour
             laser1.volume = .4f;
             laser2.volume = .4f;
             catExplode.volume = .25f;
+            shockwave.volume = .75f;
 
             scrapPickup.reverbZoneMix = 1f;
 
