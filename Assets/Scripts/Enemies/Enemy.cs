@@ -52,9 +52,14 @@ public class Enemy : MonoBehaviour
             {
                 _attackTimer = 0f;
 
-                Truck.Get().TakeDamage(_attackDamage);
+                Attack();
             }
         }
+    }
+
+    virtual protected void Attack()
+    {
+        Truck.Get().TakeDamage(_attackDamage);
     }
 
     virtual public float TakeDamage(float damage)
