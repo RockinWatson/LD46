@@ -50,7 +50,7 @@ public class AudioController : MonoBehaviour
             StartCoroutine(LoadStory());
         }
 
-        if((_activeScene.name == "EndGame") && (_select()) && (_titleIsPlaying == true))
+        if((IsEndGameScene()) && (_select()) && (_titleIsPlaying == true))
         {
             StartCoroutine(LoadGame());
         }
@@ -149,7 +149,7 @@ public class AudioController : MonoBehaviour
             }
 
         }
-        else if (_activeScene.name == "EndGame")
+        else if (IsEndGameScene())
         {
             _titleIsPlaying = true;
             _storyIsPlaying = false;
@@ -176,5 +176,10 @@ public class AudioController : MonoBehaviour
         _titleIsPlaying = false;
         yield return new WaitForSeconds(3.2f);
         SceneManager.LoadScene("GameScene");
+    }
+
+    private bool IsEndGameScene()
+    {
+        return (_activeScene.name == "EndGame" || _activeScene.name == "WinGame");
     }
 }
