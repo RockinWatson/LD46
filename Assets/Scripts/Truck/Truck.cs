@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Truck : MonoBehaviour
@@ -61,9 +62,7 @@ public class Truck : MonoBehaviour
         //Play explosion audio
         if (AudioController.truckExplode.isPlaying == false && truckExploded == false)
         {
-            AudioController.truckDamage.volume = 0f;
-            AudioController.truckExplode.Play();
-            truckExploded = true;
+            StartCoroutine(RestartLevel());
         }
     }
 
@@ -139,5 +138,14 @@ public class Truck : MonoBehaviour
     public List<AttachmentSocket> GetFunctioningTrailerSockets()
     {
         return _attachmentSystem.GetFunctioningTrailerSockets();
+    }
+
+    IEnumerator RestartLevel()
+    {
+        AudioController.truckDamage.volume = 0f;
+        AudioController.truckExplode.Play();
+        truckExploded = true;
+        yield return new WaitForSeconds(3.2f);
+        SceneManager.LoadScene("GameScene");
     }
 }
