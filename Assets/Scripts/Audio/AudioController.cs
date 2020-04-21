@@ -22,6 +22,8 @@ public class AudioController : MonoBehaviour
     public static AudioSource startGame;
     public static AudioSource storyMusic;
     public static AudioSource shockwave;
+    public static AudioSource dogDeath;
+    public static AudioSource dogDamage;
 
     [SerializeField]
     private bool globalMute;
@@ -73,6 +75,8 @@ public class AudioController : MonoBehaviour
         startGame = audio[14];
         storyMusic = audio[15];
         shockwave = audio[16];
+        dogDeath = audio[17];
+        dogDamage = audio[18];
 
         for (int i = 0; i < audio.Length; i++)
         {
@@ -119,6 +123,8 @@ public class AudioController : MonoBehaviour
             laser2.volume = .4f;
             catExplode.volume = .25f;
             shockwave.volume = .75f;
+            dogDeath.volume = .85f;
+            dogDamage.volume = .55f;
 
             scrapPickup.reverbZoneMix = 1f;
 
