@@ -156,15 +156,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a222bba413eb740ac18f82d0df4831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timer: 0.5
+  _timer: 1
   _waves:
   - {fileID: 3302289025346653237}
   - {fileID: 5822628031119762982}
   - {fileID: 6082388290534356164}
   - {fileID: 418010439537556853}
   _waveTimers:
-  - 5
-  - 10
+  - 15
+  - 30
+  - 70
+  - 100
   _text: {fileID: 7829528463404263422}
 --- !u!1 &7829528464860105172
 GameObject:
@@ -275,6 +277,10 @@ PrefabInstance:
     - target: {fileID: 9170697562043, guid: b0ea89d785fd9e54093aa545e0a9e9b8, type: 3}
       propertyPath: m_Name
       value: Wave1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9170697562043, guid: b0ea89d785fd9e54093aa545e0a9e9b8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9170697562044, guid: b0ea89d785fd9e54093aa545e0a9e9b8, type: 3}
       propertyPath: m_LocalPosition.x
