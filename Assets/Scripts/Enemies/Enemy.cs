@@ -20,6 +20,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _attackDamage = 3f;
     public float GetDamage() { return _attackDamage; }
 
+    private float _zappedTimer = 0f;
+
     private EnemyMovement _movement = null;
 
     private void Awake()
@@ -40,15 +42,21 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+        if (IsZapped())
+        {
+            UpdateZappedState();
+            return;
+        }
+
         UpdateCombat();
     }
 
     private void UpdateCombat()
     {
-        if(_movement.IsAtTarget())
+        if (_movement.IsAtTarget())
         {
             _attackTimer += Time.deltaTime;
-            if(_attackTimer > _attackSpeed)
+            if (_attackTimer > _attackSpeed)
             {
                 _attackTimer = 0f;
 
@@ -92,24 +100,24 @@ public class Enemy : MonoBehaviour
         this.gameObject.SetActive(false);
 
         //Play cat audio
-            switch (Random.Range(1, 5))
-            {
-                case 1:
-                    AudioController.cat1.Play();
-                    break;
-                case 2:
-                    AudioController.cat2.Play();
-                    break;
-                case 3:
-                    AudioController.cat3.Play();
-                    break;
-                case 4:
-                    AudioController.cat4.Play();
-                    break;
-                default:
-                    break;
-            }
-            AudioController.catExplode.Play();
+        switch (Random.Range(1, 5))
+        {
+            case 1:
+                AudioController.cat1.Play();
+                break;
+            case 2:
+                AudioController.cat2.Play();
+                break;
+            case 3:
+                AudioController.cat3.Play();
+                break;
+            case 4:
+                AudioController.cat4.Play();
+                break;
+            default:
+                break;
+        }
+        AudioController.catExplode.Play();
     }
 
     private void UpdateHealthText()
@@ -119,5 +127,28 @@ public class Enemy : MonoBehaviour
         Color healthColor = HealthColorUtility.GetHealthColor(_health);
         //_healthText.CrossFadeColor(healthColor, 0.5f, false, false);
         _healthText.color = healthColor;
+    }
+
+    public void Zap(float damage, float time)
+    {
+        TakeDamage(damage);
+        _zappedTimer = time;
+    }
+
+    private void UpdateZappedState()
+    {
+        if (IsZapped())
+        {
+            _zappedTimer -= Time.deltaTime;
+            if (_zappedTimer <= 0f)
+            {
+                _zappedTimer = 0f;
+            }
+        }
+    }
+
+    public bool IsZapped()
+    {
+        return _zappedTimer > 0f;
     }
 }

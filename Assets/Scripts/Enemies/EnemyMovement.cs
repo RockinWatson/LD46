@@ -10,6 +10,13 @@ public class EnemyMovement : MonoBehaviour
     public bool IsAtTarget() { return _isAtTarget; }
     private bool _isCollidingWithEnemy = false;
 
+    private Enemy _enemy = null;
+
+    private void Awake()
+    {
+        _enemy = this.GetComponent<Enemy>();
+    }
+
     private void OnEnable()
     {
         _isAtTarget = false;
@@ -17,7 +24,10 @@ public class EnemyMovement : MonoBehaviour
 
     private void Update()
     {
-        CheckIsAtTarget();
+        if (!_enemy.IsZapped())
+        {
+            CheckIsAtTarget();
+        }
     }
 
     private void CheckIsAtTarget()
