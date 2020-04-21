@@ -44,8 +44,6 @@ public class ShellZapper : Shell
             {
                 enemy.Zap(_damage, _zapTime);
 
-                AudioController.zapper.Play();
-
                 Enemy newTarget = FindNewZapTarget();
                 if (newTarget)
                 {
@@ -60,6 +58,8 @@ public class ShellZapper : Shell
             {
                 enemy.TakeDamage(_damage);
             }
+
+            AudioController.zapper.Play();
         }
     }
 
