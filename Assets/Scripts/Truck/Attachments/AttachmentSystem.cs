@@ -10,14 +10,17 @@ public class AttachmentSystem : MonoBehaviour
     private List<AttachmentSocket> _armorSockets = new List<AttachmentSocket>();
     //private List<Armor> _armors = new List<Armor>();
     [SerializeField] private GameObject _armorPrefab = null;
+    const float ARMOR_COST = 10f;
 
     private List<AttachmentSocket> _turretSockets = new List<AttachmentSocket>();
     //private List<Turret> _turrets = new List<Turret>();
     [SerializeField] private GameObject[] _turretPrefabs = null;
+    const float TURRET_COST = 50f;
 
     private List<AttachmentSocket> _trailerSockets = new List<AttachmentSocket>();
     //private List<Trailer> _trailer = new List<Trailer>();
     [SerializeField] private GameObject _trailerPrefab = null;
+    const float TRAILER_COST = 30f;
 
     private void Awake()
     {
@@ -65,11 +68,15 @@ public class AttachmentSystem : MonoBehaviour
     {
         GameObject turretPrefab = GetRandomTurretPrefab();
         UpgradeSockets_Random<Turret>(_turretSockets, turretPrefab);
+
+        PlayerBehavior.Get().Spend(TURRET_COST);
     }
 
     public void UpgradeArmor_Random()
     {
         UpgradeSockets_Random<Armor>(_armorSockets, _armorPrefab);
+
+        PlayerBehavior.Get().Spend(ARMOR_COST);
     }
 
     private void UpgradeSockets_Random<T>(List<AttachmentSocket> sockets, GameObject attachmentPrefab) where T : Attachment
@@ -238,8 +245,10 @@ public class AttachmentSystem : MonoBehaviour
             Trailer trailer = Instantiate(_trailerPrefab).GetComponent<Trailer>();
             SetAttachmentToSocket(trailerSocket, trailer);
 
+            PlayerBehavior.Get().Spend(TRAILER_COST);
+
             //@TODO: Add all the trailer's new sockets
-            foreach(AttachmentSocket turretSocket in trailer.GetTurretSockets())
+            foreach (AttachmentSocket turretSocket in trailer.GetTurretSockets())
             {
                 _turretSockets.Add(turretSocket);
             }
@@ -264,6 +273,7 @@ public class AttachmentSystem : MonoBehaviour
 
     private GameObject GetRandomTurretPrefab()
     {
+        //return _turretPrefabs[2];
         return _turretPrefabs[UnityEngine.Random.Range(0, _turretPrefabs.Length)];
     }
 
@@ -274,16 +284,17 @@ public class AttachmentSystem : MonoBehaviour
 
     public List<AttachmentSocket.SocketType> GetPossibleUpgradeTypes()
     {
+        PlayerBehavior player = PlayerBehavior.Get();
         List<AttachmentSocket.SocketType> types = new List<AttachmentSocket.SocketType>();
-        if(HasVacantSockets(_trailerSockets))
+        if(player.CanAfford(TRAILER_COST) && HasVacantSockets(_trailerSockets))
         {
             types.Add(AttachmentSocket.SocketType.Trailer);
         }
-        if (HasVacantSockets(_armorSockets))
+        if (player.CanAfford(ARMOR_COST) && HasVacantSockets(_armorSockets))
         {
             types.Add(AttachmentSocket.SocketType.Armor);
         }
-        if (HasVacantSockets(_turretSockets))
+        if (player.CanAfford(TURRET_COST) && HasVacantSockets(_turretSockets))
         {
             types.Add(AttachmentSocket.SocketType.Turret);
         }
