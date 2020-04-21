@@ -15,12 +15,12 @@ public class AttachmentSystem : MonoBehaviour
     private List<AttachmentSocket> _turretSockets = new List<AttachmentSocket>();
     //private List<Turret> _turrets = new List<Turret>();
     [SerializeField] private GameObject[] _turretPrefabs = null;
-    const float TURRET_COST = 50f;
+    const float TURRET_COST = 35f;
 
     private List<AttachmentSocket> _trailerSockets = new List<AttachmentSocket>();
     //private List<Trailer> _trailer = new List<Trailer>();
     [SerializeField] private GameObject _trailerPrefab = null;
-    const float TRAILER_COST = 30f;
+    const float TRAILER_COST = 20f;
 
     private void Awake()
     {
