@@ -25,6 +25,7 @@ public class AudioController : MonoBehaviour
     public static AudioSource dogDeath;
     public static AudioSource dogDamage;
     public static AudioSource zapper;
+    public static AudioSource starterPistol;
 
     [SerializeField]
     private bool globalMute;
@@ -80,6 +81,7 @@ public class AudioController : MonoBehaviour
         dogDeath = audio[17];
         dogDamage = audio[18];
         zapper = audio[19];
+        starterPistol = audio[20];
 
         for (int i = 0; i < audio.Length; i++)
         {
@@ -129,6 +131,8 @@ public class AudioController : MonoBehaviour
             dogDeath.volume = .85f;
             dogDamage.volume = .55f;
             zapper.volume = .4f;
+            starterPistol.volume = .4f;
+            
 
             scrapPickup.reverbZoneMix = 1f;
 
