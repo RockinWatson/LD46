@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4493340457178551528}
   - component: {fileID: 9067421762253426780}
-  - component: {fileID: 61399213622814094}
   - component: {fileID: 114591055310054016}
+  - component: {fileID: 6345095414740138547}
   m_Layer: 9
   m_Name: Terrain-Cactus2
   m_TagString: Untagged
@@ -81,32 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &61399213622814094
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829922274568478676}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.084451556}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.49342105, y: 0.5}
-    oldSize: {x: 0.76, y: 1.6}
-    newSize: {x: 0.58, y: 1.44}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.58, y: 1.271097}
-  m_EdgeRadius: 0
 --- !u!114 &114591055310054016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,3 +94,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 1
+--- !u!70 &6345095414740138547
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829922274568478676}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.062737465, y: 0.12700808}
+  m_Size: {x: 0.5116291, y: 1.3459837}
+  m_Direction: 0
