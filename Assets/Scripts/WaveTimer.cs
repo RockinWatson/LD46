@@ -13,7 +13,6 @@ public class WaveTimer : MonoBehaviour
     [SerializeField] private float[] _waveTimers;
 
     [SerializeField] private Text _text = null;
-    [SerializeField] private Animator _textAnim;
 
     private void Start()
     {
@@ -48,7 +47,6 @@ public class WaveTimer : MonoBehaviour
 
     private void StartWaveText(string waveInt)
     {
-        _text.text = "Wave " + waveInt;
-        _textAnim.Play("fadeIn");
+        _text.text = waveInt;
     }
 }
