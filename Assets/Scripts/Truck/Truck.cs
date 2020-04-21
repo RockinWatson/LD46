@@ -146,6 +146,6 @@ public class Truck : MonoBehaviour
         AudioController.truckExplode.Play();
         truckExploded = true;
         yield return new WaitForSeconds(3.2f);
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("EndGame");
     }
 }

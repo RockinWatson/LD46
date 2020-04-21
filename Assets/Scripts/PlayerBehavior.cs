@@ -238,6 +238,6 @@ public class PlayerBehavior : MonoBehaviour
         AudioController.dogDeath.Play();
         _playerDead = true;
         yield return new WaitForSeconds(3.2f);
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("EndGame");
     }
 }
