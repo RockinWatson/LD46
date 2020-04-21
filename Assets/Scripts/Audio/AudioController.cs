@@ -48,10 +48,6 @@ public class AudioController : MonoBehaviour
         {
             StartCoroutine(LoadStory());
         }
-        if ((_activeScene.name == "Story") && (_select()) && (_storyIsPlaying == true))
-        {
-            StartCoroutine(LoadGame());
-        }
     }
 
     private void InitAudio()
@@ -153,14 +149,5 @@ public class AudioController : MonoBehaviour
         _titleIsPlaying = false;
         yield return new WaitForSeconds(3.2f);
         SceneManager.LoadScene("Story");
-    }
-
-    IEnumerator LoadGame()
-    {
-        startGame.Play();
-        storyMusic.Stop();
-        _storyIsPlaying = false;
-        yield return new WaitForSeconds(3.2f);
-        SceneManager.LoadScene("GameScene");
     }
 }

@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StoryController : MonoBehaviour
 {
 
     private bool _right() { return (Input.GetKeyDown(KeyCode.RightArrow)); }
     private bool _left() { return (Input.GetKeyDown(KeyCode.LeftArrow)); }
+    private bool _select() { return (Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return)); }
 
     private Vector3 cardPos;
     private Vector3 cardHidePos;
@@ -30,6 +32,9 @@ public class StoryController : MonoBehaviour
     private GameObject card18;
     private GameObject card19;
     private GameObject card20;
+
+    private bool _storyEnd;
+    private bool _continue;
 
 
     // Start is called before the first frame update
@@ -61,6 +66,9 @@ public class StoryController : MonoBehaviour
 
         card1.transform.position = cardPos;
 
+        _storyEnd = false;
+        _continue = false;
+
 
     }
 
@@ -72,6 +80,11 @@ public class StoryController : MonoBehaviour
 
     private void CardSelect()
     {
+        if (_select() && _storyEnd == true && _continue == false)
+        {
+            StartCoroutine(LoadGame());
+        }
+
         if (_right())
         {
             if (card2a.transform.position.x != cardPos.x)
@@ -168,8 +181,19 @@ public class StoryController : MonoBehaviour
             {
                 card20.transform.position = cardPos;
                 card19.transform.position = cardHidePos;
+                _storyEnd = true;
             }
         }
+    }
+
+    IEnumerator LoadGame()
+    {
+        AudioController.startGame.Play();
+        AudioController.storyMusic.Stop();
+        _storyEnd = false;
+        _continue = true;
+        yield return new WaitForSeconds(3.2f);
+        SceneManager.LoadScene("GameScene");
     }
 
 }
