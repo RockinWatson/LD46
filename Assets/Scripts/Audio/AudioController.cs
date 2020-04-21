@@ -25,6 +25,7 @@ public class AudioController : MonoBehaviour
     public static AudioSource dogDeath;
     public static AudioSource dogDamage;
     public static AudioSource zapper;
+    public static AudioSource starterPistol;
 
     [SerializeField]
     private bool globalMute;
@@ -48,7 +49,8 @@ public class AudioController : MonoBehaviour
         {
             StartCoroutine(LoadStory());
         }
-        if ((_activeScene.name == "Story") && (_select()) && (_storyIsPlaying == true))
+
+        if((IsEndGameScene()) && (_select()) && (_titleIsPlaying == true))
         {
             StartCoroutine(LoadGame());
         }
@@ -79,6 +81,7 @@ public class AudioController : MonoBehaviour
         dogDeath = audio[17];
         dogDamage = audio[18];
         zapper = audio[19];
+        starterPistol = audio[20];
 
         for (int i = 0; i < audio.Length; i++)
         {
@@ -128,6 +131,8 @@ public class AudioController : MonoBehaviour
             dogDeath.volume = .85f;
             dogDamage.volume = .55f;
             zapper.volume = .4f;
+            starterPistol.volume = .4f;
+            
 
             scrapPickup.reverbZoneMix = 1f;
 
@@ -144,6 +149,15 @@ public class AudioController : MonoBehaviour
             }
 
         }
+        else if (IsEndGameScene())
+        {
+            _titleIsPlaying = true;
+            _storyIsPlaying = false;
+            titleMusic.volume = .9f;
+            startGame.volume = .3f;
+            titleMusic.Play();
+            titleMusic.loop = true;
+        }
     }
 
     IEnumerator LoadStory()
@@ -158,9 +172,14 @@ public class AudioController : MonoBehaviour
     IEnumerator LoadGame()
     {
         startGame.Play();
-        storyMusic.Stop();
-        _storyIsPlaying = false;
+        titleMusic.Stop();
+        _titleIsPlaying = false;
         yield return new WaitForSeconds(3.2f);
         SceneManager.LoadScene("GameScene");
+    }
+
+    private bool IsEndGameScene()
+    {
+        return (_activeScene.name == "EndGame" || _activeScene.name == "WinGame");
     }
 }

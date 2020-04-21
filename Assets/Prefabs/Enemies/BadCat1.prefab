@@ -309,10 +309,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a6c3e1a0c548e34fb75d88c6e47d4ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 100
+  _maxHealth: 50
   _healthText: {fileID: 7529591974394287305}
   _attackSpeed: 3
   _attackDamage: 3
+  _deathFX: {fileID: 2186638352140721348, guid: c05350a1ce55ae148ad01cd9bd19c46b,
+    type: 3}
+  _deathScrap: {fileID: 5271597230888071850, guid: 7f2c8f7a014ea8e4cac7468bd63f821a,
+    type: 3}
 --- !u!70 &1172148644202735730
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

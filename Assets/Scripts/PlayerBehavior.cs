@@ -20,6 +20,8 @@ public class PlayerBehavior : MonoBehaviour
     private float _verticalInput;
 
     private float _scrapCount = 0;
+    public bool CanAfford(float scrap) { return _scrapCount >= scrap; }
+    public void Spend(float scrap) { _scrapCount -= scrap; UpdateScrapText(); }
 
     private float _health = 100f;
 
@@ -31,6 +33,11 @@ public class PlayerBehavior : MonoBehaviour
 
     [SerializeField] private float _activateRadius = 3f;
 
+    [SerializeField] private GameObject _repairFX = null;
+    [SerializeField] private GameObject _repairNode = null;
+
+    const float REPAIR_COST = 1f;
+
     private void Awake()
     {
         if (_instance != null)
@@ -39,6 +46,7 @@ public class PlayerBehavior : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+        _instance = this;
 
         _rbody = GetComponent<Rigidbody2D>();
         _playerRend = GetComponentInChildren<PlayerRenderer>();
@@ -78,7 +86,7 @@ public class PlayerBehavior : MonoBehaviour
         {
             Activate();
         }
-        if(Input.GetKeyDown(KeyCode.R))
+        if(Input.GetKeyDown(KeyCode.R) && CanAfford(REPAIR_COST))
         {
             Repair();
         }
@@ -132,6 +140,10 @@ public class PlayerBehavior : MonoBehaviour
         if(IsInRangeOfTruck())
         {
             DoRandomTruckRepair();
+
+            CreateRepairFX();
+
+            Spend(REPAIR_COST);
         }
     }
 
@@ -177,6 +189,8 @@ public class PlayerBehavior : MonoBehaviour
 
         //Play scrap pickup audio
         AudioController.scrapPickup.Play();
+
+        CreateRepairFX();
     }
 
     private void UpdateScrapText()
@@ -238,6 +252,12 @@ public class PlayerBehavior : MonoBehaviour
         AudioController.dogDeath.Play();
         _playerDead = true;
         yield return new WaitForSeconds(3.2f);
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("EndGame");
+    }
+
+    private void CreateRepairFX()
+    {
+        GameObject go = Instantiate(_repairFX);
+        go.transform.position = _repairNode.transform.position;
     }
 }

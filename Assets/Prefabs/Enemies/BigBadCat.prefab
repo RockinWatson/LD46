@@ -313,6 +313,10 @@ MonoBehaviour:
   _healthText: {fileID: 7529591974394287305}
   _attackSpeed: 5
   _attackDamage: 15
+  _deathFX: {fileID: 2186638352140721348, guid: c05350a1ce55ae148ad01cd9bd19c46b,
+    type: 3}
+  _deathScrap: {fileID: 5271597230888071850, guid: 7cf4ef820c631a446b993bc6dc0f4fb3,
+    type: 3}
 --- !u!70 &1172148644202735730
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

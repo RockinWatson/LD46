@@ -3,6 +3,7 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/TaylorArt/SpriteSheets/Statics/Caravan-Malazan.tpsheet
+- Assets/TaylorArt/SpriteSheets/Statics/charges.tpsheet
 - Assets/TaylorArt/SpriteSheets/Statics/Explode.tpsheet
 - Assets/TaylorArt/SpriteSheets/Statics/Player-Leto.tpsheet
 - Assets/TaylorArt/SpriteSheets/Statics/statics.tpsheet
@@ -11,6 +12,7 @@ tpsheetFileNames:
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/TaylorArt/SpriteSheets/Statics/Caravan-Malazan.png
+- Assets/TaylorArt/SpriteSheets/Statics/charges.png
 - Assets/TaylorArt/SpriteSheets/Statics/Explode.png
 - Assets/TaylorArt/SpriteSheets/Statics/Player-Leto.png
 - Assets/TaylorArt/SpriteSheets/Statics/statics.png
@@ -18,6 +20,7 @@ textureFileNames:
 - Assets/TaylorArt/SpriteSheets/Statics/TurretsnEnemies.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 

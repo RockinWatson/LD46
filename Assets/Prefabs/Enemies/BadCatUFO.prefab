@@ -379,6 +379,10 @@ MonoBehaviour:
   _healthText: {fileID: 7529591974394287305}
   _attackSpeed: 7
   _attackDamage: 5
+  _deathFX: {fileID: 2186638352140721348, guid: c05350a1ce55ae148ad01cd9bd19c46b,
+    type: 3}
+  _deathScrap: {fileID: 5271597230888071850, guid: bd9cc4f9d0f2f8d4f9b60d1c4554ba34,
+    type: 3}
   _fireNode: {fileID: 4150554579083942695}
   _shellPrefab: {fileID: 8216344295748102329, guid: 3dc502f73d0a44b4a8fa522a42727e5c,
     type: 3}

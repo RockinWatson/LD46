@@ -14,6 +14,8 @@ public class Attachment : MonoBehaviour
     public bool IsDead() { return _health == 0f; }
     public bool HasDamage() { return _health < _maxHealth; }
 
+    private bool adjustedScale = false;
+
     virtual protected void Start()
     {
         UpdateHealthText();
@@ -74,6 +76,17 @@ public class Attachment : MonoBehaviour
             Color healthColor = HealthColorUtility.GetHealthColor(_health);
             //_healthText.CrossFadeColor(healthColor, 0.5f, false, false);
             _healthText.color = healthColor;
+
+            if (!adjustedScale)
+            {
+                adjustedScale = true;
+                float parentScale = this.transform.parent.localScale.x;
+                if (parentScale < 1f)
+                {
+                    float newScale = 1f / parentScale;
+                    _healthText.transform.localScale = new Vector3(newScale, newScale, 1f);
+                }
+            }
         }
     }
 }

@@ -375,10 +375,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da53d423a85ec074b8dab447e2f8e3c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 100
+  _maxHealth: 75
   _healthText: {fileID: 7529591974394287305}
   _attackSpeed: 5
   _attackDamage: 2
+  _deathFX: {fileID: 2186638352140721348, guid: c05350a1ce55ae148ad01cd9bd19c46b,
+    type: 3}
+  _deathScrap: {fileID: 5271597230888071850, guid: 21fd9c6e993e7ca41838474a40517618,
+    type: 3}
   _fireNode: {fileID: 6910954928772823206}
   _shellPrefab: {fileID: 8216344295748102329, guid: f95b58470f3398a4e817cc2bf1be3d2f,
     type: 3}

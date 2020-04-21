@@ -24,6 +24,9 @@ public class Enemy : MonoBehaviour
 
     private EnemyMovement _movement = null;
 
+    [SerializeField] private GameObject _deathFX = null;
+    [SerializeField] private GameObject _deathScrap = null;
+
     private void Awake()
     {
         _movement = this.GetComponent<EnemyMovement>();
@@ -96,9 +99,18 @@ public class Enemy : MonoBehaviour
 
     virtual protected void Die()
     {
+        PlayDeathSound();
+
+        CreateDeathFX();
+
+        CreateDeathScrap();
+
         //@TODO: FX and maybe notify AttachmentSystem er Socket?
         this.gameObject.SetActive(false);
+    }
 
+    private void PlayDeathSound()
+    {
         //Play cat audio
         switch (Random.Range(1, 5))
         {
@@ -118,6 +130,19 @@ public class Enemy : MonoBehaviour
                 break;
         }
         AudioController.catExplode.Play();
+    }
+
+    private void CreateDeathFX()
+    {
+        Instantiate(_deathFX).transform.position = this.transform.position;
+    }
+
+    private void CreateDeathScrap()
+    {
+        Scrap scrap = Instantiate(_deathScrap).GetComponent<Scrap>();
+        scrap.gameObject.SetActive(true);
+        scrap.transform.position = this.transform.position;
+        scrap.SetEnemyScrap();
     }
 
     private void UpdateHealthText()
