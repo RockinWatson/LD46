@@ -4319,6 +4319,21 @@ PrefabInstance:
       propertyPath: _waveTimers.Array.data[0]
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7829528464733689133, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: _waveTimers.Array.data[1]
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7829528464733689133, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: _waveTimers.Array.data[2]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7829528464733689133, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: _waveTimers.Array.data[3]
+      value: 180
+      objectReference: {fileID: 0}
     - target: {fileID: 7829528464860105175, guid: 2492408edc1eef74b9fa1306e20eb0a6,
         type: 3}
       propertyPath: m_LocalPosition.z
