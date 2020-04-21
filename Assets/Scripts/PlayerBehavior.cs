@@ -1,7 +1,9 @@
 ﻿using Assets.Scripts;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerBehavior : MonoBehaviour
@@ -21,6 +23,8 @@ public class PlayerBehavior : MonoBehaviour
 
     private float _health = 100f;
 
+    private bool _playerDead;
+
     [SerializeField] private Text _healthText = null;
 
     [SerializeField] private Text _scrapText = null;
@@ -38,6 +42,7 @@ public class PlayerBehavior : MonoBehaviour
 
         _rbody = GetComponent<Rigidbody2D>();
         _playerRend = GetComponentInChildren<PlayerRenderer>();
+        _playerDead = false;
     }
 
     private void Start()
@@ -197,6 +202,8 @@ public class PlayerBehavior : MonoBehaviour
 
         UpdateHealthText();
 
+        AudioController.dogDamage.Play();
+
         if (_health <= 0f)
         {
             _health = 0f;
@@ -209,6 +216,20 @@ public class PlayerBehavior : MonoBehaviour
 
     private void Die()
     {
+        if (_playerDead == false)
+        {
+            StartCoroutine(RestartLevel());
+        }
+
         //@TODO: End game, etc.
+    }
+
+    IEnumerator RestartLevel()
+    {
+        AudioController.dogDamage.mute = true;
+        AudioController.dogDeath.Play();
+        _playerDead = true;
+        yield return new WaitForSeconds(3.2f);
+        SceneManager.LoadScene("GameScene");
     }
 }
