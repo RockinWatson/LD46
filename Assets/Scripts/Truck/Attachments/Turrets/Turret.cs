@@ -19,7 +19,7 @@ public class Turret : Attachment
     [SerializeField] private Vector3[] _animOffsets = null;
     private Animator _animator = null;
 
-    private void Awake()
+    virtual protected void Awake()
     {
         _animator = _renderer.GetComponent<Animator>();
     }
@@ -36,7 +36,7 @@ public class Turret : Attachment
         return base.TakeDamage(damage);
     }
 
-    private void Update()
+    virtual protected void Update()
     {
         if (IsAlive())
         {
@@ -46,7 +46,7 @@ public class Turret : Attachment
         UpdateHealthAnim();
     }
 
-    private void UpdateCombat()
+    protected void UpdateCombat()
     {
         //@TODO: Build state machine for combat states: targeting, warmup, fire, cooldown, repeat
 
