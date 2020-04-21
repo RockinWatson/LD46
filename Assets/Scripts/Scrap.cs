@@ -6,16 +6,28 @@ using UnityEngine;
 
 public class Scrap : MonoBehaviour
 {
-    [SerializeField] private float _scrapAmount = 9f;
+    [SerializeField] private Vector2 _scrapAmountRange = new Vector2(5f, 15f);
+
+    private bool _isEnemyScrap = false;
+    public void SetEnemyScrap() { _isEnemyScrap = true; }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
         {
-            collision.GetComponent<PlayerBehavior>().AddScrap(_scrapAmount);
+            float scrapAmount = UnityEngine.Random.Range(_scrapAmountRange.x, _scrapAmountRange.y);
+            collision.GetComponent<PlayerBehavior>().AddScrap(scrapAmount);
             
             //Destroy(this.gameObject);
             this.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnBecameInvisible()
+    {
+        if(_isEnemyScrap)
+        {
+            Destroy(this.gameObject);
         }
     }
 }
