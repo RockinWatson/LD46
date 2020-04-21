@@ -2706,6 +2706,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4589047367640449512, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: ObjectAmountTotal
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4589047367640449512, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: ObjectAmountSingle
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806929885257001979, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: ObjectAmountTotal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806929885257001979, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: ObjectAmountSingle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806929885257001979, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: countDown
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806929885257001979, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: waitForNextMax
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806929885608732501, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: ObjectAmountTotal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806929885608732501, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: waitForNextMax
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806929885608732501, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: countDown
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7829528463404263422, guid: 2492408edc1eef74b9fa1306e20eb0a6,
         type: 3}
       propertyPath: m_Text
@@ -2811,6 +2856,11 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 527267613}
+    - target: {fileID: 7829528464733689133, guid: 2492408edc1eef74b9fa1306e20eb0a6,
+        type: 3}
+      propertyPath: _waveTimers.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7829528464860105175, guid: 2492408edc1eef74b9fa1306e20eb0a6,
         type: 3}
       propertyPath: m_LocalPosition.z
