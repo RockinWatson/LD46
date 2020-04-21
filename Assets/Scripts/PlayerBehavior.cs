@@ -31,6 +31,9 @@ public class PlayerBehavior : MonoBehaviour
 
     [SerializeField] private float _activateRadius = 3f;
 
+    [SerializeField] private GameObject _repairFX = null;
+    [SerializeField] private GameObject _repairNode = null;
+
     private void Awake()
     {
         if (_instance != null)
@@ -132,6 +135,8 @@ public class PlayerBehavior : MonoBehaviour
         if(IsInRangeOfTruck())
         {
             DoRandomTruckRepair();
+
+            CreateRepairFX();
         }
     }
 
@@ -177,6 +182,8 @@ public class PlayerBehavior : MonoBehaviour
 
         //Play scrap pickup audio
         AudioController.scrapPickup.Play();
+
+        CreateRepairFX();
     }
 
     private void UpdateScrapText()
@@ -239,5 +246,11 @@ public class PlayerBehavior : MonoBehaviour
         _playerDead = true;
         yield return new WaitForSeconds(3.2f);
         SceneManager.LoadScene("EndGame");
+    }
+
+    private void CreateRepairFX()
+    {
+        GameObject go = Instantiate(_repairFX);
+        go.transform.position = _repairNode.transform.position;
     }
 }
