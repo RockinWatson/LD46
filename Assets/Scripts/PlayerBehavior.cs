@@ -20,6 +20,8 @@ public class PlayerBehavior : MonoBehaviour
     private float _verticalInput;
 
     private float _scrapCount = 0;
+    public bool CanAfford(float scrap) { return _scrapCount >= scrap; }
+    public void Spend(float scrap) { _scrapCount -= scrap; UpdateScrapText(); }
 
     private float _health = 100f;
 
@@ -34,6 +36,8 @@ public class PlayerBehavior : MonoBehaviour
     [SerializeField] private GameObject _repairFX = null;
     [SerializeField] private GameObject _repairNode = null;
 
+    const float REPAIR_COST = 1f;
+
     private void Awake()
     {
         if (_instance != null)
@@ -42,6 +46,7 @@ public class PlayerBehavior : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+        _instance = this;
 
         _rbody = GetComponent<Rigidbody2D>();
         _playerRend = GetComponentInChildren<PlayerRenderer>();
@@ -81,7 +86,7 @@ public class PlayerBehavior : MonoBehaviour
         {
             Activate();
         }
-        if(Input.GetKeyDown(KeyCode.R))
+        if(Input.GetKeyDown(KeyCode.R) && CanAfford(REPAIR_COST))
         {
             Repair();
         }
@@ -137,6 +142,8 @@ public class PlayerBehavior : MonoBehaviour
             DoRandomTruckRepair();
 
             CreateRepairFX();
+
+            Spend(REPAIR_COST);
         }
     }
 
