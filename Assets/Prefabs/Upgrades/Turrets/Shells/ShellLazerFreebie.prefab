@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
-  _damage: 15
+  _damage: 25
   _color: {r: 1, g: 1, b: 1, a: 1}
   _hurtEnemy: 1
   _hurtTruck: 0
