@@ -176,6 +176,36 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 100
+--- !u!1 &4150554579083942695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7333275958737597795}
+  m_Layer: 9
+  m_Name: FireNode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7333275958737597795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4150554579083942695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.451, y: -0.784, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2291259317186497460}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9040506117946963445
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,9 +218,9 @@ GameObject:
   - component: {fileID: 6246011081909000193}
   - component: {fileID: 5237540204370136159}
   - component: {fileID: 114938957935873930}
-  - component: {fileID: 114227169351996844}
   - component: {fileID: 1172148644202735730}
   - component: {fileID: 95759582113160282}
+  - component: {fileID: 7702934767164066748}
   m_Layer: 9
   m_Name: BadCatUFO
   m_TagString: Enemy
@@ -210,6 +240,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3370222090773469689}
+  - {fileID: 7333275958737597795}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -296,23 +327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 1533974316527972856, guid: bc6b3cf0d7a948542a91bdf8402aeace, type: 3}
   _speed: 2
-  _rangeToStop: 3
---- !u!114 &114227169351996844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040506117946963445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a6c3e1a0c548e34fb75d88c6e47d4ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxHealth: 100
-  _healthText: {fileID: 7529591974394287305}
-  _attackSpeed: 7
-  _attackDamage: 5
+  _rangeToStop: 4
 --- !u!70 &1172148644202735730
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -348,3 +363,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7702934767164066748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040506117946963445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da53d423a85ec074b8dab447e2f8e3c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 150
+  _healthText: {fileID: 7529591974394287305}
+  _attackSpeed: 7
+  _attackDamage: 5
+  _fireNode: {fileID: 4150554579083942695}
+  _shellPrefab: {fileID: 8216344295748102329, guid: 3dc502f73d0a44b4a8fa522a42727e5c,
+    type: 3}
