@@ -1,5 +1,6 @@
 ﻿using Assets.Scripts;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -85,7 +86,25 @@ public class PlayerBehavior : MonoBehaviour
         //return true;
 
         Truck truck = Truck.Get();
-        return (truck.transform.position - this.transform.position).sqrMagnitude <= _activateRadius * _activateRadius;
+        if(IsWithinActivateRange(truck.transform.position)) {
+            return true;
+        }
+        //@TODO: Check trailers...
+        List<AttachmentSocket> sockets = truck.GetFunctioningTrailerSockets();
+        foreach(var socket in sockets)
+        {
+            if(IsWithinActivateRange(socket.transform.position))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private bool IsWithinActivateRange(Vector3 pos)
+    {
+        return (pos - this.transform.position).sqrMagnitude <= _activateRadius * _activateRadius;
     }
 
     //@TEMP/@TODO: Later track scrap resources, positioning for which upgrade to do, UI, etc

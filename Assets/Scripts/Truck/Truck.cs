@@ -135,4 +135,9 @@ public class Truck : MonoBehaviour
         //_healthText.CrossFadeColor(healthColor, 0.5f, false, false);
         _healthText.color = healthColor;
     }
+
+    public List<AttachmentSocket> GetFunctioningTrailerSockets()
+    {
+        return _attachmentSystem.GetFunctioningTrailerSockets();
+    }
 }
