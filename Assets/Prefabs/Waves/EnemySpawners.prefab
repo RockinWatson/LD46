@@ -168,6 +168,9 @@ MonoBehaviour:
   - 70
   - 100
   _text: {fileID: 7829528463404263422}
+  _finalWave: 4
+  _finalWaveTimeToWin: 120
+  _winSceneName: WinGame
 --- !u!1 &7829528464860105172
 GameObject:
   m_ObjectHideFlags: 0
