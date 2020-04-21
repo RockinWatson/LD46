@@ -254,4 +254,9 @@ public class AttachmentSystem : MonoBehaviour
     {
         return _turretPrefabs[UnityEngine.Random.Range(0, _turretPrefabs.Length)];
     }
+
+    public List<AttachmentSocket> GetFunctioningTrailerSockets()
+    {
+        return _trailerSockets.Where((t) => t.HasAttachment()).ToList();
+    }
 }

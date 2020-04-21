@@ -12,7 +12,6 @@ public class StoryController : MonoBehaviour
     private Vector3 cardHidePos;
     private GameObject card1;
     private GameObject card2a;
-    private GameObject card2b;
     private GameObject card3;
     private GameObject card4;
     private GameObject card5;
@@ -41,7 +40,6 @@ public class StoryController : MonoBehaviour
 
         card1 = GameObject.Find("1");
         card2a = GameObject.Find("2a");
-        card2b = GameObject.Find("2b");
         card3 = GameObject.Find("3");
         card4 = GameObject.Find("4");
         card5 = GameObject.Find("5");
@@ -81,15 +79,10 @@ public class StoryController : MonoBehaviour
                 card2a.transform.position = cardPos;
                 card1.transform.position = cardHidePos;
             }
-            else if (card2b.transform.position.x != cardPos.x)
-            {
-                card2b.transform.position = cardPos;
-                card2a.transform.position = cardHidePos;
-            }
             else if (card3.transform.position.x != cardPos.x)
             {
                 card3.transform.position = cardPos;
-                card2b.transform.position = cardHidePos;
+                card2a.transform.position = cardHidePos;
             }
             else if (card4.transform.position.x != cardPos.x)
             {
