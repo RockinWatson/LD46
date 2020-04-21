@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 114840838197445120}
   - component: {fileID: 61511676843761510}
   - component: {fileID: 9160123418398114917}
-  m_Layer: 0
-  m_Name: Scrap
+  m_Layer: 9
+  m_Name: Scrap_BigCat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b64693f8dabcea4db90fd869de68be9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scrapAmount: 9
+  _scrapAmountRange: {x: 25, y: 50}
 --- !u!114 &114840838197445120
 MonoBehaviour:
   m_ObjectHideFlags: 0
